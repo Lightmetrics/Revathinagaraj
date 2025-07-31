@@ -1,0 +1,7 @@
+🔗 https://dashboard-qa.lightmetrics.co/home
+🌐 Fleet portal Name  : Sreenivas-Fleet(QA-2) ✅ 
+Fleet Portal Version :: v10.5.3 
+Manual Version :: v9.0.0 
+Version result :: False 
+Fleet portal version NOT matched ❌
+Expected: v9.0.0 | Actual: v10.5.3 ❗❗

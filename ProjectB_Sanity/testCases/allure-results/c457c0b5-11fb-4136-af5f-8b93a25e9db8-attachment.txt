@@ -1,0 +1,5 @@
+[33mWARNING [0m test_home_page_version:MasterPortalPage.py:74 ************ Master portal version NOT matched ************ ❌
+[33mWARNING [0m test_home_page_version:MasterPortalPage.py:76 ********* Expected: v5.0.0 | Actual: v5.24.3 ❗❗
+[33mWARNING [0m test_home_page_version:FleetPortalPage.py:82 ************ Fleet portal version NOT matched ************ ❌
+[33mWARNING [0m test_home_page_version:FleetPortalPage.py:84 Expected: v9.0.0 | Actual: v10.5.1 ❗❗
+[33mWARNING [0m test_drivers_page_check_box_validation:F_7_DriversPage.py:383  :: 📥/🔴 'Download QR Code' button not available for 'Selected Drivers' — proceeding normally. ❗❗

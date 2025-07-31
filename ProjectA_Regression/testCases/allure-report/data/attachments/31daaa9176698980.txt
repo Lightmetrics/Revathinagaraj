@@ -1,0 +1,11 @@
+[32mINFO    [0m test_run_fleet_portal:test_Suite_Controller.py:50 ===== Suite Controller: Fleet Portal =====
+[32mINFO    [0m test_validate_fleet_name:test_FleetPortal.py:14  : ====== Validating Fleet Portal Name ======
+[32mINFO    [0m test_validate_fleet_name:FleetPortalPage.py:41  ****** 🌐 Fleet portal name ****** : Sreenivas-Fleet(QA-2) ✅ 
+[32mINFO    [0m test_validate_fleet_name:test_FleetPortal.py:17  : ******* ✅ Fleet name is visible and correct.
+[32mINFO    [0m test_home_page_version:test_FleetPortal.py:26 === Starting Fleet Portal Version Validation Test ===
+[32mINFO    [0m test_home_page_version:FleetPortalPage.py:72 ************ Fleet Portal Version ************ :: v10.5.3 
+[32mINFO    [0m test_home_page_version:FleetPortalPage.py:74 ************ Manual Version ************ :: v9.0.0 
+[32mINFO    [0m test_home_page_version:FleetPortalPage.py:78  *********** Version result ******* :: False 
+[33mWARNING [0m test_home_page_version:FleetPortalPage.py:82 ************ Fleet portal version NOT matched ************ ❌
+[33mWARNING [0m test_home_page_version:FleetPortalPage.py:84 Expected: v9.0.0 | Actual: v10.5.3 ❗❗
+[32mINFO    [0m test_home_page_version:test_FleetPortal.py:29 === ✅ Completed Fleet Portal Version Validation Test ===

@@ -1,0 +1,1 @@
+[{"uid":"ff74e8c81a521600","name":"test_run_full_suite_for_customer[lmqatesting1]","time":{"start":1753858122416,"stop":1753858449860,"duration":327444},"status":"passed","severity":"normal"},{"uid":"1a5fd344e24abbc9","name":"test_run_full_suite_for_customer[lmpresales]","time":{"start":1753858455723,"stop":1753858807977,"duration":352254},"status":"passed","severity":"normal"}]

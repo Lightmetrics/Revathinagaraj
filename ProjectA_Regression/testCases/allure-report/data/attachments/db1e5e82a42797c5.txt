@@ -1,0 +1,10 @@
+🔗 https://master-qa.lightmetrics.co/home
+🌐 Master portal Name  : lmqatesting1 ✅
+Master Portal Version :: v5.24.3 
+Manual Version :: v5.0.0 
+Version result :: False 
+Master portal version NOT matched ❌
+Expected: v5.0.0 | Actual: v5.24.3 ❗❗
+🌐/🚀 Navigate to Account & Launch Fleet Dashboard
+🔗 https://dashboard-qa.lightmetrics.co/admin-login?code=9142b912-0e45-4576-96a8-a1b808b742d1&state=lmqatesting1+SreenivasFleet
+🌐 ✅ Fleet Dashboard launched successfully. Title: RideView Fleet Portal

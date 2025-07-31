@@ -1,0 +1,14 @@
+home
+Home ====>  ( Page matched ) 📑
+🔗 https://dashboard-qa.lightmetrics.co/home
+Past 30 days ====>  ( Selected Date Range )
+TRIPS ====>  ( Card matched )
+DISTANCE (mi) ====>  ( Card matched )
+EVENTS PER 100 MILES ====>  ( Card matched )
+DURATION (hours) ====> ( Card matched )
+Recommended For Coaching info_outline ====> ( Card matched )
+Distracted Driving
+(Cellphone)
+01/07/2025 11:40:30
+Unassigned
+Sreenivas Mitac-QA ====>  ( Outside video data )

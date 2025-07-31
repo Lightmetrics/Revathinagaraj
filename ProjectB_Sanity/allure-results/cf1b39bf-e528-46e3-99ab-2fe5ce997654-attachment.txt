@@ -1,0 +1,50 @@
+🔆=====@ @ @ Running Full Suite for Customer: (lmqatesting1) @ @ @=====🔆
+=====@ @ @ 🚪 Running Admin Portal for 🚪: (lmqatesting1) @ @ @=====(1)
+🔗 https://admin.lightmetrics.co/statistics
+👤 Selecting customer TSP : lmqatesting1
+✅ Found TSP: Lmqatesting1
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=====@ @ @ 🧠 Running Master Portal for 🧠: (lmqatesting1) @ @ @=====(2)
+🔗 https://master.lightmetrics.co/home
+🌐 Master portal Name  : lmqatesting1 ✅
+Master Portal Version :: v5.24.3 
+Manual Version :: v5.0.0 
+Version result :: False 
+Master portal version NOT matched ❌
+Expected: v5.0.0 | Actual: v5.24.3 ❗❗
+🌐/🚀 Navigate to Account & Launch Fleet Dashboard
+🌐 ✅ Fleet Dashboard launched successfully. Title: RideView Fleet Portal
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=====@ @ @ 🚛 Running Fleet Portal for 🚛: (lmqatesting1) @ @ @=====(3)
+🔗 https://dashboard.lightmetrics.co/home
+🌐 Fleet portal Name  : GovindTestFleet ✅ 
+Fleet Portal Version :: v10.5.1 
+Manual Version :: v9.0.0 
+Version result :: False 
+Fleet portal version NOT matched ❌
+Expected: v9.0.0 | Actual: v10.5.1 ❗❗
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=====@ @ @ 🏠 Validating Fleet Home Page for 🏠: (lmqatesting1) @ @ @=====(4)
+home
+Home ====>  ( Page matched ) 📑
+🔗 https://dashboard.lightmetrics.co/home
+Past 30 days ====>  ( Selected Date Range )
+TRIPS ====>  ( Card matched )
+DISTANCE (mi) ====>  ( Card matched )
+EVENTS PER 100 MILES ====>  ( Card matched )
+DURATION (hours) ====> ( Card matched )
+Recommended For Coaching info_outline ====> ( Card matched )
+Top Drivers ====>  ( Card matched )
+Coachable Drivers info_outline ====>  ( Card matched )
+Event Summary ====>  ( Card matched )
+Event Trend ====>  ( Card matched )
+🔆✅ ✅ =====@ Full suite passed for customer: (lmqatesting1) @===== ✅ ✅🔆
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,2 @@
+[32mINFO    [0m test_run_reports_page:test_Suite_Controller.py:179 ===== Suite Controller: Fleet Reports Page =====
+[32mINFO    [0m test_reports_page:test_F_9_ReportsPage.py:13 ===== Validating Reports Page presence =====

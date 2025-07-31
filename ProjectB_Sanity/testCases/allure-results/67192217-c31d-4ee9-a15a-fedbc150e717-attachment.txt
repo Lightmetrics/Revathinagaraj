@@ -1,0 +1,302 @@
+🔆=====@ @ @ Running Full Suite for Customer: (lmqatesting1) @ @ @=====🔆
+=====@ @ @ 🚪 Running Admin Portal for 🚪: (lmqatesting1) @ @ @=====(1)
+🔗 https://admin.lightmetrics.co/statistics
+👤 Selecting customer TSP : lmqatesting1
+✅ Found TSP: Lmqatesting1
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=====@ @ @ 🧠 Running Master Portal for 🧠: (lmqatesting1) @ @ @=====(2)
+🔗 https://master.lightmetrics.co/home
+🌐 Master portal Name  : lmqatesting1 ✅
+Master Portal Version :: v5.24.3 
+Manual Version :: v5.0.0 
+Version result :: False 
+Master portal version NOT matched ❌
+Expected: v5.0.0 | Actual: v5.24.3 ❗❗
+🌐/🚀 Navigate to Account & Launch Fleet Dashboard
+🌐 ✅ Fleet Dashboard launched successfully. Title: RideView Fleet Portal
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=====@ @ @ 🚛 Running Fleet Portal for 🚛: (lmqatesting1) @ @ @=====(3)
+🔗 https://dashboard.lightmetrics.co/home
+🌐 Fleet portal Name  : GovindTestFleet ✅ 
+Fleet Portal Version :: v10.5.1 
+Manual Version :: v9.0.0 
+Version result :: False 
+Fleet portal version NOT matched ❌
+Expected: v9.0.0 | Actual: v10.5.1 ❗❗
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=====@ @ @ 🏠 Validating Fleet Home Page for 🏠: (lmqatesting1) @ @ @=====(4)
+home
+Home ====>  ( Page matched ) 📑
+🔗 https://dashboard.lightmetrics.co/home
+Past 30 days ====>  ( Selected Date Range )
+TRIPS ====>  ( Card matched )
+DISTANCE (mi) ====>  ( Card matched )
+EVENTS PER 100 MILES ====>  ( Card matched )
+DURATION (hours) ====> ( Card matched )
+Recommended For Coaching info_outline ====> ( Card matched )
+Top Drivers ====>  ( Card matched )
+Coachable Drivers info_outline ====>  ( Card matched )
+Event Summary ====>  ( Card matched )
+Event Trend ====>  ( Card matched )
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=====@ @ @ 🛡️ Validating Safety Events Page for 🛡️: (lmqatesting1) @ @ @=====(5)
+🔗 https://dashboard.lightmetrics.co/safety-events
+warning
+Safety Events ====>  ( Page matched ) 📑
+Events View (1108 events) ====>  ( Events Title matched )
+filter_list ====>  ( Filters hide option matched )
+list ====>  ( View type matched )
+Past 30 days ====>  ( Selected Date Range )
+Filter Type * ====>  ( Filter type matched )
+Driver ID/Name ====>  ( Filter type matched )
+Event Type ====>  ( Filter type matched )
+View Status ====>  ( Filter type matched )
+ ✅ Successfully applied filters on 'Safety Events' page.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=====@ @ @ 🚗 Validating Trips Page for 🚗: (lmqatesting1) @ @ @=====(6)
+🔗 https://dashboard.lightmetrics.co/trips
+location_on
+Trips ====>  ( Page matched ) 📑
+TRIPS ====>  ( Tab matched ) ✅
+Trip Filter ====>  ( Card matched )
+Past 30 days ====>  ( Selected Date Range )
+Filter Type * ====>  ( Filter type matched )
+Driver ID/Name ====>  ( Filter type matched )
+Select Tags ====>  ( Filter type matched )
+Trip List
+(343 Trips) ====>  ( Table matched )
+Bulk Trip Edit ====>  ( Button matched )
+✏️/🚀 ✅  Successfully launched 'Bulk Edit' page, from the 'Trips' page.
+EXPORT OPTIONS arrow_drop_down ====>  ( Button matched )
+Export Now ====>  ( Button matched )
+Schedule ====>  ( Button matched )
+🗓️/🚀 ✅ Successfully navigated to the 'Schedule Reports' page, from the export 'Schedule Trips' option.
+ACTIVE DRIVERS ====>  ( Tab matched ) ✅
+Active Driver Filter ====>  ( Card matched )
+Past 30 days ====>  ( Selected Date Range )
+No tags found ====>  ( Filter type matched )
+Active Drivers info_outline ====>  ( Table matched )
+MANAGE ====>  ( Tab matched ) ✅
+Bulk Updation Log ====>  ( Table matched )
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=====@ @ @ 📺 Validating Live View Page for 📺: (lmqatesting1) @ @ @=====(7)
+🔗 https://dashboard.lightmetrics.co/live-view
+live_tv
+Live View ====>  ( Page matched ) 📑
+FLEET VIEW ====>  ( Button matched )
+LIST VIEW ====>  ( Button matched )
+Past 30 days ====>  ( Selected Date Range )
+ ====>  ( Search Filter matched )
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=====@ @ @ 🏆 Validating Coaching Page for 🏆: (lmqatesting1) @ @ @=====(8)
+🔗 https://dashboard.lightmetrics.co/coaching
+school
+Coaching ====>  ( Page matched ) 📑
+Past 30 days ====>  ( Selected Date Range )
+No tags found ====>  ( Filter type matched )
+Coachable Drivers info_outline ====>  ( Table matched )
+Completed Coaching Sessions ====>  ( Table matched )
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=====@ @ @ 🎥 Validating Video Requests Page for 🎥: (lmqatesting1) @ @ @=====(9)
+🔗 https://dashboard.lightmetrics.co/video-requests
+subscriptions
+Video Requests ====>  ( Page matched ) 📑
+Past 30 days ====>  ( Selected Date Range )
+Select Tags ====>  ( Filter type matched )
+Video Requests info_outline ====>  ( Table matched )
+REQUEST VIDEO ====>  ( Button matched )
+ 🎥/🚀 ✅ Successfully launched 'REQUEST VIDEO' Pop-Up, from 'Video Requests' Page
+Select Date * ====>  ( Filter type from 'Pop-Up' matched )
+Filter Type * ====>  ( Filter type from 'Pop-Up' matched )
+Driver ID/Name ====>  ( Filter type from 'Pop-Up' matched )
+Video Requests ====>  ( Button matched )
+Panic Button ====>  ( Button matched )
+Event On-Demand ====>  ( Button matched )
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=====@ @ @ 👥 Validating Drivers Page for 👥: (lmqatesting1) @ @ @=====(10)
+🔗 https://dashboard.lightmetrics.co/drivers
+group
+Drivers ====>  ( Page matched ) 📑
+DRIVERS ====>  ( Tab matched ) ✅
+Driver List ====>  ( Table matched )
+Search for Driver ID/Name ====>  ( Search option matched )
+No tags found ====>  ( Filter matched )
+BATCH UPDATE
+NEW ====>  ( Button matched )
+EXPORT arrow_drop_down ====>  ( Button matched )
+Driver List CSV ====>  ( Buttons matched )
+add_photo_alternateAdd Images ====>  ( Button matched )
+ ➕/🖼️/🪟/🚀 ✅ Successfully launched 'Add Images' pop-up window, for 'single driver'.
+Driver Images info_outline ====>  ( Title matched )
+add_photo_alternateUPLOAD IMAGES ====>  ( Button matched )
+ 📤/🖥️/🪟/🚀 ✅ Successfully launched 'Desktop Pop-Up' window, from 'Upload Images' Pop-UP.
+Driver does not exist — proceeding to add
+ADD DRIVER ====>  ( Button matched )
+Driver details added successfully!  :: ( ➕/👤/🔔 ✅ Add New Driver Message notification )
+Driver updated successfully.  ::  ( ✏️/👤/🔔 ✅ Edit New Driver Message notification )
+Driver deleted successfully  ::  ( 🗑️/👤/🔔 ✅ Delete New Driver Message notification )
+ ✅ Successfully selected the check boxes and validating available features.
+Search for Driver ID/Name ====>  ( Search option matched )
+Assign Coach
+NEW ====>  ( Button matched )
+delete DELETE ====>  ( Button matched )
+📥/🔴 'Download QR Code' button not available for 'Selected Drivers' — proceeding normally. ❗❗
+INSTALLERS ====>  ( Tab matched ) ✅
+Installer List ====>  ( Table matched )
+ADD INSTALLER ====>  ( Button matched )
+➕/🚀 ✅ Successfully launched 'ADD INSTALLER' page.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=====@ @ @ 🏅 Validating Challenges Page for 🏅: (lmqatesting1) @ @ @=====(11)
+🔗 https://dashboard.lightmetrics.co/challenges
+content_paste_search
+Challenges ====> ( Page matched ) 📑
+Past 30 days ====> ( Selected Date Range )
+Select Event Type ====>  ( Filter type matched )
+Challenge Status ====>  ( Filter type matched )
+Challenged Events info_outline ====> ( Table matched )
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=====@ @ @ 📊 Validating Reports Page for 📊: (lmqatesting1) @ @ @=====(12)
+🔗 https://dashboard.lightmetrics.co/reports
+description
+Reports ====> ( Page matched ) 📑
+OVERVIEW ====> ( Tab matched ) ✅
+Fleet Safety ====> ( Card matched )
+VIEW REPORT ====> ( Button matched )
+📄/🚀 ✅ Successfully launched 'View Fleet Safety Report' Page, from the 'Fleet Safety' card.
+DOWNLOAD REPORT ====> ( Button matched )
+Coaching Session Report ====> ( Card matched )
+VIEW REPORT ====> ( Button matched )
+📄/🚀 ✅ Successfully launched 'Coaching Session Report' Page, from the 'Coaching Session' card.
+Select Driver ====> ( Filter matched )
+Coaching Session ====> ( Filter matched )
+SCHEDULE ====> ( Button matched )
+📄/🚀 ✅ Successfully launched 'Create Schedule Reports' Page, from the 'Coaching Session' card.
+Coaching Effectiveness Report (Driver) ====> ( Card matched )
+VIEW REPORT ====> ( Button matched )
+📄/🚀 ✅ Successfully launched 'Coaching Effectiveness Report' Page, from the 'Coaching Effectiveness' card.
+Select Driver ====> ( Filter matched )
+Coaching Session ====> ( Filter matched )
+Event List Report ====> ( Card matched )
+DOWNLOAD REPORT ====> ( Button matched )
+ 🪟/🚀 ✅ Successfully launched 'Download Report' Pop-Up window, from 'Event List' card.
+Past 30 days ====>  ( Selected Date Range )
+Filter Type (Optional) ====> ( Filter matched )
+SCHEDULE ====> ( Button matched )
+📄/🚀 ✅ Successfully launched 'Create Schedule Reports' Page, from the 'Event List Report' card.
+Driver Privacy Mode Report ====> ( Card matched )
+DOWNLOAD REPORT ====> ( Button matched )
+ 🪟/🚀 ✅ Successfully launched 'Download Report' Pop-Up window, from 'Driver Privacy ' card.
+Past 30 days ====>  ( Selected Date Range )
+Filter Type (Optional) ====> ( Filter matched )
+SCHEDULE ====> ( Button matched )
+📄/🚀 ✅ Successfully launched 'Create Schedule Reports' Page, from the 'Driver Privacy Mode Report' card.
+Event Count Report ====> ( Card matched )
+DOWNLOAD REPORT ====> ( Button matched )
+ 🪟/🚀 ✅ Successfully launched 'Download Report' Pop-Up window, from 'Event Count' card.
+Past 30 days ====>  ( Selected Date Range )
+Filter Type (Optional) ====> ( Filter matched )
+SCHEDULE ====> ( Button matched )
+📄/🚀 ✅ Successfully launched 'Create Schedule Reports' Page, from the 'Event Count Report' card.
+EXPORT HISTORY ====> ( Tab matched ) ✅
+Export History info_outline ====> ( Table matched )
+Select Request Type ====> ( Filter matched )
+Select Duration ====> ( Filter matched )
+SCHEDULED ====> ( Tab matched ) ✅
+CREATE SCHEDULE ====> ( Button matched )
+📄/🚀 ✅ Successfully launched 'Create Schedule Reports' Page, from the 'Scheduled' tab.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=====@ @ @ 🚚 Validating Assets Page for 🚚: (lmqatesting1) @ @ @=====(13)
+local_shipping
+Assets ====> ( Page matched ) 📑
+🔗 https://dashboard.lightmetrics.co/assets
+OVERVIEW ====> ( Tab matched ) ✅
+Asset List ====> ( Table matched )
+SHOW FILTERS ====> ( Button matched )
+Select Filter Type ====> ( Filter matched )
+Asset ID/Name ====> ( Filter matched )
+HIDE FILTERS ====> ( Button matched )
+EXPORT ASSETS ====> ( Button matched )
+MANAGE ASSETS ====> ( Tab matched ) ✅ 
+Batch Update ====> ( Card matched )
+Batch Provisioning ====> ( Card matched )
+DEVICES ====> ( Tab matched ) ✅ 
+Semi-Provisioned Devices ====> ( Table matched )
+DIAGNOSTICS
+(BETA) ====> ( Tab matched ) ✅ 
+DEVICES
+7 ====> ( Card matched )
+DEVICE WITH EVENTS
+7 ====> ( Card matched )
+Camera Visibility Events ====> ( Page matched )
+Device Diagnostic Events ====> ( Page matched )
+Device Online Status ====> ( Page matched )
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=====@ @ @ 👤 Validating Users Page for 👤: (lmqatesting1) @ @ @=====(14)
+manage_accounts
+Users ====> ( Page matched ) 📑
+🔗 https://dashboard.lightmetrics.co/user-management
+USERS ====> ( Tab matched ) ✅ 
+Manage Users ====> ( Table matched )
+ADD USER ====> ( Button matched )
+ROLES ====> ( Tab matched ) ✅ 
+Manage Roles ====> ( Table matched )
+VIEW HIERARCHY ====> ( Button matched )
+ADD ROLE ====> ( Button matched )
+ACTIVITY LOG ====> ( Tab matched ) ✅ 
+User Activity Logs ====> ( Table matched )
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=====@ @ @ ⚙️ Validating Configurations Page for ⚙️: (lmqatesting1) @ @ @=====(15)
+🔗 https://dashboard.lightmetrics.co/configurations
+video_settings
+Configurations ====> ( Page matched ) 📑
+BASIC ====> ( Tab matched ) ✅ 
+Basic Configurations ====> ( Table matched )
+APPLY DEFAULTS ====> ( Button matched )
+Heavy ====> ( Duty type matched )
+Medium ====> ( Duty type matched )
+Light ====> ( Duty type matched )
+ADVANCED ====> ( Tab matched ) ✅ 
+Advanced Configurations ====> ( Table matched )
+APPLY DEFAULTS ====> ( Button matched )
+Heavy ====> ( Duty type matched )
+Medium ====> ( Duty type matched )
+Light ====> ( Duty type matched )
+Driver Configurations ====> ( Table matched )
+COACHING ====> ( Tab matched ) ✅ 
+Coaching Thresholds ====> ( Table matched )
+Automated Triaging ====> ( Table matched )
+TAGGING ====> ( Tab matched ) ✅ 
+Overview ====> ( Table matched )
+Entity info_outline ====> ( Table matched )
+🔆✅ ✅ =====@ Full suite passed for customer: (lmqatesting1) @===== ✅ ✅🔆
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+

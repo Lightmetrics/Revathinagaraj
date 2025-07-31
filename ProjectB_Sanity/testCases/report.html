@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title id="head-title">LightMetrics Technologies Pvt. Ltd</title>
+      <link href="assets/style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <h1 id="title">LightMetrics Technologies Pvt. Ltd</h1>
+    <p>Report generated on 30-Jul-2025 at 11:57:34 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a>
+        v4.1.1</p>
+    <div id="environment-header">
+      <h2>Environment</h2>
+    </div>
+    <table id="environment"></table>
+    <!-- TEMPLATES -->
+      <template id="template_environment_row">
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+    </template>
+    <template id="template_results-table__body--empty">
+      <tbody class="results-table-row">
+        <tr id="not-found-message">
+          <td colspan="4">No results found. Check the filters.</th>
+        </tr>
+    </template>
+    <template id="template_results-table__tbody">
+      <tbody class="results-table-row">
+        <tr class="collapsible">
+        </tr>
+        <tr class="extras-row">
+          <td class="extra" colspan="4">
+            <div class="extraHTML"></div>
+            <div class="media">
+              <div class="media-container">
+                  <div class="media-container__nav--left"><</div>
+                  <div class="media-container__viewport">
+                    <img src="" />
+                    <video controls>
+                      <source src="" type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="media-container__nav--right">></div>
+                </div>
+                <div class="media__name"></div>
+                <div class="media__counter"></div>
+            </div>
+            <div class="logwrapper">
+              <div class="logexpander"></div>
+              <div class="log"></div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </template>
+    <!-- END TEMPLATES -->
+    <div class="summary">
+      <div class="summary__data">
+        <h2>Summary</h2>
+        <div class="additional-summary prefix">
+          <h3><b>Tester: </b>Sreenivasulu Akki</h3>
+          <h3><b>Manager: </b>Divya Gajanana</h3>
+          <h3><b>Team: </b>QA - Automation</h3>
+          <h3><b>Testing Suite: </b>Sanity Testing</h3>
+          <h3><b>Portal: </b>Rebranding Portals</h3>
+          <h3><b>TSP&apos;s List: </b>Charteredgreentech, Argus, Quantatec, Digicore, Safefleet, Rearviewsafety, Michelin</h3>
+          <hr/>
+        </div>
+        <p class="run-count">2 tests took 00:10:43.</p>
+        <p class="filter">(Un)check the boxes to filter the results.</p>
+        <div class="summary__reload">
+          <div class="summary__reload__button hidden" onclick="location.reload()">
+            <div>There are still tests running. <br />Reload this page to get the latest results!</div>
+          </div>
+        </div>
+        <div class="summary__spacer"></div>
+        <div class="controls">
+          <div class="filters">
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="failed" disabled/>
+            <span class="failed">0 Failed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="passed" />
+            <span class="passed">2 Passed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="skipped" disabled/>
+            <span class="skipped">0 Skipped,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xfailed" disabled/>
+            <span class="xfailed">0 Expected failures,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xpassed" disabled/>
+            <span class="xpassed">0 Unexpected passes,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="error" disabled/>
+            <span class="error">0 Errors,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="rerun" disabled/>
+            <span class="rerun">0 Reruns</span>
+          </div>
+          <div class="collapse">
+            <button id="show_all_details">Show all details</button>&nbsp;/&nbsp;<button id="hide_all_details">Hide all details</button>
+          </div>
+        </div>
+      </div>
+      <div class="additional-summary summary">
+        <h3> </h3>
+      </div>
+      <div class="additional-summary postfix">
+        <h3> </h3>
+      </div>
+    </div>
+    <table id="results-table">
+      <thead id="results-table-head">
+        <tr>
+          <th class="sortable" data-column-type="result">Result</th>
+          <th class="sortable" data-column-type="testId">Test</th>
+          <th class="sortable" data-column-type="duration">Duration</th>
+          <th>Links</th>
+        </tr>
+      </thead>
+    </table>
+  </body>
+  <footer>
+    <div id="data-container" data-jsonblob="{&#34;environment&#34;: {&#34;Python&#34;: &#34;3.12.3&#34;, &#34;Platform&#34;: &#34;Linux-6.8.0-62-generic-x86_64-with-glibc2.39&#34;, &#34;Packages&#34;: {&#34;pytest&#34;: &#34;8.4.0&#34;, &#34;pluggy&#34;: &#34;1.6.0&#34;}, &#34;Plugins&#34;: {&#34;ordering&#34;: &#34;0.6&#34;, &#34;xdist&#34;: &#34;3.7.0&#34;, &#34;forked&#34;: &#34;1.6.0&#34;, &#34;html&#34;: &#34;4.1.1&#34;, &#34;variables&#34;: &#34;3.1.0&#34;, &#34;order&#34;: &#34;1.3.0&#34;, &#34;selenium&#34;: &#34;4.1.0&#34;, &#34;metadata&#34;: &#34;3.1.1&#34;, &#34;allure-pytest&#34;: &#34;2.14.2&#34;, &#34;dependency&#34;: &#34;0.6.0&#34;, &#34;base-url&#34;: &#34;2.1.0&#34;}, &#34;Base URL&#34;: &#34;&#34;, &#34;Driver&#34;: null, &#34;Capabilities&#34;: {}}, &#34;tests&#34;: {&#34;test_Suite_Controller.py::TestSuiteController::test_run_full_suite_for_customer[lmqatesting1]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_Suite_Controller.py::TestSuiteController::test_run_full_suite_for_customer[lmqatesting1]&#34;, &#34;duration&#34;: &#34;00:05:22&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_Suite_Controller.py::TestSuiteController::test_run_full_suite_for_customer[lmqatesting1]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:05:22&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\ud83d\udd06=====@ @ @ Running Full Suite for Customer: (lmqatesting1) @ @ @=====\ud83d\udd06\n=====@ @ @ \ud83d\udeaa Running Admin Portal for \ud83d\udeaa: (lmqatesting1) @ @ @=====(1)\n\ud83d\udd17 https://admin.lightmetrics.co/statistics\n\ud83d\udc64 Selecting customer TSP : lmqatesting1\n\u2705 Found TSP: Lmqatesting1\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n=====@ @ @ \ud83e\udde0 Running Master Portal for \ud83e\udde0: (lmqatesting1) @ @ @=====(2)\n\ud83d\udd17 https://master.lightmetrics.co/home\n\ud83c\udf10 Master portal Name  : lmqatesting1 \u2705\nMaster Portal Version :: v5.24.3 \nManual Version :: v5.0.0 \nVersion result :: False \nMaster portal version NOT matched \u274c\nExpected: v5.0.0 | Actual: v5.24.3 \u2757\u2757\n\ud83c\udf10/\ud83d\ude80 Navigate to Account &amp;amp; Launch Fleet Dashboard\n\ud83c\udf10 \u2705 Fleet Dashboard launched successfully. Title: RideView Fleet Portal\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n=====@ @ @ \ud83d\ude9b Running Fleet Portal for \ud83d\ude9b: (lmqatesting1) @ @ @=====(3)\n\ud83d\udd17 https://dashboard.lightmetrics.co/home\n\ud83c\udf10 Fleet portal Name  : VAPT-Scan-1 \u2705 \nFleet Portal Version :: v10.5.1 \nManual Version :: v9.0.0 \nVersion result :: False \nFleet portal version NOT matched \u274c\nExpected: v9.0.0 | Actual: v10.5.1 \u2757\u2757\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n=====@ @ @ \ud83c\udfe0 Validating Fleet Home Page for \ud83c\udfe0: (lmqatesting1) @ @ @=====(4)\nhome\nHome ====&amp;gt;  ( Page matched ) \ud83d\udcd1\n\ud83d\udd17 https://dashboard.lightmetrics.co/home\nPast 30 days ====&amp;gt;  ( Selected Date Range )\nTRIPS ====&amp;gt;  ( Card matched )\nDISTANCE (mi) ====&amp;gt;  ( Card matched )\nEVENTS PER 100 MILES ====&amp;gt;  ( Card matched )\nDURATION (hours) ====&amp;gt; ( Card matched )\nRecommended For Coaching info_outline ====&amp;gt; ( Card matched )\nTop Drivers ====&amp;gt;  ( Card matched )\nCoachable Drivers info_outline ====&amp;gt;  ( Card matched )\nEvent Summary ====&amp;gt;  ( Card matched )\nEvent Trend ====&amp;gt;  ( Card matched )\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n=====@ @ @ \ud83d\udee1\ufe0f Validating Safety Events Page for \ud83d\udee1\ufe0f: (lmqatesting1) @ @ @=====(5)\n\ud83d\udd17 https://dashboard.lightmetrics.co/safety-events\nwarning\nSafety Events ====&amp;gt;  ( Page matched ) \ud83d\udcd1\nEvents View (0 events) ====&amp;gt;  ( Events Title matched )\nfilter_list ====&amp;gt;  ( Filters hide option matched )\nlist ====&amp;gt;  ( View type matched )\nPast 30 days ====&amp;gt;  ( Selected Date Range )\nFilter Type * ====&amp;gt;  ( Filter type matched )\nDriver ID/Name ====&amp;gt;  ( Filter type matched )\nEvent Type ====&amp;gt;  ( Filter type matched )\nView Status ====&amp;gt;  ( Filter type matched )\n \u2705 Successfully applied filters on &amp;#x27;Safety Events&amp;#x27; page.\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n=====@ @ @ \ud83d\ude97 Validating Trips Page for \ud83d\ude97: (lmqatesting1) @ @ @=====(6)\n\ud83d\udd17 https://dashboard.lightmetrics.co/trips\nlocation_on\nTrips ====&amp;gt;  ( Page matched ) \ud83d\udcd1\nTRIPS ====&amp;gt;  ( Tab matched ) \u2705\nTrip Filter ====&amp;gt;  ( Card matched )\nPast 30 days ====&amp;gt;  ( Selected Date Range )\nFilter Type * ====&amp;gt;  ( Filter type matched )\nDriver ID/Name ====&amp;gt;  ( Filter type matched )\nNo tags found ====&amp;gt;  ( Filter type matched )\nTrip List\n(0 Trips) ====&amp;gt;  ( Table matched )\nBulk Trip Edit ====&amp;gt;  ( Button matched )\n\u270f\ufe0f/\ud83d\ude80 \u2705  Successfully launched &amp;#x27;Bulk Edit&amp;#x27; page, from the &amp;#x27;Trips&amp;#x27; page.\nEXPORT OPTIONS arrow_drop_down ====&amp;gt;  ( Button matched )\nExport Now ====&amp;gt;  ( Button matched )\nSchedule ====&amp;gt;  ( Button matched )\n\ud83d\uddd3\ufe0f/\ud83d\ude80 \u2705 Successfully navigated to the &amp;#x27;Schedule Reports&amp;#x27; page, from the export &amp;#x27;Schedule Trips&amp;#x27; option.\nACTIVE DRIVERS ====&amp;gt;  ( Tab matched ) \u2705\nActive Driver Filter ====&amp;gt;  ( Card matched )\nPast 30 days ====&amp;gt;  ( Selected Date Range )\nNo tags found ====&amp;gt;  ( Filter type matched )\nActive Drivers info_outline ====&amp;gt;  ( Table matched )\nMANAGE ====&amp;gt;  ( Tab matched ) \u2705\nBulk Updation Log ====&amp;gt;  ( Table matched )\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n=====@ @ @ \ud83d\udcfa Validating Live View Page for \ud83d\udcfa: (lmqatesting1) @ @ @=====(7)\n\ud83d\udd17 https://dashboard.lightmetrics.co/live-view\nlive_tv\nLive View ====&amp;gt;  ( Page matched ) \ud83d\udcd1\nFLEET VIEW ====&amp;gt;  ( Button matched )\nLIST VIEW ====&amp;gt;  ( Button matched )\nPast 30 days ====&amp;gt;  ( Selected Date Range )\n ====&amp;gt;  ( Search Filter matched )\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n=====@ @ @ \ud83c\udfc6 Validating Coaching Page for \ud83c\udfc6: (lmqatesting1) @ @ @=====(8)\n\ud83d\udd17 https://dashboard.lightmetrics.co/coaching\nschool\nCoaching ====&amp;gt;  ( Page matched ) \ud83d\udcd1\nPast 30 days ====&amp;gt;  ( Selected Date Range )\nNo tags found ====&amp;gt;  ( Filter type matched )\nCoachable Drivers info_outline ====&amp;gt;  ( Table matched )\nCompleted Coaching Sessions ====&amp;gt;  ( Table matched )\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n=====@ @ @ \ud83c\udfa5 Validating Video Requests Page for \ud83c\udfa5: (lmqatesting1) @ @ @=====(9)\n\ud83d\udd17 https://dashboard.lightmetrics.co/video-requests\nsubscriptions\nVideo Requests ====&amp;gt;  ( Page matched ) \ud83d\udcd1\nPast 30 days ====&amp;gt;  ( Selected Date Range )\nNo tags found ====&amp;gt;  ( Filter type matched )\nVideo Requests info_outline ====&amp;gt;  ( Table matched )\nREQUEST VIDEO ====&amp;gt;  ( Button matched )\n \ud83c\udfa5/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;REQUEST VIDEO&amp;#x27; Pop-Up, from &amp;#x27;Video Requests&amp;#x27; Page\nSelect Date * ====&amp;gt;  ( Filter type from &amp;#x27;Pop-Up&amp;#x27; matched )\nFilter Type * ====&amp;gt;  ( Filter type from &amp;#x27;Pop-Up&amp;#x27; matched )\nDriver ID/Name ====&amp;gt;  ( Filter type from &amp;#x27;Pop-Up&amp;#x27; matched )\nVideo Requests ====&amp;gt;  ( Button matched )\nPanic Button ====&amp;gt;  ( Button matched )\nEvent On-Demand ====&amp;gt;  ( Button matched )\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n=====@ @ @ \ud83d\udc65 Validating Drivers Page for \ud83d\udc65: (lmqatesting1) @ @ @=====(10)\n\ud83d\udd17 https://dashboard.lightmetrics.co/drivers\ngroup\nDrivers ====&amp;gt;  ( Page matched ) \ud83d\udcd1\nDRIVERS ====&amp;gt;  ( Tab matched ) \u2705\nDriver List ====&amp;gt;  ( Table matched )\nSearch for Driver ID/Name ====&amp;gt;  ( Search option matched )\nNo tags found ====&amp;gt;  ( Filter matched )\nBATCH UPDATE\nNEW ====&amp;gt;  ( Button matched )\nEXPORT arrow_drop_down ====&amp;gt;  ( Button matched )\nDriver List CSV ====&amp;gt;  ( Buttons matched )\nadd_photo_alternateAdd Images ====&amp;gt;  ( Button matched )\n \u2795/\ud83d\uddbc\ufe0f/\ud83e\ude9f/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;Add Images&amp;#x27; pop-up window, for &amp;#x27;single driver&amp;#x27;.\nDriver Images info_outline ====&amp;gt;  ( Title matched )\nadd_photo_alternateUPLOAD IMAGES ====&amp;gt;  ( Button matched )\n \ud83d\udce4/\ud83d\udda5\ufe0f/\ud83e\ude9f/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;Desktop Pop-Up&amp;#x27; window, from &amp;#x27;Upload Images&amp;#x27; Pop-UP.\nDriver does not exist \u2014 proceeding to add\nADD DRIVER ====&amp;gt;  ( Button matched )\nDriver details added successfully!  :: ( \u2795/\ud83d\udc64/\ud83d\udd14 \u2705 Add New Driver Message notification )\nDriver updated successfully.  ::  ( \u270f\ufe0f/\ud83d\udc64/\ud83d\udd14 \u2705 Edit New Driver Message notification )\nDriver deleted successfully  ::  ( \ud83d\uddd1\ufe0f/\ud83d\udc64/\ud83d\udd14 \u2705 Delete New Driver Message notification )\n \u2705 Successfully selected the check boxes and validating available features.\nSearch for Driver ID/Name ====&amp;gt;  ( Search option matched )\nAssign Coach\nNEW ====&amp;gt;  ( Button matched )\ndelete DELETE ====&amp;gt;  ( Button matched )\n\ud83d\udce5/\ud83d\udd34 &amp;#x27;Download QR Code&amp;#x27; button not available for &amp;#x27;Selected Drivers&amp;#x27; \u2014 proceeding normally. \u2757\u2757\nINSTALLERS ====&amp;gt;  ( Tab matched ) \u2705\nInstaller List ====&amp;gt;  ( Table matched )\nADD INSTALLER ====&amp;gt;  ( Button matched )\n\u2795/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;ADD INSTALLER&amp;#x27; page.\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n=====@ @ @ \ud83c\udfc5 Validating Challenges Page for \ud83c\udfc5: (lmqatesting1) @ @ @=====(11)\n\ud83d\udd17 https://dashboard.lightmetrics.co/challenges\ncontent_paste_search\nChallenges ====&amp;gt; ( Page matched ) \ud83d\udcd1\nPast 30 days ====&amp;gt; ( Selected Date Range )\nSelect Event Type ====&amp;gt;  ( Filter type matched )\nChallenge Status ====&amp;gt;  ( Filter type matched )\nChallenged Events info_outline ====&amp;gt; ( Table matched )\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n=====@ @ @ \ud83d\udcca Validating Reports Page for \ud83d\udcca: (lmqatesting1) @ @ @=====(12)\n\ud83d\udd17 https://dashboard.lightmetrics.co/reports\ndescription\nReports ====&amp;gt; ( Page matched ) \ud83d\udcd1\nOVERVIEW ====&amp;gt; ( Tab matched ) \u2705\nFleet Safety ====&amp;gt; ( Card matched )\nVIEW REPORT ====&amp;gt; ( Button matched )\n\ud83d\udcc4/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;View Fleet Safety Report&amp;#x27; Page, from the &amp;#x27;Fleet Safety&amp;#x27; card.\nDOWNLOAD REPORT ====&amp;gt; ( Button matched )\nCoaching Session Report ====&amp;gt; ( Card matched )\nVIEW REPORT ====&amp;gt; ( Button matched )\n\ud83d\udcc4/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;Coaching Session Report&amp;#x27; Page, from the &amp;#x27;Coaching Session&amp;#x27; card.\nSelect Driver ====&amp;gt; ( Filter matched )\nCoaching Session ====&amp;gt; ( Filter matched )\nSCHEDULE ====&amp;gt; ( Button matched )\n\ud83d\udcc4/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;Create Schedule Reports&amp;#x27; Page, from the &amp;#x27;Coaching Session&amp;#x27; card.\nCoaching Effectiveness Report (Driver) ====&amp;gt; ( Card matched )\nVIEW REPORT ====&amp;gt; ( Button matched )\n\ud83d\udcc4/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;Coaching Effectiveness Report&amp;#x27; Page, from the &amp;#x27;Coaching Effectiveness&amp;#x27; card.\nSelect Driver ====&amp;gt; ( Filter matched )\nCoaching Session ====&amp;gt; ( Filter matched )\nEvent List Report ====&amp;gt; ( Card matched )\nDOWNLOAD REPORT ====&amp;gt; ( Button matched )\n \ud83e\ude9f/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;Download Report&amp;#x27; Pop-Up window, from &amp;#x27;Event List&amp;#x27; card.\nPast 30 days ====&amp;gt;  ( Selected Date Range )\nFilter Type (Optional) ====&amp;gt; ( Filter matched )\nSCHEDULE ====&amp;gt; ( Button matched )\n\ud83d\udcc4/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;Create Schedule Reports&amp;#x27; Page, from the &amp;#x27;Event List Report&amp;#x27; card.\nDriver Privacy Mode Report ====&amp;gt; ( Card matched )\nDOWNLOAD REPORT ====&amp;gt; ( Button matched )\n \ud83e\ude9f/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;Download Report&amp;#x27; Pop-Up window, from &amp;#x27;Driver Privacy &amp;#x27; card.\nPast 30 days ====&amp;gt;  ( Selected Date Range )\nFilter Type (Optional) ====&amp;gt; ( Filter matched )\nSCHEDULE ====&amp;gt; ( Button matched )\n\ud83d\udcc4/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;Create Schedule Reports&amp;#x27; Page, from the &amp;#x27;Driver Privacy Mode Report&amp;#x27; card.\nEvent Count Report ====&amp;gt; ( Card matched )\nDOWNLOAD REPORT ====&amp;gt; ( Button matched )\n \ud83e\ude9f/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;Download Report&amp;#x27; Pop-Up window, from &amp;#x27;Event Count&amp;#x27; card.\nPast 30 days ====&amp;gt;  ( Selected Date Range )\nFilter Type (Optional) ====&amp;gt; ( Filter matched )\nSCHEDULE ====&amp;gt; ( Button matched )\n\ud83d\udcc4/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;Create Schedule Reports&amp;#x27; Page, from the &amp;#x27;Event Count Report&amp;#x27; card.\nEXPORT HISTORY ====&amp;gt; ( Tab matched ) \u2705\nExport History info_outline ====&amp;gt; ( Table matched )\nSelect Request Type ====&amp;gt; ( Filter matched )\nSelect Duration ====&amp;gt; ( Filter matched )\nSCHEDULED ====&amp;gt; ( Tab matched ) \u2705\nCREATE SCHEDULE ====&amp;gt; ( Button matched )\n\ud83d\udcc4/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;Create Schedule Reports&amp;#x27; Page, from the &amp;#x27;Scheduled&amp;#x27; tab.\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n=====@ @ @ \ud83d\ude9a Validating Assets Page for \ud83d\ude9a: (lmqatesting1) @ @ @=====(13)\nlocal_shipping\nAssets ====&amp;gt; ( Page matched ) \ud83d\udcd1\n\ud83d\udd17 https://dashboard.lightmetrics.co/assets\nOVERVIEW ====&amp;gt; ( Tab matched ) \u2705\nAsset List ====&amp;gt; ( Table matched )\nSHOW FILTERS ====&amp;gt; ( Button matched )\nSelect Filter Type ====&amp;gt; ( Filter matched )\nAsset ID/Name ====&amp;gt; ( Filter matched )\nHIDE FILTERS ====&amp;gt; ( Button matched )\nEXPORT ASSETS ====&amp;gt; ( Button matched )\nMANAGE ASSETS ====&amp;gt; ( Tab matched ) \u2705 \nBatch Update ====&amp;gt; ( Card matched )\nBatch Provisioning ====&amp;gt; ( Card matched )\nDEVICES ====&amp;gt; ( Tab matched ) \u2705 \nSemi-Provisioned Devices ====&amp;gt; ( Table matched )\nDIAGNOSTICS\n(BETA) ====&amp;gt; ( Tab matched ) \u2705 \nDEVICES\n- ====&amp;gt; ( Card matched )\nDEVICE WITH EVENTS\n- ====&amp;gt; ( Card matched )\nCamera Visibility Events ====&amp;gt; ( Page matched )\nDevice Diagnostic Events ====&amp;gt; ( Page matched )\nDevice Online Status ====&amp;gt; ( Page matched )\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n=====@ @ @ \ud83d\udc64 Validating Users Page for \ud83d\udc64: (lmqatesting1) @ @ @=====(14)\nmanage_accounts\nUsers ====&amp;gt; ( Page matched ) \ud83d\udcd1\n\ud83d\udd17 https://dashboard.lightmetrics.co/user-management\nUSERS ====&amp;gt; ( Tab matched ) \u2705 \nManage Users ====&amp;gt; ( Table matched )\nADD USER ====&amp;gt; ( Button matched )\nROLES ====&amp;gt; ( Tab matched ) \u2705 \nManage Roles ====&amp;gt; ( Table matched )\nVIEW HIERARCHY ====&amp;gt; ( Button matched )\nADD ROLE ====&amp;gt; ( Button matched )\nACTIVITY LOG ====&amp;gt; ( Tab matched ) \u2705 \nUser Activity Logs ====&amp;gt; ( Table matched )\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n=====@ @ @ \u2699\ufe0f Validating Configurations Page for \u2699\ufe0f: (lmqatesting1) @ @ @=====(15)\n\ud83d\udd17 https://dashboard.lightmetrics.co/configurations\nvideo_settings\nConfigurations ====&amp;gt; ( Page matched ) \ud83d\udcd1\nBASIC ====&amp;gt; ( Tab matched ) \u2705 \nBasic Configurations ====&amp;gt; ( Table matched )\nAPPLY DEFAULTS ====&amp;gt; ( Button matched )\nHeavy ====&amp;gt; ( Duty type matched )\nMedium ====&amp;gt; ( Duty type matched )\nLight ====&amp;gt; ( Duty type matched )\nADVANCED ====&amp;gt; ( Tab matched ) \u2705 \nAdvanced Configurations ====&amp;gt; ( Table matched )\nAPPLY DEFAULTS ====&amp;gt; ( Button matched )\nHeavy ====&amp;gt; ( Duty type matched )\nMedium ====&amp;gt; ( Duty type matched )\nLight ====&amp;gt; ( Duty type matched )\nDriver Configurations ====&amp;gt; ( Table matched )\nCOACHING ====&amp;gt; ( Tab matched ) \u2705 \nCoaching Thresholds ====&amp;gt; ( Table matched )\nAutomated Triaging ====&amp;gt; ( Table matched )\nTAGGING ====&amp;gt; ( Tab matched ) \u2705 \nOverview ====&amp;gt; ( Table matched )\nEntity info_outline ====&amp;gt; ( Table matched )\n\ud83d\udd06\u2705 \u2705 =====@ Full suite passed for customer: (lmqatesting1) @===== \u2705 \u2705\ud83d\udd06\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n\n------------------------------ Captured log call -------------------------------\nWARNING  test_home_page_version:MasterPortalPage.py:74 ************ Master portal version NOT matched ************ \u274c\nWARNING  test_home_page_version:MasterPortalPage.py:76 ********* Expected: v5.0.0 | Actual: v5.24.3 \u2757\u2757\nWARNING  test_home_page_version:FleetPortalPage.py:82 ************ Fleet portal version NOT matched ************ \u274c\nWARNING  test_home_page_version:FleetPortalPage.py:84 Expected: v9.0.0 | Actual: v10.5.1 \u2757\u2757\nWARNING  test_drivers_page_check_box_validation:F_7_DriversPage.py:383  :: \ud83d\udce5/\ud83d\udd34 &amp;#x27;Download QR Code&amp;#x27; button not available for &amp;#x27;Selected Drivers&amp;#x27; \u2014 proceeding normally. \u2757\u2757\n\n&#34;}], &#34;test_Suite_Controller.py::TestSuiteController::test_run_full_suite_for_customer[lmpresales]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_Suite_Controller.py::TestSuiteController::test_run_full_suite_for_customer[lmpresales]&#34;, &#34;duration&#34;: &#34;00:05:21&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_Suite_Controller.py::TestSuiteController::test_run_full_suite_for_customer[lmpresales]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:05:21&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\ud83d\udd06=====@ @ @ Running Full Suite for Customer: (lmpresales) @ @ @=====\ud83d\udd06\n=====@ @ @ \ud83d\udeaa Running Admin Portal for \ud83d\udeaa: (lmpresales) @ @ @=====(1)\n\ud83d\udd17 https://admin.lightmetrics.co/statistics\n\ud83d\udc64 Selecting customer TSP : lmpresales\n\u2705 Found TSP: Lmpresales\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n=====@ @ @ \ud83e\udde0 Running Master Portal for \ud83e\udde0: (lmpresales) @ @ @=====(2)\n\ud83d\udd17 https://master.lightmetrics.co/home\n\ud83c\udf10 Master portal Name  : lmpresales \u2705\nMaster Portal Version :: v5.24.3 \nManual Version :: v5.0.0 \nVersion result :: False \nMaster portal version NOT matched \u274c\nExpected: v5.0.0 | Actual: v5.24.3 \u2757\u2757\n\ud83c\udf10/\ud83d\ude80 Navigate to Account &amp;amp; Launch Fleet Dashboard\n\ud83c\udf10 \u2705 Fleet Dashboard launched successfully. Title: RideView Fleet Portal\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n=====@ @ @ \ud83d\ude9b Running Fleet Portal for \ud83d\ude9b: (lmpresales) @ @ @=====(3)\n\ud83d\udd17 https://dashboard.lightmetrics.co/home\n\ud83c\udf10 Fleet portal Name  : Michelin Connected Fleet \u2705 \nFleet Portal Version :: v10.5.1 \nManual Version :: v9.0.0 \nVersion result :: False \nFleet portal version NOT matched \u274c\nExpected: v9.0.0 | Actual: v10.5.1 \u2757\u2757\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n=====@ @ @ \ud83c\udfe0 Validating Fleet Home Page for \ud83c\udfe0: (lmpresales) @ @ @=====(4)\nhome\nHome ====&amp;gt;  ( Page matched ) \ud83d\udcd1\n\ud83d\udd17 https://dashboard.lightmetrics.co/home\nPast 30 days ====&amp;gt;  ( Selected Date Range )\nTRIPS ====&amp;gt;  ( Card matched )\nDISTANCE (mi) ====&amp;gt;  ( Card matched )\nEVENTS PER 100 MILES ====&amp;gt;  ( Card matched )\nDURATION (hours) ====&amp;gt; ( Card matched )\nRecommended For Coaching info_outline ====&amp;gt; ( Card matched )\nTop Drivers ====&amp;gt;  ( Card matched )\nCoachable Drivers info_outline ====&amp;gt;  ( Card matched )\nEvent Summary ====&amp;gt;  ( Card matched )\nEvent Trend ====&amp;gt;  ( Card matched )\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n=====@ @ @ \ud83d\udee1\ufe0f Validating Safety Events Page for \ud83d\udee1\ufe0f: (lmpresales) @ @ @=====(5)\n\ud83d\udd17 https://dashboard.lightmetrics.co/safety-events\nwarning\nSafety Events ====&amp;gt;  ( Page matched ) \ud83d\udcd1\nEvents View (0 events) ====&amp;gt;  ( Events Title matched )\nfilter_list ====&amp;gt;  ( Filters hide option matched )\nlist ====&amp;gt;  ( View type matched )\nPast 30 days ====&amp;gt;  ( Selected Date Range )\nFilter Type * ====&amp;gt;  ( Filter type matched )\nDriver ID/Name ====&amp;gt;  ( Filter type matched )\nEvent Type ====&amp;gt;  ( Filter type matched )\nView Status ====&amp;gt;  ( Filter type matched )\n \u2705 Successfully applied filters on &amp;#x27;Safety Events&amp;#x27; page.\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n=====@ @ @ \ud83d\ude97 Validating Trips Page for \ud83d\ude97: (lmpresales) @ @ @=====(6)\n\ud83d\udd17 https://dashboard.lightmetrics.co/trips\nlocation_on\nTrips ====&amp;gt;  ( Page matched ) \ud83d\udcd1\nTRIPS ====&amp;gt;  ( Tab matched ) \u2705\nTrip Filter ====&amp;gt;  ( Card matched )\nPast 30 days ====&amp;gt;  ( Selected Date Range )\nFilter Type * ====&amp;gt;  ( Filter type matched )\nDriver ID/Name ====&amp;gt;  ( Filter type matched )\nSelect Tags ====&amp;gt;  ( Filter type matched )\nTrip List\n(0 Trips) ====&amp;gt;  ( Table matched )\nBulk Trip Edit ====&amp;gt;  ( Button matched )\n\u270f\ufe0f/\ud83d\ude80 \u2705  Successfully launched &amp;#x27;Bulk Edit&amp;#x27; page, from the &amp;#x27;Trips&amp;#x27; page.\nEXPORT OPTIONS arrow_drop_down ====&amp;gt;  ( Button matched )\nExport Now ====&amp;gt;  ( Button matched )\nSchedule ====&amp;gt;  ( Button matched )\n\ud83d\uddd3\ufe0f/\ud83d\ude80 \u2705 Successfully navigated to the &amp;#x27;Schedule Reports&amp;#x27; page, from the export &amp;#x27;Schedule Trips&amp;#x27; option.\nACTIVE DRIVERS ====&amp;gt;  ( Tab matched ) \u2705\nActive Driver Filter ====&amp;gt;  ( Card matched )\nPast 30 days ====&amp;gt;  ( Selected Date Range )\nSelect Tags ====&amp;gt;  ( Filter type matched )\nActive Drivers info_outline ====&amp;gt;  ( Table matched )\nMANAGE ====&amp;gt;  ( Tab matched ) \u2705\nBulk Updation Log ====&amp;gt;  ( Table matched )\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n=====@ @ @ \ud83d\udcfa Validating Live View Page for \ud83d\udcfa: (lmpresales) @ @ @=====(7)\n\ud83d\udd17 https://dashboard.lightmetrics.co/live-view\nlive_tv\nLive View ====&amp;gt;  ( Page matched ) \ud83d\udcd1\nFLEET VIEW ====&amp;gt;  ( Button matched )\nLIST VIEW ====&amp;gt;  ( Button matched )\nPast 30 days ====&amp;gt;  ( Selected Date Range )\n ====&amp;gt;  ( Search Filter matched )\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n=====@ @ @ \ud83c\udfc6 Validating Coaching Page for \ud83c\udfc6: (lmpresales) @ @ @=====(8)\n\ud83d\udd17 https://dashboard.lightmetrics.co/coaching\nschool\nCoaching ====&amp;gt;  ( Page matched ) \ud83d\udcd1\nPast 30 days ====&amp;gt;  ( Selected Date Range )\nSelect Tags ====&amp;gt;  ( Filter type matched )\nCoachable Drivers info_outline ====&amp;gt;  ( Table matched )\nCompleted Coaching Sessions ====&amp;gt;  ( Table matched )\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n=====@ @ @ \ud83c\udfa5 Validating Video Requests Page for \ud83c\udfa5: (lmpresales) @ @ @=====(9)\n\ud83d\udd17 https://dashboard.lightmetrics.co/video-requests\nsubscriptions\nVideo Requests ====&amp;gt;  ( Page matched ) \ud83d\udcd1\nPast 30 days ====&amp;gt;  ( Selected Date Range )\nSelect Tags ====&amp;gt;  ( Filter type matched )\nVideo Requests info_outline ====&amp;gt;  ( Table matched )\nREQUEST VIDEO ====&amp;gt;  ( Button matched )\n \ud83c\udfa5/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;REQUEST VIDEO&amp;#x27; Pop-Up, from &amp;#x27;Video Requests&amp;#x27; Page\nSelect Date * ====&amp;gt;  ( Filter type from &amp;#x27;Pop-Up&amp;#x27; matched )\nFilter Type * ====&amp;gt;  ( Filter type from &amp;#x27;Pop-Up&amp;#x27; matched )\nDriver ID/Name ====&amp;gt;  ( Filter type from &amp;#x27;Pop-Up&amp;#x27; matched )\nVideo Requests ====&amp;gt;  ( Button matched )\nPanic Button ====&amp;gt;  ( Button matched )\nEvent On-Demand ====&amp;gt;  ( Button matched )\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n=====@ @ @ \ud83d\udc65 Validating Drivers Page for \ud83d\udc65: (lmpresales) @ @ @=====(10)\n\ud83d\udd17 https://dashboard.lightmetrics.co/drivers\ngroup\nDrivers ====&amp;gt;  ( Page matched ) \ud83d\udcd1\nDRIVERS ====&amp;gt;  ( Tab matched ) \u2705\nDriver List ====&amp;gt;  ( Table matched )\nSearch for Driver ID/Name ====&amp;gt;  ( Search option matched )\nSelect Tags ====&amp;gt;  ( Filter matched )\nBATCH UPDATE\nNEW ====&amp;gt;  ( Button matched )\nEXPORT arrow_drop_down ====&amp;gt;  ( Button matched )\nDriver List CSV\nBulk QR Code ====&amp;gt;  ( Buttons matched )\nadd_photo_alternateAdd Images ====&amp;gt;  ( Button matched )\n \u2795/\ud83d\uddbc\ufe0f/\ud83e\ude9f/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;Add Images&amp;#x27; pop-up window, for &amp;#x27;single driver&amp;#x27;.\nDriver Images info_outline ====&amp;gt;  ( Title matched )\nadd_photo_alternateUPLOAD IMAGES ====&amp;gt;  ( Button matched )\n \ud83d\udce4/\ud83d\udda5\ufe0f/\ud83e\ude9f/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;Desktop Pop-Up&amp;#x27; window, from &amp;#x27;Upload Images&amp;#x27; Pop-UP.\nDriver does not exist \u2014 proceeding to add\nADD DRIVER ====&amp;gt;  ( Button matched )\nDriver details added successfully!  :: ( \u2795/\ud83d\udc64/\ud83d\udd14 \u2705 Add New Driver Message notification )\nDriver updated successfully.  ::  ( \u270f\ufe0f/\ud83d\udc64/\ud83d\udd14 \u2705 Edit New Driver Message notification )\nDriver deleted successfully  ::  ( \ud83d\uddd1\ufe0f/\ud83d\udc64/\ud83d\udd14 \u2705 Delete New Driver Message notification )\n \u2705 Successfully selected the check boxes and validating available features.\nSearch for Driver ID/Name ====&amp;gt;  ( Search option matched )\nAssign Coach\nNEW ====&amp;gt;  ( Button matched )\ndelete DELETE ====&amp;gt;  ( Button matched )\nqr_code DOWNLOAD QR CODE ====&amp;gt;  ( Button matched )\nINSTALLERS ====&amp;gt;  ( Tab matched ) \u2705\nInstaller List ====&amp;gt;  ( Table matched )\nADD INSTALLER ====&amp;gt;  ( Button matched )\n\u2795/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;ADD INSTALLER&amp;#x27; page.\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n=====@ @ @ \ud83c\udfc5 Validating Challenges Page for \ud83c\udfc5: (lmpresales) @ @ @=====(11)\n\ud83d\udd17 https://dashboard.lightmetrics.co/challenges\ncontent_paste_search\nChallenges ====&amp;gt; ( Page matched ) \ud83d\udcd1\nPast 30 days ====&amp;gt; ( Selected Date Range )\nSelect Event Type ====&amp;gt;  ( Filter type matched )\nChallenge Status ====&amp;gt;  ( Filter type matched )\nChallenged Events info_outline ====&amp;gt; ( Table matched )\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n=====@ @ @ \ud83d\udcca Validating Reports Page for \ud83d\udcca: (lmpresales) @ @ @=====(12)\n\ud83d\udd17 https://dashboard.lightmetrics.co/reports\ndescription\nReports ====&amp;gt; ( Page matched ) \ud83d\udcd1\nOVERVIEW ====&amp;gt; ( Tab matched ) \u2705\nFleet Safety ====&amp;gt; ( Card matched )\nVIEW REPORT ====&amp;gt; ( Button matched )\n\ud83d\udcc4/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;View Fleet Safety Report&amp;#x27; Page, from the &amp;#x27;Fleet Safety&amp;#x27; card.\nDOWNLOAD REPORT ====&amp;gt; ( Button matched )\nCoaching Session Report ====&amp;gt; ( Card matched )\nVIEW REPORT ====&amp;gt; ( Button matched )\n\ud83d\udcc4/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;Coaching Session Report&amp;#x27; Page, from the &amp;#x27;Coaching Session&amp;#x27; card.\nSelect Driver ====&amp;gt; ( Filter matched )\nCoaching Session ====&amp;gt; ( Filter matched )\nSCHEDULE ====&amp;gt; ( Button matched )\n\ud83d\udcc4/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;Create Schedule Reports&amp;#x27; Page, from the &amp;#x27;Coaching Session&amp;#x27; card.\nCoaching Effectiveness Report (Driver) ====&amp;gt; ( Card matched )\nVIEW REPORT ====&amp;gt; ( Button matched )\n\ud83d\udcc4/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;Coaching Effectiveness Report&amp;#x27; Page, from the &amp;#x27;Coaching Effectiveness&amp;#x27; card.\nSelect Driver ====&amp;gt; ( Filter matched )\nCoaching Session ====&amp;gt; ( Filter matched )\nEvent List Report ====&amp;gt; ( Card matched )\nDOWNLOAD REPORT ====&amp;gt; ( Button matched )\n \ud83e\ude9f/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;Download Report&amp;#x27; Pop-Up window, from &amp;#x27;Event List&amp;#x27; card.\nPast 30 days ====&amp;gt;  ( Selected Date Range )\nFilter Type (Optional) ====&amp;gt; ( Filter matched )\nSCHEDULE ====&amp;gt; ( Button matched )\n\ud83d\udcc4/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;Create Schedule Reports&amp;#x27; Page, from the &amp;#x27;Event List Report&amp;#x27; card.\nDriver Privacy Mode Report ====&amp;gt; ( Card matched )\nDOWNLOAD REPORT ====&amp;gt; ( Button matched )\n \ud83e\ude9f/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;Download Report&amp;#x27; Pop-Up window, from &amp;#x27;Driver Privacy &amp;#x27; card.\nPast 30 days ====&amp;gt;  ( Selected Date Range )\nFilter Type (Optional) ====&amp;gt; ( Filter matched )\nSCHEDULE ====&amp;gt; ( Button matched )\n\ud83d\udcc4/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;Create Schedule Reports&amp;#x27; Page, from the &amp;#x27;Driver Privacy Mode Report&amp;#x27; card.\nEvent Count Report ====&amp;gt; ( Card matched )\nDOWNLOAD REPORT ====&amp;gt; ( Button matched )\n \ud83e\ude9f/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;Download Report&amp;#x27; Pop-Up window, from &amp;#x27;Event Count&amp;#x27; card.\nPast 30 days ====&amp;gt;  ( Selected Date Range )\nFilter Type (Optional) ====&amp;gt; ( Filter matched )\nSCHEDULE ====&amp;gt; ( Button matched )\n\ud83d\udcc4/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;Create Schedule Reports&amp;#x27; Page, from the &amp;#x27;Event Count Report&amp;#x27; card.\nEXPORT HISTORY ====&amp;gt; ( Tab matched ) \u2705\nExport History info_outline ====&amp;gt; ( Table matched )\nSelect Request Type ====&amp;gt; ( Filter matched )\nSelect Duration ====&amp;gt; ( Filter matched )\nSCHEDULED ====&amp;gt; ( Tab matched ) \u2705\nCREATE SCHEDULE ====&amp;gt; ( Button matched )\n\ud83d\udcc4/\ud83d\ude80 \u2705 Successfully launched &amp;#x27;Create Schedule Reports&amp;#x27; Page, from the &amp;#x27;Scheduled&amp;#x27; tab.\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n=====@ @ @ \ud83d\ude9a Validating Assets Page for \ud83d\ude9a: (lmpresales) @ @ @=====(13)\nlocal_shipping\nAssets ====&amp;gt; ( Page matched ) \ud83d\udcd1\n\ud83d\udd17 https://dashboard.lightmetrics.co/assets\nOVERVIEW ====&amp;gt; ( Tab matched ) \u2705\nAsset List ====&amp;gt; ( Table matched )\nSHOW FILTERS ====&amp;gt; ( Button matched )\nSelect Filter Type ====&amp;gt; ( Filter matched )\nAsset ID/Name ====&amp;gt; ( Filter matched )\nHIDE FILTERS ====&amp;gt; ( Button matched )\nEXPORT ASSETS ====&amp;gt; ( Button matched )\nMANAGE ASSETS ====&amp;gt; ( Tab matched ) \u2705 \nBatch Update ====&amp;gt; ( Card matched )\nBatch Provisioning ====&amp;gt; ( Card matched )\nDEVICES ====&amp;gt; ( Tab matched ) \u2705 \nSemi-Provisioned Devices ====&amp;gt; ( Table matched )\nDIAGNOSTICS\n(BETA) ====&amp;gt; ( Tab matched ) \u2705 \nDEVICES\n- ====&amp;gt; ( Card matched )\nDEVICE WITH EVENTS\n- ====&amp;gt; ( Card matched )\nCamera Visibility Events ====&amp;gt; ( Page matched )\nDevice Diagnostic Events ====&amp;gt; ( Page matched )\nDevice Online Status ====&amp;gt; ( Page matched )\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n=====@ @ @ \ud83d\udc64 Validating Users Page for \ud83d\udc64: (lmpresales) @ @ @=====(14)\nmanage_accounts\nUsers ====&amp;gt; ( Page matched ) \ud83d\udcd1\n\ud83d\udd17 https://dashboard.lightmetrics.co/user-management\nUSERS ====&amp;gt; ( Tab matched ) \u2705 \nManage Users ====&amp;gt; ( Table matched )\nADD USER ====&amp;gt; ( Button matched )\nROLES ====&amp;gt; ( Tab matched ) \u2705 \nManage Roles ====&amp;gt; ( Table matched )\nVIEW HIERARCHY ====&amp;gt; ( Button matched )\nADD ROLE ====&amp;gt; ( Button matched )\nACTIVITY LOG ====&amp;gt; ( Tab matched ) \u2705 \nUser Activity Logs ====&amp;gt; ( Table matched )\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n=====@ @ @ \u2699\ufe0f Validating Configurations Page for \u2699\ufe0f: (lmpresales) @ @ @=====(15)\n\ud83d\udd17 https://dashboard.lightmetrics.co/configurations\nvideo_settings\nConfigurations ====&amp;gt; ( Page matched ) \ud83d\udcd1\nBASIC ====&amp;gt; ( Tab matched ) \u2705 \nBasic Configurations ====&amp;gt; ( Table matched )\nAPPLY DEFAULTS ====&amp;gt; ( Button matched )\nHeavy ====&amp;gt; ( Duty type matched )\nMedium ====&amp;gt; ( Duty type matched )\nLight ====&amp;gt; ( Duty type matched )\nADVANCED ====&amp;gt; ( Tab matched ) \u2705 \nAdvanced Configurations ====&amp;gt; ( Table matched )\nAPPLY DEFAULTS ====&amp;gt; ( Button matched )\nHeavy ====&amp;gt; ( Duty type matched )\nMedium ====&amp;gt; ( Duty type matched )\nLight ====&amp;gt; ( Duty type matched )\nDriver Configurations ====&amp;gt; ( Table matched )\nCOACHING ====&amp;gt; ( Tab matched ) \u2705 \nCoaching Thresholds ====&amp;gt; ( Table matched )\nAutomated Triaging ====&amp;gt; ( Table matched )\nTAGGING ====&amp;gt; ( Tab matched ) \u2705 \nOverview ====&amp;gt; ( Table matched )\nEntity info_outline ====&amp;gt; ( Table matched )\n\ud83d\udd06\u2705 \u2705 =====@ Full suite passed for customer: (lmpresales) @===== \u2705 \u2705\ud83d\udd06\n\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n\n------------------------------ Captured log call -------------------------------\nWARNING  test_home_page_version:MasterPortalPage.py:74 ************ Master portal version NOT matched ************ \u274c\nWARNING  test_home_page_version:MasterPortalPage.py:76 ********* Expected: v5.0.0 | Actual: v5.24.3 \u2757\u2757\nWARNING  test_home_page_version:FleetPortalPage.py:82 ************ Fleet portal version NOT matched ************ \u274c\nWARNING  test_home_page_version:FleetPortalPage.py:84 Expected: v9.0.0 | Actual: v10.5.1 \u2757\u2757\n\n&#34;}]}, &#34;renderCollapsed&#34;: [&#34;passed&#34;], &#34;initialSort&#34;: &#34;result&#34;, &#34;title&#34;: &#34;LightMetrics Technologies Pvt. Ltd&#34;}"></div>
+    <script>
+      (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+const { getCollapsedCategory, setCollapsedIds } = require('./storage.js')
+
+class DataManager {
+    setManager(data) {
+        const collapsedCategories = [...getCollapsedCategory(data.renderCollapsed)]
+        const collapsedIds = []
+        const tests = Object.values(data.tests).flat().map((test, index) => {
+            const collapsed = collapsedCategories.includes(test.result.toLowerCase())
+            const id = `test_${index}`
+            if (collapsed) {
+                collapsedIds.push(id)
+            }
+            return {
+                ...test,
+                id,
+                collapsed,
+            }
+        })
+        const dataBlob = { ...data, tests }
+        this.data = { ...dataBlob }
+        this.renderData = { ...dataBlob }
+        setCollapsedIds(collapsedIds)
+    }
+
+    get allData() {
+        return { ...this.data }
+    }
+
+    resetRender() {
+        this.renderData = { ...this.data }
+    }
+
+    setRender(data) {
+        this.renderData.tests = [...data]
+    }
+
+    toggleCollapsedItem(id) {
+        this.renderData.tests = this.renderData.tests.map((test) =>
+            test.id === id ? { ...test, collapsed: !test.collapsed } : test,
+        )
+    }
+
+    set allCollapsed(collapsed) {
+        this.renderData = { ...this.renderData, tests: [...this.renderData.tests.map((test) => (
+            { ...test, collapsed }
+        ))] }
+    }
+
+    get testSubset() {
+        return [...this.renderData.tests]
+    }
+
+    get environment() {
+        return this.renderData.environment
+    }
+
+    get initialSort() {
+        return this.data.initialSort
+    }
+}
+
+module.exports = {
+    manager: new DataManager(),
+}
+
+},{"./storage.js":8}],2:[function(require,module,exports){
+const mediaViewer = require('./mediaviewer.js')
+const templateEnvRow = document.getElementById('template_environment_row')
+const templateResult = document.getElementById('template_results-table__tbody')
+
+function htmlToElements(html) {
+    const temp = document.createElement('template')
+    temp.innerHTML = html
+    return temp.content.childNodes
+}
+
+const find = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return elem.querySelector(selector)
+}
+
+const findAll = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return [...elem.querySelectorAll(selector)]
+}
+
+const dom = {
+    getStaticRow: (key, value) => {
+        const envRow = templateEnvRow.content.cloneNode(true)
+        const isObj = typeof value === 'object' && value !== null
+        const values = isObj ? Object.keys(value).map((k) => `${k}: ${value[k]}`) : null
+
+        const valuesElement = htmlToElements(
+            values ? `<ul>${values.map((val) => `<li>${val}</li>`).join('')}<ul>` : `<div>${value}</div>`)[0]
+        const td = findAll('td', envRow)
+        td[0].textContent = key
+        td[1].appendChild(valuesElement)
+
+        return envRow
+    },
+    getResultTBody: ({ testId, id, log, extras, resultsTableRow, tableHtml, result, collapsed }) => {
+        const resultBody = templateResult.content.cloneNode(true)
+        resultBody.querySelector('tbody').classList.add(result.toLowerCase())
+        resultBody.querySelector('tbody').id = testId
+        resultBody.querySelector('.collapsible').dataset.id = id
+
+        resultsTableRow.forEach((html) => {
+            const t = document.createElement('template')
+            t.innerHTML = html
+            resultBody.querySelector('.collapsible').appendChild(t.content)
+        })
+
+        if (log) {
+            // Wrap lines starting with "E" with span.error to color those lines red
+            const wrappedLog = log.replace(/^E.*$/gm, (match) => `<span class="error">${match}</span>`)
+            resultBody.querySelector('.log').innerHTML = wrappedLog
+        } else {
+            resultBody.querySelector('.log').remove()
+        }
+
+        if (collapsed) {
+            resultBody.querySelector('.collapsible > td')?.classList.add('collapsed')
+            resultBody.querySelector('.extras-row').classList.add('hidden')
+        } else {
+            resultBody.querySelector('.collapsible > td')?.classList.remove('collapsed')
+        }
+
+        const media = []
+        extras?.forEach(({ name, format_type, content }) => {
+            if (['image', 'video'].includes(format_type)) {
+                media.push({ path: content, name, format_type })
+            }
+
+            if (format_type === 'html') {
+                resultBody.querySelector('.extraHTML').insertAdjacentHTML('beforeend', `<div>${content}</div>`)
+            }
+        })
+        mediaViewer.setup(resultBody, media)
+
+        // Add custom html from the pytest_html_results_table_html hook
+        tableHtml?.forEach((item) => {
+            resultBody.querySelector('td[class="extra"]').insertAdjacentHTML('beforeend', item)
+        })
+
+        return resultBody
+    },
+}
+
+module.exports = {
+    dom,
+    htmlToElements,
+    find,
+    findAll,
+}
+
+},{"./mediaviewer.js":6}],3:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const storageModule = require('./storage.js')
+
+const getFilteredSubSet = (filter) =>
+    manager.allData.tests.filter(({ result }) => filter.includes(result.toLowerCase()))
+
+const doInitFilter = () => {
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+}
+
+const doFilter = (type, show) => {
+    if (show) {
+        storageModule.showCategory(type)
+    } else {
+        storageModule.hideCategory(type)
+    }
+
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+
+    const sortColumn = storageModule.getSort()
+    doSort(sortColumn, true)
+}
+
+module.exports = {
+    doFilter,
+    doInitFilter,
+}
+
+},{"./datamanager.js":1,"./sort.js":7,"./storage.js":8}],4:[function(require,module,exports){
+const { redraw, bindEvents, renderStatic } = require('./main.js')
+const { doInitFilter } = require('./filter.js')
+const { doInitSort } = require('./sort.js')
+const { manager } = require('./datamanager.js')
+const data = JSON.parse(document.getElementById('data-container').dataset.jsonblob)
+
+function init() {
+    manager.setManager(data)
+    doInitFilter()
+    doInitSort()
+    renderStatic()
+    redraw()
+    bindEvents()
+}
+
+init()
+
+},{"./datamanager.js":1,"./filter.js":3,"./main.js":5,"./sort.js":7}],5:[function(require,module,exports){
+const { dom, find, findAll } = require('./dom.js')
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const { doFilter } = require('./filter.js')
+const {
+    getVisible,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    getSortDirection,
+    possibleFilters,
+} = require('./storage.js')
+
+const removeChildren = (node) => {
+    while (node.firstChild) {
+        node.removeChild(node.firstChild)
+    }
+}
+
+const renderStatic = () => {
+    const renderEnvironmentTable = () => {
+        const environment = manager.environment
+        const rows = Object.keys(environment).map((key) => dom.getStaticRow(key, environment[key]))
+        const table = document.getElementById('environment')
+        removeChildren(table)
+        rows.forEach((row) => table.appendChild(row))
+    }
+    renderEnvironmentTable()
+}
+
+const addItemToggleListener = (elem) => {
+    elem.addEventListener('click', ({ target }) => {
+        const id = target.parentElement.dataset.id
+        manager.toggleCollapsedItem(id)
+
+        const collapsedIds = getCollapsedIds()
+        if (collapsedIds.includes(id)) {
+            const updated = collapsedIds.filter((item) => item !== id)
+            setCollapsedIds(updated)
+        } else {
+            collapsedIds.push(id)
+            setCollapsedIds(collapsedIds)
+        }
+        redraw()
+    })
+}
+
+const renderContent = (tests) => {
+    const sortAttr = getSort(manager.initialSort)
+    const sortAsc = JSON.parse(getSortDirection())
+    const rows = tests.map(dom.getResultTBody)
+    const table = document.getElementById('results-table')
+    const tableHeader = document.getElementById('results-table-head')
+
+    const newTable = document.createElement('table')
+    newTable.id = 'results-table'
+
+    // remove all sorting classes and set the relevant
+    findAll('.sortable', tableHeader).forEach((elem) => elem.classList.remove('asc', 'desc'))
+    tableHeader.querySelector(`.sortable[data-column-type="${sortAttr}"]`)?.classList.add(sortAsc ? 'desc' : 'asc')
+    newTable.appendChild(tableHeader)
+
+    if (!rows.length) {
+        const emptyTable = document.getElementById('template_results-table__body--empty').content.cloneNode(true)
+        newTable.appendChild(emptyTable)
+    } else {
+        rows.forEach((row) => {
+            if (!!row) {
+                findAll('.collapsible td:not(.col-links', row).forEach(addItemToggleListener)
+                find('.logexpander', row).addEventListener('click',
+                    (evt) => evt.target.parentNode.classList.toggle('expanded'),
+                )
+                newTable.appendChild(row)
+            }
+        })
+    }
+
+    table.replaceWith(newTable)
+}
+
+const renderDerived = () => {
+    const currentFilter = getVisible()
+    possibleFilters.forEach((result) => {
+        const input = document.querySelector(`input[data-test-result="${result}"]`)
+        input.checked = currentFilter.includes(result)
+    })
+}
+
+const bindEvents = () => {
+    const filterColumn = (evt) => {
+        const { target: element } = evt
+        const { testResult } = element.dataset
+
+        doFilter(testResult, element.checked)
+        const collapsedIds = getCollapsedIds()
+        const updated = manager.renderData.tests.map((test) => {
+            return {
+                ...test,
+                collapsed: collapsedIds.includes(test.id),
+            }
+        })
+        manager.setRender(updated)
+        redraw()
+    }
+
+    const header = document.getElementById('environment-header')
+    header.addEventListener('click', () => {
+        const table = document.getElementById('environment')
+        table.classList.toggle('hidden')
+        header.classList.toggle('collapsed')
+    })
+
+    findAll('input[name="filter_checkbox"]').forEach((elem) => {
+        elem.addEventListener('click', filterColumn)
+    })
+
+    findAll('.sortable').forEach((elem) => {
+        elem.addEventListener('click', (evt) => {
+            const { target: element } = evt
+            const { columnType } = element.dataset
+            doSort(columnType)
+            redraw()
+        })
+    })
+
+    document.getElementById('show_all_details').addEventListener('click', () => {
+        manager.allCollapsed = false
+        setCollapsedIds([])
+        redraw()
+    })
+    document.getElementById('hide_all_details').addEventListener('click', () => {
+        manager.allCollapsed = true
+        const allIds = manager.renderData.tests.map((test) => test.id)
+        setCollapsedIds(allIds)
+        redraw()
+    })
+}
+
+const redraw = () => {
+    const { testSubset } = manager
+
+    renderContent(testSubset)
+    renderDerived()
+}
+
+module.exports = {
+    redraw,
+    bindEvents,
+    renderStatic,
+}
+
+},{"./datamanager.js":1,"./dom.js":2,"./filter.js":3,"./sort.js":7,"./storage.js":8}],6:[function(require,module,exports){
+class MediaViewer {
+    constructor(assets) {
+        this.assets = assets
+        this.index = 0
+    }
+
+    nextActive() {
+        this.index = this.index === this.assets.length - 1 ? 0 : this.index + 1
+        return [this.activeFile, this.index]
+    }
+
+    prevActive() {
+        this.index = this.index === 0 ? this.assets.length - 1 : this.index -1
+        return [this.activeFile, this.index]
+    }
+
+    get currentIndex() {
+        return this.index
+    }
+
+    get activeFile() {
+        return this.assets[this.index]
+    }
+}
+
+
+const setup = (resultBody, assets) => {
+    if (!assets.length) {
+        resultBody.querySelector('.media').classList.add('hidden')
+        return
+    }
+
+    const mediaViewer = new MediaViewer(assets)
+    const container = resultBody.querySelector('.media-container')
+    const leftArrow = resultBody.querySelector('.media-container__nav--left')
+    const rightArrow = resultBody.querySelector('.media-container__nav--right')
+    const mediaName = resultBody.querySelector('.media__name')
+    const counter = resultBody.querySelector('.media__counter')
+    const imageEl = resultBody.querySelector('img')
+    const sourceEl = resultBody.querySelector('source')
+    const videoEl = resultBody.querySelector('video')
+
+    const setImg = (media, index) => {
+        if (media?.format_type === 'image') {
+            imageEl.src = media.path
+
+            imageEl.classList.remove('hidden')
+            videoEl.classList.add('hidden')
+        } else if (media?.format_type === 'video') {
+            sourceEl.src = media.path
+
+            videoEl.classList.remove('hidden')
+            imageEl.classList.add('hidden')
+        }
+
+        mediaName.innerText = media?.name
+        counter.innerText = `${index + 1} / ${assets.length}`
+    }
+    setImg(mediaViewer.activeFile, mediaViewer.currentIndex)
+
+    const moveLeft = () => {
+        const [media, index] = mediaViewer.prevActive()
+        setImg(media, index)
+    }
+    const doRight = () => {
+        const [media, index] = mediaViewer.nextActive()
+        setImg(media, index)
+    }
+    const openImg = () => {
+        window.open(mediaViewer.activeFile.path, '_blank')
+    }
+    if (assets.length === 1) {
+        container.classList.add('media-container--fullscreen')
+    } else {
+        leftArrow.addEventListener('click', moveLeft)
+        rightArrow.addEventListener('click', doRight)
+    }
+    imageEl.addEventListener('click', openImg)
+}
+
+module.exports = {
+    setup,
+}
+
+},{}],7:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const storageModule = require('./storage.js')
+
+const genericSort = (list, key, ascending, customOrder) => {
+    let sorted
+    if (customOrder) {
+        sorted = list.sort((a, b) => {
+            const aValue = a.result.toLowerCase()
+            const bValue = b.result.toLowerCase()
+
+            const aIndex = customOrder.findIndex((item) => item.toLowerCase() === aValue)
+            const bIndex = customOrder.findIndex((item) => item.toLowerCase() === bValue)
+
+            // Compare the indices to determine the sort order
+            return aIndex - bIndex
+        })
+    } else {
+        sorted = list.sort((a, b) => a[key] === b[key] ? 0 : a[key] > b[key] ? 1 : -1)
+    }
+
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const durationSort = (list, ascending) => {
+    const parseDuration = (duration) => {
+        if (duration.includes(':')) {
+            // If it's in the format "HH:mm:ss"
+            const [hours, minutes, seconds] = duration.split(':').map(Number)
+            return (hours * 3600 + minutes * 60 + seconds) * 1000
+        } else {
+            // If it's in the format "nnn ms"
+            return parseInt(duration)
+        }
+    }
+    const sorted = list.sort((a, b) => parseDuration(a['duration']) - parseDuration(b['duration']))
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const doInitSort = () => {
+    const type = storageModule.getSort(manager.initialSort)
+    const ascending = storageModule.getSortDirection()
+    const list = manager.testSubset
+    const initialOrder = ['Error', 'Failed', 'Rerun', 'XFailed', 'XPassed', 'Skipped', 'Passed']
+
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    if (type?.toLowerCase() === 'original') {
+        manager.setRender(list)
+    } else {
+        let sortedList
+        switch (type) {
+        case 'duration':
+            sortedList = durationSort(list, ascending)
+            break
+        case 'result':
+            sortedList = genericSort(list, type, ascending, initialOrder)
+            break
+        default:
+            sortedList = genericSort(list, type, ascending)
+            break
+        }
+        manager.setRender(sortedList)
+    }
+}
+
+const doSort = (type, skipDirection) => {
+    const newSortType = storageModule.getSort(manager.initialSort) !== type
+    const currentAsc = storageModule.getSortDirection()
+    let ascending
+    if (skipDirection) {
+        ascending = currentAsc
+    } else {
+        ascending = newSortType ? false : !currentAsc
+    }
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    const list = manager.testSubset
+    const sortedList = type === 'duration' ? durationSort(list, ascending) : genericSort(list, type, ascending)
+    manager.setRender(sortedList)
+}
+
+module.exports = {
+    doInitSort,
+    doSort,
+}
+
+},{"./datamanager.js":1,"./storage.js":8}],8:[function(require,module,exports){
+const possibleFilters = [
+    'passed',
+    'skipped',
+    'failed',
+    'error',
+    'xfailed',
+    'xpassed',
+    'rerun',
+]
+
+const getVisible = () => {
+    const url = new URL(window.location.href)
+    const settings = new URLSearchParams(url.search).get('visible')
+    const lower = (item) => {
+        const lowerItem = item.toLowerCase()
+        if (possibleFilters.includes(lowerItem)) {
+            return lowerItem
+        }
+        return null
+    }
+    return settings === null ?
+        possibleFilters :
+        [...new Set(settings?.split(',').map(lower).filter((item) => item))]
+}
+
+const hideCategory = (categoryToHide) => {
+    const url = new URL(window.location.href)
+    const visibleParams = new URLSearchParams(url.search).get('visible')
+    const currentVisible = visibleParams ? visibleParams.split(',') : [...possibleFilters]
+    const settings = [...new Set(currentVisible)].filter((f) => f !== categoryToHide).join(',')
+
+    url.searchParams.set('visible', settings)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const showCategory = (categoryToShow) => {
+    if (typeof window === 'undefined') {
+        return
+    }
+    const url = new URL(window.location.href)
+    const currentVisible = new URLSearchParams(url.search).get('visible')?.split(',').filter(Boolean) ||
+        [...possibleFilters]
+    const settings = [...new Set([categoryToShow, ...currentVisible])]
+    const noFilter = possibleFilters.length === settings.length || !settings.length
+
+    noFilter ? url.searchParams.delete('visible') : url.searchParams.set('visible', settings.join(','))
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getSort = (initialSort) => {
+    const url = new URL(window.location.href)
+    let sort = new URLSearchParams(url.search).get('sort')
+    if (!sort) {
+        sort = initialSort || 'result'
+    }
+    return sort
+}
+
+const setSort = (type) => {
+    const url = new URL(window.location.href)
+    url.searchParams.set('sort', type)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getCollapsedCategory = (renderCollapsed) => {
+    let categories
+    if (typeof window !== 'undefined') {
+        const url = new URL(window.location.href)
+        const collapsedItems = new URLSearchParams(url.search).get('collapsed')
+        switch (true) {
+        case !renderCollapsed && collapsedItems === null:
+            categories = ['passed']
+            break
+        case collapsedItems?.length === 0 || /^["']{2}$/.test(collapsedItems):
+            categories = []
+            break
+        case /^all$/.test(collapsedItems) || collapsedItems === null && /^all$/.test(renderCollapsed):
+            categories = [...possibleFilters]
+            break
+        default:
+            categories = collapsedItems?.split(',').map((item) => item.toLowerCase()) || renderCollapsed
+            break
+        }
+    } else {
+        categories = []
+    }
+    return categories
+}
+
+const getSortDirection = () => JSON.parse(sessionStorage.getItem('sortAsc')) || false
+const setSortDirection = (ascending) => sessionStorage.setItem('sortAsc', ascending)
+
+const getCollapsedIds = () => JSON.parse(sessionStorage.getItem('collapsedIds')) || []
+const setCollapsedIds = (list) => sessionStorage.setItem('collapsedIds', JSON.stringify(list))
+
+module.exports = {
+    getVisible,
+    hideCategory,
+    showCategory,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    setSort,
+    getSortDirection,
+    setSortDirection,
+    getCollapsedCategory,
+    possibleFilters,
+}
+
+},{}]},{},[4]);
+    </script>
+  </footer>
+</html>

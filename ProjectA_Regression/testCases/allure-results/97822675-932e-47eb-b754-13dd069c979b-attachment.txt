@@ -1,0 +1,13 @@
+[32mINFO    [0m test_run_video_requests_page:test_Suite_Controller.py:132 ===== Suite Controller: Fleet Video Requests Page =====
+[32mINFO    [0m test_video_requests_page:test_F_6_VideoRequestsPage.py:13 ===== Validating Video Requests Page presence =====
+[32mINFO    [0m test_video_requests_page:test_F_6_VideoRequestsPage.py:17  :  ✅ Video Requests Page is present.
+[32mINFO    [0m test_video_requests_page_table:test_F_6_VideoRequestsPage.py:27 ===== Validating Video Requests Table presence =====
+[32mINFO    [0m test_video_requests_page_table:test_F_6_VideoRequestsPage.py:31  :  ✅ Video Requests Table is present.
+[32mINFO    [0m test_video_requests_page_video_request:test_F_6_VideoRequestsPage.py:41 ===== Validating Request Video PopUp presence =====
+[32mINFO    [0m test_video_requests_page_video_request:test_F_6_VideoRequestsPage.py:45  :  ✅ Request Video PopUp is present.
+[32mINFO    [0m test_video_requests_page_filter:test_F_6_VideoRequestsPage.py:55 ===== Validating Video Requests Filter presence =====
+[32mINFO    [0m test_video_requests_page_filter:test_F_6_VideoRequestsPage.py:59  :  ✅ Video Requests Filter is present.
+[32mINFO    [0m test_video_requests_page_panic_btn_filter:test_F_6_VideoRequestsPage.py:69 ===== Validating Panic Button Filter presence =====
+[32mINFO    [0m test_video_requests_page_panic_btn_filter:test_F_6_VideoRequestsPage.py:73  :  ✅ Panic Button Filter is present.
+[32mINFO    [0m test_video_requests_page_event_on_demand_filter:test_F_6_VideoRequestsPage.py:83 ===== Validating Event On Demand Filter presence =====
+[32mINFO    [0m test_video_requests_page_event_on_demand_filter:test_F_6_VideoRequestsPage.py:87  :  ✅ Event On Demand Filter is present.

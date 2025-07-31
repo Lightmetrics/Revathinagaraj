@@ -1,0 +1,10 @@
+Sign-in
+🔆=====@ @ @ Running Full Suite for Customer @ @ @=====🔆
+===== Starting Admin Portal Login Test =====
+🔗 https://admin-qa.lightmetrics.co/statistics
+Expected Title: Admin Portal
+🌐 ✅ Actual Title: Admin Portal
+===== Starting Customer Selection and Master Portal Switch Test =====
+✅ Found TSP: Lmqatesting1
+Expected Title after switch: Master Portal
+ ✅ Actual Title after switch: Master Portal

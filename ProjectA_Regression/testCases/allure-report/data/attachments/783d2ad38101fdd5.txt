@@ -1,0 +1,14 @@
+[32mINFO    [0m test_run_master_portal:test_Suite_Controller.py:39 ===== Suite Controller: Master Portal =====
+[32mINFO    [0m test_validate_master_name:test_MasterPortal.py:14  ====== Validating Master Portal Name ======
+[32mINFO    [0m test_validate_master_name:MasterPortalPage.py:32 ****** 🌐 Master portal Name : lmqatesting1 ✅
+[32mINFO    [0m test_validate_master_name:test_MasterPortal.py:17  : ******* ✅  Master title is visible and correct.
+[32mINFO    [0m test_home_page_version:test_MasterPortal.py:27 === Starting Master Portal Version Validation Test ===
+[32mINFO    [0m test_home_page_version:MasterPortalPage.py:63 ************ Master Portal Version ************ :: v5.24.3 
+[32mINFO    [0m test_home_page_version:MasterPortalPage.py:65 ************ Manual Version ************ :: v5.0.0 
+[32mINFO    [0m test_home_page_version:MasterPortalPage.py:69  *********** Version result ******* :: False 
+[33mWARNING [0m test_home_page_version:MasterPortalPage.py:73 ************ Master portal version NOT matched ************ ❌
+[33mWARNING [0m test_home_page_version:MasterPortalPage.py:75 ********* Expected: v5.0.0 | Actual: v5.24.3 ❗❗
+[32mINFO    [0m test_home_page_version:test_MasterPortal.py:30 === ✅ Completed Master Portal Version Validation Test ===
+[32mINFO    [0m test_account_navigation_and_fleet_dashboard_launch:test_MasterPortal.py:38 ===== Test Case: Switch to Fleet Portal =====
+[32mINFO    [0m test_account_navigation_and_fleet_dashboard_launch:test_MasterPortal.py:40  : 🌐/🚀 *******  Starting test: Navigate to Account & Launch Fleet Dashboard
+[32mINFO    [0m test_account_navigation_and_fleet_dashboard_launch:test_MasterPortal.py:47  : ******* 🌐 ✅ Fleet Dashboard launched successfully. Title: RideView Fleet Portal

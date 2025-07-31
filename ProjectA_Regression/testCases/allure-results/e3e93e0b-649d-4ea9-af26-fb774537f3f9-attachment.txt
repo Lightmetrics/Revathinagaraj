@@ -1,0 +1,11 @@
+🔗 https://dashboard-qa.lightmetrics.co/drivers
+group
+Drivers ====>  ( Page matched ) 📑
+DRIVERS ====>  ( Tab matched ) ✅
+Driver List ====>  ( Table matched )
+Search for Driver ID/Name ====>  ( Search option matched )
+No tags found ====>  ( Filter matched )
+BATCH UPDATE
+NEW ====>  ( Button matched )
+EXPORT arrow_drop_down ====>  ( Button matched )
+Driver List CSV ====>  ( Buttons matched )

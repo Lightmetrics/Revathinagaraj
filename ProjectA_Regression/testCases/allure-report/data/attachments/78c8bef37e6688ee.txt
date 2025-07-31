@@ -1,0 +1,2 @@
+[32mINFO    [0m test_run_assets_page:test_Suite_Controller.py:199 ===== Suite Controller: Fleet Assets Page =====
+[32mINFO    [0m test_assets_page:test_F_10_AssetsPage.py:13 ===== Validating Assets Page presence =====

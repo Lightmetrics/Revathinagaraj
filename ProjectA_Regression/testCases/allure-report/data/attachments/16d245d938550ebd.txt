@@ -1,0 +1,9 @@
+[32mINFO    [0m test_run_safety_events_page:test_Suite_Controller.py:81 ===== Suite Controller: Fleet Safety Events Page =====
+[32mINFO    [0m test_safety_events_page_btn:test_F_2_SafetyEventsPage.py:15 ===== Validating Safety Events Button presence =====
+[32mINFO    [0m test_safety_events_page_btn:test_F_2_SafetyEventsPage.py:19  :  ✅ Safety Events button is present.
+[32mINFO    [0m test_safety_events_page_events_view:test_F_2_SafetyEventsPage.py:28 ===== Validating Events View card presence =====
+[32mINFO    [0m test_safety_events_page_events_view:test_F_2_SafetyEventsPage.py:32  :  ✅ Events View card is present.
+[32mINFO    [0m test_safety_events_page_filters:test_F_2_SafetyEventsPage.py:41 ===== Validating Safety Events filters presence =====
+[32mINFO    [0m test_safety_events_page_filters:test_F_2_SafetyEventsPage.py:45  :  ✅ View Safety Events filters is present.
+[32mINFO    [0m test_safety_events_navigation_to_tripdetails:test_F_2_SafetyEventsPage.py:55 ===== Validating Navigation to Trip Details page =====
+[32mINFO    [0m test_safety_events_navigation_to_tripdetails:test_F_2_SafetyEventsPage.py:59  :  ✅ Successfully navigated to Trip Details page.

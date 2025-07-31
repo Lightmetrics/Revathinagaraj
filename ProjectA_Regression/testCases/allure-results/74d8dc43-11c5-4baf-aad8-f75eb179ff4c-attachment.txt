@@ -1,0 +1,2 @@
+[32mINFO    [0m test_run_challenges_page:test_Suite_Controller.py:168 ===== Suite Controller: Fleet Challenges Page =====
+[32mINFO    [0m test_challenges_page:test_F_8_ChallengesPage.py:13 ===== Validating Challenges Page presence =====

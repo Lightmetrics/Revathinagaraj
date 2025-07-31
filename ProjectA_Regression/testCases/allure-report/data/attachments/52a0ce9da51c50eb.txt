@@ -1,0 +1,7 @@
+[32mINFO    [0m test_run_coaching_page:test_Suite_Controller.py:121 ===== Suite Controller: Fleet Coaching Page =====
+[32mINFO    [0m test_coaching_page_btn:test_F_5_CoachingPage.py:13 ===== Validating Coaching Page Button presence =====
+[32mINFO    [0m test_coaching_page_btn:test_F_5_CoachingPage.py:17  :  ✅ Coaching page button is present.
+[32mINFO    [0m test_coaching_page_coachable_drivers_table:test_F_5_CoachingPage.py:27 ===== Validating Coachable Drivers Table presence =====
+[32mINFO    [0m test_coaching_page_coachable_drivers_table:test_F_5_CoachingPage.py:31  :  ✅ Coachable Drivers Table is present.
+[32mINFO    [0m test_coaching_page_completed_coaching_sessions_table:test_F_5_CoachingPage.py:41 ===== Validating Completed Coaching Sessions Table presence =====
+[32mINFO    [0m test_coaching_page_completed_coaching_sessions_table:test_F_5_CoachingPage.py:45  :  ✅ Completed Coaching Sessions Table is present.

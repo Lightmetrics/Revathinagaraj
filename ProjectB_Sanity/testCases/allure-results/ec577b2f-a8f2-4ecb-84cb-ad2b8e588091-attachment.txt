@@ -1,0 +1,231 @@
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:29 🔆=====@ @ @ Running Full Suite for Customer: lmpresales @ @ @=====🔆
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:34 =====@ @ @ 🚪 Running Admin Portal for 🚪: lmpresales @ @ @=====(1)
+[32mINFO    [0m test_admin_login:test_AdminPage.py:11 ===== Test Case: Admin Portal Login =====
+[32mINFO    [0m test_admin_login:AdminPage.py:29  : ******* 🌐/🔐 Attempting login to Admin Page
+[32mINFO    [0m test_admin_login:AdminPage.py:38  : ******* 🌐 ✅ Logged in successfully. Page Title: Admin Portal
+[32mINFO    [0m test_admin_login:test_AdminPage.py:20 ✅ Actual Title: Admin Portal
+[32mINFO    [0m test_customer_selection_and_master_portal:test_AdminPage.py:29 ===== Test Case: Switch to Master Portal =====
+[32mINFO    [0m test_customer_selection_and_master_portal:AdminPage.py:46 👤 Selecting customer TSP : lmpresales
+[32mINFO    [0m test_customer_selection_and_master_portal:AdminPage.py:62 ✅ Found TSP option: Lmpresales
+[32mINFO    [0m test_customer_selection_and_master_portal:AdminPage.py:69  : ******* 🌐/🚀 Navigating to Master Portal
+[32mINFO    [0m test_customer_selection_and_master_portal:AdminPage.py:85  : ******* 🌐 ✅ Switched to Master Portal. Title: Master Portal
+[32mINFO    [0m test_customer_selection_and_master_portal:AdminPage.py:86  : ******* 🔗 Current URL: https://master.lightmetrics.co/admin-login?code=1132d143-7f07-412c-a52e-0a53adbc1072&state=lmpresales%20us-east-1
+[32mINFO    [0m test_customer_selection_and_master_portal:test_AdminPage.py:38 ✅ Actual Title after switch: Master Portal
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:43 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:45 =====@ @ @ 🧠 Running Master Portal for 🧠: lmpresales @ @ @=====(2)
+[32mINFO    [0m test_validate_master_name:test_MasterPortal.py:14  ====== Validating Master Portal Name ======
+[32mINFO    [0m test_validate_master_name:MasterPortalPage.py:33 ****** 🌐 Master portal Name : lmpresales ✅
+[32mINFO    [0m test_validate_master_name:test_MasterPortal.py:17  : ******* ✅  Master title is visible and correct.
+[32mINFO    [0m test_home_page_version:test_MasterPortal.py:27 === Starting Master Portal Version Validation Test ===
+[32mINFO    [0m test_home_page_version:MasterPortalPage.py:64 ************ Master Portal Version ************ :: v5.24.3 
+[32mINFO    [0m test_home_page_version:MasterPortalPage.py:66 ************ Manual Version ************ :: v5.0.0 
+[32mINFO    [0m test_home_page_version:MasterPortalPage.py:70  *********** Version result ******* :: False 
+[33mWARNING [0m test_home_page_version:MasterPortalPage.py:74 ************ Master portal version NOT matched ************ ❌
+[33mWARNING [0m test_home_page_version:MasterPortalPage.py:76 ********* Expected: v5.0.0 | Actual: v5.24.3 ❗❗
+[32mINFO    [0m test_home_page_version:test_MasterPortal.py:30 === ✅ Completed Master Portal Version Validation Test ===
+[32mINFO    [0m test_account_navigation_and_fleet_dashboard_launch:test_MasterPortal.py:38 ===== Test Case: Switch to Fleet Portal =====
+[32mINFO    [0m test_account_navigation_and_fleet_dashboard_launch:MasterPortalPage.py:108 🔄 Waiting for Fleet dashboard icons...
+[32mINFO    [0m test_account_navigation_and_fleet_dashboard_launch:MasterPortalPage.py:115 ✅ Found clickable fleet: open_in_new
+[32mINFO    [0m test_account_navigation_and_fleet_dashboard_launch:MasterPortalPage.py:118 🖱️ Clicked on Fleet Portal icon
+[32mINFO    [0m test_account_navigation_and_fleet_dashboard_launch:MasterPortalPage.py:124 🔁 Switched to Fleet Portal tab
+[32mINFO    [0m test_account_navigation_and_fleet_dashboard_launch:MasterPortalPage.py:129 ✅ Fleet Portal launched. Title: RideView Fleet Portal
+[32mINFO    [0m test_account_navigation_and_fleet_dashboard_launch:test_MasterPortal.py:49 ✅ Fleet Dashboard launched successfully. Title: RideView Fleet Portal
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:55 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:57 =====@ @ @ 🚛 Running Fleet Portal for 🚛: lmpresales @ @ @=====(3)
+[32mINFO    [0m test_validate_fleet_name:test_FleetPortal.py:14  : ====== Validating Fleet Portal Name ======
+[32mINFO    [0m test_validate_fleet_name:FleetPortalPage.py:41  ****** 🌐 Fleet portal name ****** : Michelin Connected Fleet ✅ 
+[32mINFO    [0m test_validate_fleet_name:test_FleetPortal.py:17  : ******* ✅ Fleet name is visible and correct.
+[32mINFO    [0m test_home_page_version:test_FleetPortal.py:26 === Starting Fleet Portal Version Validation Test ===
+[32mINFO    [0m test_home_page_version:FleetPortalPage.py:72 ************ Fleet Portal Version ************ :: v10.5.1 
+[32mINFO    [0m test_home_page_version:FleetPortalPage.py:74 ************ Manual Version ************ :: v9.0.0 
+[32mINFO    [0m test_home_page_version:FleetPortalPage.py:78  *********** Version result ******* :: False 
+[33mWARNING [0m test_home_page_version:FleetPortalPage.py:82 ************ Fleet portal version NOT matched ************ ❌
+[33mWARNING [0m test_home_page_version:FleetPortalPage.py:84 Expected: v9.0.0 | Actual: v10.5.1 ❗❗
+[32mINFO    [0m test_home_page_version:test_FleetPortal.py:29 === ✅ Completed Fleet Portal Version Validation Test ===
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:66 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:68 =====@ @ @ 🏠 Validating Fleet Home Page for 🏠: lmpresales @ @ @=====(4)
+[32mINFO    [0m test_validate_select_date_range:test_F_1_HomePage.py:15  : ===== Validating Select Date Range =====
+[32mINFO    [0m test_validate_select_date_range:test_F_1_HomePage.py:18  :  ✅ Select Date Range is functioning correctly.
+[32mINFO    [0m test_validate_trips_card_present:test_F_1_HomePage.py:27  : ===== Validating Trips Card =====
+[32mINFO    [0m test_validate_trips_card_present:test_F_1_HomePage.py:30  :  ✅ Trips card is present and displayed.
+[32mINFO    [0m test_validate_distance_card:test_F_1_HomePage.py:39  : ===== Validating Distance Card =====
+[32mINFO    [0m test_validate_distance_card:test_F_1_HomePage.py:42  :  ✅ Distance card is displayed correctly.
+[32mINFO    [0m test_validate_event_per_100_miles_card:test_F_1_HomePage.py:51  : ===== Validating Events Per 100 Miles Card =====
+[32mINFO    [0m test_validate_event_per_100_miles_card:test_F_1_HomePage.py:54  :  ✅ Events Per 100 Miles card is visible and validated.
+[32mINFO    [0m test_home_page_duration:test_F_1_HomePage.py:63  : ===== Validating Duration (Hours) Card =====
+[32mINFO    [0m test_home_page_duration:test_F_1_HomePage.py:66  :  ✅ Duration (Hours) card is displayed correctly.
+[32mINFO    [0m test_home_page_recommended_events:test_F_1_HomePage.py:75  : ===== Validating Recommended for Coaching Card =====
+[32mINFO    [0m test_home_page_recommended_events:test_F_1_HomePage.py:78  :  ✅ Recommended for Coaching card is displayed.
+[32mINFO    [0m test_home_page_top_drivers_card:test_F_1_HomePage.py:87  : ===== Validating Top Drivers Card =====
+[32mINFO    [0m test_home_page_top_drivers_card:test_F_1_HomePage.py:90  :  ✅ Top Drivers card is visible and validated.
+[32mINFO    [0m test_home_page_coachable_drivers_card:test_F_1_HomePage.py:99  : ===== Validating Coachable Drivers Card =====
+[32mINFO    [0m test_home_page_coachable_drivers_card:test_F_1_HomePage.py:102  :  ✅ Coachable Drivers card is present and validated.
+[32mINFO    [0m test_home_page_event_summary_card:test_F_1_HomePage.py:111  : ===== Validating Event Summary Card =====
+[32mINFO    [0m test_home_page_event_summary_card:test_F_1_HomePage.py:114  :  ✅ Event Summary card is displayed and validated.
+[32mINFO    [0m test_home_page_event_trend_card:test_F_1_HomePage.py:123  : ===== Validating Event Trend Card =====
+[32mINFO    [0m test_home_page_event_trend_card:test_F_1_HomePage.py:126  :  ✅ Event Trend card is present and validated.
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:85 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:87 =====@ @ @ 🛡️ Validating Safety Events Page for 🛡️: lmpresales @ @ @=====(5)
+[32mINFO    [0m test_safety_events_page_btn:test_F_2_SafetyEventsPage.py:15 ===== Validating Safety Events Button presence =====
+[32mINFO    [0m test_safety_events_page_btn:test_F_2_SafetyEventsPage.py:19  :  ✅ Safety Events button is present.
+[32mINFO    [0m test_safety_events_page_events_view:test_F_2_SafetyEventsPage.py:28 ===== Validating Events View card presence =====
+[32mINFO    [0m test_safety_events_page_events_view:test_F_2_SafetyEventsPage.py:32  :  ✅ Events View card is present.
+[32mINFO    [0m test_safety_events_page_filters:test_F_2_SafetyEventsPage.py:41 ===== Validating Safety Events filters presence =====
+[32mINFO    [0m test_safety_events_page_filters:test_F_2_SafetyEventsPage.py:45  :  ✅ View Safety Events filters is present.
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:97 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:99 =====@ @ @ 🚗 Validating Trips Page for 🚗: lmpresales @ @ @=====(6)
+[32mINFO    [0m test_trips_page_btn:test_F_3_TripsPage.py:14 ===== Validating Trips Button presence =====
+[32mINFO    [0m test_trips_page_btn:test_F_3_TripsPage.py:18  :  ✅ Trips page button is present.
+[32mINFO    [0m test_trips_page_trips_tab:test_F_3_TripsPage.py:28 ===== Validating Trips Tab presence =====
+[32mINFO    [0m test_trips_page_trips_tab:test_F_3_TripsPage.py:32  :  ✅ Trips Tab is present.
+[32mINFO    [0m test_trips_page_trip_filter_card:test_F_3_TripsPage.py:42 ===== Validating Trips Filter Card presence =====
+[32mINFO    [0m test_trips_page_trip_filter_card:test_F_3_TripsPage.py:46  :  ✅ Trips Filter Card is present.
+[32mINFO    [0m test_trips_page_trips_list_table:test_F_3_TripsPage.py:56 ===== Validating Trips List Table presence =====
+[32mINFO    [0m test_trips_page_trips_list_table:test_F_3_TripsPage.py:60  :  ✅ Trips List Table is present.
+[32mINFO    [0m test_trips_page_bulk_edit:test_F_3_TripsPage.py:70 ===== Validating Bulk Edit presence =====
+[32mINFO    [0m test_trips_page_bulk_edit:test_F_3_TripsPage.py:74  :  ✅ Bulk Edit option is present.
+[32mINFO    [0m test_trips_page_export_trips:test_F_3_TripsPage.py:84 ===== Validating Export Trips presence =====
+[32mINFO    [0m test_trips_page_export_trips:test_F_3_TripsPage.py:88  :  ✅ Export Trips option is present.
+[32mINFO    [0m test_trips_page_active_drivers_tab:test_F_3_TripsPage.py:98 ===== Validating Active Drivers Tab presence =====
+[32mINFO    [0m test_trips_page_active_drivers_tab:test_F_3_TripsPage.py:102  :  ✅ Active Drivers Tab is present.
+[32mINFO    [0m test_trips_page_manage_tab:test_F_3_TripsPage.py:112 ===== Validating Manage Tab presence =====
+[32mINFO    [0m test_trips_page_manage_tab:test_F_3_TripsPage.py:116  :  ✅ Manage Tab is present.
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:114 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:116 =====@ @ @ 📺 Validating Live View Page for 📺: lmpresales @ @ @=====(7)
+[32mINFO    [0m test_live_view_page_btn:test_F_4_LiveViewPage.py:13 ===== Validating Live View Button presence =====
+[32mINFO    [0m test_live_view_page_btn:test_F_4_LiveViewPage.py:17  :  ✅ Live View page button is present.
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:124 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:126 =====@ @ @ 🏆 Validating Coaching Page for 🏆: lmpresales @ @ @=====(8)
+[32mINFO    [0m test_coaching_page_btn:test_F_5_CoachingPage.py:13 ===== Validating Coaching Page Button presence =====
+[32mINFO    [0m test_coaching_page_btn:test_F_5_CoachingPage.py:17  :  ✅ Coaching page button is present.
+[32mINFO    [0m test_coaching_page_coachable_drivers_table:test_F_5_CoachingPage.py:27 ===== Validating Coachable Drivers Table presence =====
+[32mINFO    [0m test_coaching_page_coachable_drivers_table:test_F_5_CoachingPage.py:31  :  ✅ Coachable Drivers Table is present.
+[32mINFO    [0m test_coaching_page_completed_coaching_sessions_table:test_F_5_CoachingPage.py:41 ===== Validating Completed Coaching Sessions Table presence =====
+[32mINFO    [0m test_coaching_page_completed_coaching_sessions_table:test_F_5_CoachingPage.py:45  :  ✅ Completed Coaching Sessions Table is present.
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:136 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:138 =====@ @ @ 🎥 Validating Video Requests Page for 🎥: lmpresales @ @ @=====(9)
+[32mINFO    [0m test_video_requests_page:test_F_6_VideoRequestsPage.py:13 ===== Validating Video Requests Page presence =====
+[32mINFO    [0m test_video_requests_page:test_F_6_VideoRequestsPage.py:17  :  ✅ Video Requests Page is present.
+[32mINFO    [0m test_video_requests_page_table:test_F_6_VideoRequestsPage.py:27 ===== Validating Video Requests Table presence =====
+[32mINFO    [0m test_video_requests_page_table:test_F_6_VideoRequestsPage.py:31  :  ✅ Video Requests Table is present.
+[32mINFO    [0m test_video_requests_page_video_request:test_F_6_VideoRequestsPage.py:41 ===== Validating Request Video PopUp presence =====
+[32mINFO    [0m test_video_requests_page_video_request:test_F_6_VideoRequestsPage.py:45  :  ✅ Request Video PopUp is present.
+[32mINFO    [0m test_video_requests_page_filter:test_F_6_VideoRequestsPage.py:55 ===== Validating Video Requests Filter presence =====
+[32mINFO    [0m test_video_requests_page_filter:test_F_6_VideoRequestsPage.py:59  :  ✅ Video Requests Filter is present.
+[32mINFO    [0m test_video_requests_page_panic_btn_filter:test_F_6_VideoRequestsPage.py:69 ===== Validating Panic Button Filter presence =====
+[32mINFO    [0m test_video_requests_page_panic_btn_filter:test_F_6_VideoRequestsPage.py:73  :  ✅ Panic Button Filter is present.
+[32mINFO    [0m test_video_requests_page_event_on_demand_filter:test_F_6_VideoRequestsPage.py:83 ===== Validating Event On Demand Filter presence =====
+[32mINFO    [0m test_video_requests_page_event_on_demand_filter:test_F_6_VideoRequestsPage.py:87  :  ✅ Event On Demand Filter is present.
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:151 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:153 =====@ @ @ 👥 Validating Drivers Page for 👥: lmpresales @ @ @=====(10)
+[32mINFO    [0m test_drivers_page:test_F_7_DriversPage.py:14 ===== Validating Drivers Page presence =====
+[32mINFO    [0m test_drivers_page:test_F_7_DriversPage.py:18  :  ✅ Drivers Page is present.
+[32mINFO    [0m test_drivers_page_driver_list_table:test_F_7_DriversPage.py:27 ===== Validating Driver List Table presence =====
+[32mINFO    [0m test_drivers_page_driver_list_table:test_F_7_DriversPage.py:31  :  ✅ Driver List Table is present.
+[32mINFO    [0m test_drivers_page_search_driver_opt:test_F_7_DriversPage.py:40 ===== Validating Search Driver Option presence =====
+[32mINFO    [0m test_drivers_page_search_driver_opt:test_F_7_DriversPage.py:44  :  ✅ Search Driver is present.
+[32mINFO    [0m test_drivers_page_batch_update_btn:test_F_7_DriversPage.py:53 ===== Validating Batch Update Button presence =====
+[32mINFO    [0m test_drivers_page_batch_update_btn:test_F_7_DriversPage.py:57  :  ✅ Batch Update Button is present.
+[32mINFO    [0m test_drivers_page_export_button:test_F_7_DriversPage.py:66 ===== Validating Export Button presence =====
+[32mINFO    [0m test_drivers_page_export_button:test_F_7_DriversPage.py:70  :  ✅ Export Button is present.
+[32mINFO    [0m test_drivers_page_add_images_option:test_F_7_DriversPage.py:79 ===== Validating Add Images Option presence =====
+[32mINFO    [0m test_drivers_page_add_images_option:test_F_7_DriversPage.py:83  :  ✅ Add Images Option is present.
+[32mINFO    [0m test_drivers_page_verify_driver_name:test_F_7_DriversPage.py:92 ===== Verifying Driver Name Availability =====
+[32mINFO    [0m test_drivers_page_verify_driver_name:test_F_7_DriversPage.py:96  :  ✅ Driver name already exists.
+[32mINFO    [0m test_drivers_page_check_box_validation:test_F_7_DriversPage.py:105 ===== Validating Check Box Selection =====
+[32mINFO    [0m test_drivers_page_check_box_validation:test_F_7_DriversPage.py:109  :  ✅ Check Box Selection is successful.
+[32mINFO    [0m test_drivers_page_installers_tab:test_F_7_DriversPage.py:118 ===== Validating Installers Tab presence =====
+[32mINFO    [0m test_drivers_page_installers_tab:test_F_7_DriversPage.py:122  :  ✅ Installers Tab is present.
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:169 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:171 =====@ @ @ 🏅 Validating Challenges Page for 🏅: lmpresales @ @ @=====(11)
+[32mINFO    [0m test_challenges_page:test_F_8_ChallengesPage.py:13 ===== Validating Challenges Page presence =====
+[32mINFO    [0m test_challenges_page:test_F_8_ChallengesPage.py:17  :  ✅ Challenges Page is present.
+[32mINFO    [0m test_challenges_page_challenged_events_table:test_F_8_ChallengesPage.py:27 ===== Validating Challenged Events Table presence =====
+[32mINFO    [0m test_challenges_page_challenged_events_table:test_F_8_ChallengesPage.py:31  :  ✅ Challenged Events Table is present.
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:180 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:182 =====@ @ @ 📊 Validating Reports Page for 📊: lmpresales @ @ @=====(12)
+[32mINFO    [0m test_reports_page:test_F_9_ReportsPage.py:13 ===== Validating Reports Page presence =====
+[32mINFO    [0m test_reports_page:test_F_9_ReportsPage.py:17  :  ✅ Reports Page is present.
+[32mINFO    [0m test_reports_page_fleet_safety_view_report:test_F_9_ReportsPage.py:26 ===== Validating Fleet Safety View Report presence =====
+[32mINFO    [0m test_reports_page_fleet_safety_view_report:test_F_9_ReportsPage.py:30  :  ✅ Fleet Safety View Report is present.
+[32mINFO    [0m test_reports_page_Coaching_session_report:test_F_9_ReportsPage.py:68 ===== Validating Coaching Session Report presence =====
+[32mINFO    [0m test_reports_page_Coaching_session_report:test_F_9_ReportsPage.py:72  :  ✅ Coaching Session Report is present.
+[32mINFO    [0m test_reports_page_coaching_effectiveness_report:test_F_9_ReportsPage.py:81 ===== Validating Coaching Effectiveness Report presence =====
+[32mINFO    [0m test_reports_page_coaching_effectiveness_report:test_F_9_ReportsPage.py:85  :  ✅ Coaching Effectiveness Report is present.
+[32mINFO    [0m test_reports_page_event_list_report:test_F_9_ReportsPage.py:95 ===== Validating Event List Report presence =====
+[32mINFO    [0m test_reports_page_event_list_report:test_F_9_ReportsPage.py:99  :  ✅ Event List Report is present.
+[32mINFO    [0m test_reports_page_driver_privacy_mode_report:test_F_9_ReportsPage.py:108 ===== Validating Driver Privacy Mode Report presence =====
+[32mINFO    [0m test_reports_page_driver_privacy_mode_report:test_F_9_ReportsPage.py:112  :  ✅ Driver Privacy Mode Report is present.
+[32mINFO    [0m test_reports_page_event_count_report:test_F_9_ReportsPage.py:121 ===== Validating Event Count Report presence =====
+[32mINFO    [0m test_reports_page_event_count_report:test_F_9_ReportsPage.py:125  :  ✅ Event Count Report is present.
+[32mINFO    [0m test_reports_page_export_history_tab:test_F_9_ReportsPage.py:135 ===== Validating Export History Tab presence =====
+[32mINFO    [0m test_reports_page_export_history_tab:test_F_9_ReportsPage.py:139  :  ✅ Export History Tab is present.
+[32mINFO    [0m test_reports_page_scheduled_tab:test_F_9_ReportsPage.py:149 ===== Validating Scheduled Tab presence =====
+[32mINFO    [0m test_reports_page_scheduled_tab:test_F_9_ReportsPage.py:153  :  ✅ Scheduled Tab is present.
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:200 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:202 =====@ @ @ 🚚 Validating Assets Page for 🚚: lmpresales @ @ @=====(13)
+[32mINFO    [0m test_assets_page:test_F_10_AssetsPage.py:13 ===== Validating Assets Page presence =====
+[32mINFO    [0m test_assets_page:test_F_10_AssetsPage.py:17  :  ✅ Assets Page is present.
+[32mINFO    [0m test_assets_page_overview_tab:test_F_10_AssetsPage.py:26 ===== Validating Assets Page Overview Tab presence =====
+[32mINFO    [0m test_assets_page_overview_tab:test_F_10_AssetsPage.py:30  :  ✅ Overview Tab is present.
+[32mINFO    [0m test_assets_page_manage_assets_tab:test_F_10_AssetsPage.py:40 ===== Validating Manage Assets Tab presence =====
+[32mINFO    [0m test_assets_page_manage_assets_tab:test_F_10_AssetsPage.py:44  :  ✅ Manage Assets Tab is present.
+[32mINFO    [0m test_assets_page_devices_tab:test_F_10_AssetsPage.py:54 ===== Validating Devices Tab presence =====
+[32mINFO    [0m test_assets_page_devices_tab:test_F_10_AssetsPage.py:58  :  ✅ Devices Tab is present.
+[32mINFO    [0m test_assets_page_diagnostics_tab:test_F_10_AssetsPage.py:68 ===== Validating Diagnostics Tab presence =====
+[32mINFO    [0m test_assets_page_diagnostics_tab:test_F_10_AssetsPage.py:72  :  ✅ Diagnostics Tab is present.
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:214 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:216 =====@ @ @ 👤 Validating Users Page for 👤: lmpresales @ @ @=====(14)
+[32mINFO    [0m test_users_page:test_F_11_UsersPage.py:14 ===== Validating Users Page presence =====
+[32mINFO    [0m test_users_page:test_F_11_UsersPage.py:18  :  ✅ Users Page is present.
+[32mINFO    [0m test_users_tab:test_F_11_UsersPage.py:28 ===== Validating Users Tab presence =====
+[32mINFO    [0m test_users_tab:test_F_11_UsersPage.py:32  :  ✅ Users Tab is present.
+[32mINFO    [0m test_users_page_roles_tab:test_F_11_UsersPage.py:56 ===== Validating Roles Tab presence =====
+[32mINFO    [0m test_users_page_roles_tab:test_F_11_UsersPage.py:60  :  ✅ Roles Tab is present.
+[32mINFO    [0m test_users_page_user_activity_log_tab:test_F_11_UsersPage.py:83 ===== Validating User Activity Log Tab presence =====
+[32mINFO    [0m test_users_page_user_activity_log_tab:test_F_11_UsersPage.py:87  :  ✅ User Activity Log Tab is present.
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:229 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:231 =====@ @ @ ⚙️ Validating Configurations Page for ⚙️: lmpresales @ @ @=====(15)
+[32mINFO    [0m test_configurations_page:test_F_12_ConfigurationsPage.py:14 ===== Validating Fleet Configurations Page Test =====
+[32mINFO    [0m test_configurations_page:test_F_12_ConfigurationsPage.py:18  :  ✅ Configurations Page is present.
+[32mINFO    [0m test_configurations_page_basic_configurations_table:test_F_12_ConfigurationsPage.py:28 ===== Validating Basic Configurations Table Test =====
+[32mINFO    [0m test_configurations_page_basic_configurations_table:test_F_12_ConfigurationsPage.py:32  :  ✅ Basic Configurations Table is present.
+[32mINFO    [0m test_configurations_page_advanced_tab:test_F_12_ConfigurationsPage.py:42 ===== Validating Advanced Tab Test =====
+[32mINFO    [0m test_configurations_page_advanced_tab:test_F_12_ConfigurationsPage.py:46  :  ✅ Advanced Tab is present.
+[32mINFO    [0m test_configurations_page_coaching_tab:test_F_12_ConfigurationsPage.py:56 ===== Validating Coaching Tab Test =====
+[32mINFO    [0m test_configurations_page_coaching_tab:test_F_12_ConfigurationsPage.py:60  :  ✅ Coaching Tab is present.
+[32mINFO    [0m test_configurations_page_tagging_tab:test_F_12_ConfigurationsPage.py:70 ===== Validating Tagging Tab Test =====
+[32mINFO    [0m test_configurations_page_tagging_tab:test_F_12_ConfigurationsPage.py:74  :  ✅ Tagging Tab is present.
+[32mINFO    [0m test_configurations_page_entities_page:test_F_12_ConfigurationsPage.py:110 ===== Validating Entities Page Test =====
+[32mINFO    [0m test_configurations_page_entities_page:test_F_12_ConfigurationsPage.py:114  :  ✅ Entities Page is present.
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:245 🔆✅ ✅ =====@ Full suite passed for customer: lmpresales @===== ✅ ✅🔆
+[32mINFO    [0m test_run_full_suite_for_customer:test_Suite_Controller.py:247 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,2 @@
+[32mINFO    [0m test_run_configurations_page:test_Suite_Controller.py:230 ===== Suite Controller: Fleet Configurations Page =====
+[32mINFO    [0m test_configurations_page:test_F_12_ConfigurationsPage.py:14 ===== Validating Fleet Configurations Page Test =====
