@@ -1,0 +1,19 @@
+[32mINFO    [0m test_run_fleet_home_page:test_Suite_Controller.py:61 ===== Suite Controller: Fleet Home Page =====
+[32mINFO    [0m test_validate_select_date_range:test_F_1_HomePage.py:15  : ===== Validating Select Date Range =====
+[32mINFO    [0m test_validate_select_date_range:test_F_1_HomePage.py:18  :  ✅ Select Date Range is functioning correctly.
+[32mINFO    [0m test_validate_trips_card_present:test_F_1_HomePage.py:27  : ===== Validating Trips Card =====
+[32mINFO    [0m test_validate_trips_card_present:test_F_1_HomePage.py:30  :  ✅ Trips card is present and displayed.
+[32mINFO    [0m test_validate_distance_card:test_F_1_HomePage.py:39  : ===== Validating Distance Card =====
+[32mINFO    [0m test_validate_distance_card:test_F_1_HomePage.py:42  :  ✅ Distance card is displayed correctly.
+[32mINFO    [0m test_validate_event_per_100_miles_card:test_F_1_HomePage.py:51  : ===== Validating Events Per 100 Miles Card =====
+[32mINFO    [0m test_validate_event_per_100_miles_card:test_F_1_HomePage.py:54  :  ✅ Events Per 100 Miles card is visible and validated.
+[32mINFO    [0m test_home_page_duration:test_F_1_HomePage.py:63  : ===== Validating Duration (Hours) Card =====
+[32mINFO    [0m test_home_page_duration:test_F_1_HomePage.py:66  :  ✅ Duration (Hours) card is displayed correctly.
+[32mINFO    [0m test_home_page_top_drivers_card:test_F_1_HomePage.py:111  : ===== Validating Top Drivers Card =====
+[32mINFO    [0m test_home_page_top_drivers_card:test_F_1_HomePage.py:114  :  ✅ Top Drivers card is visible and validated.
+[32mINFO    [0m test_home_page_coachable_drivers_card:test_F_1_HomePage.py:123  : ===== Validating Coachable Drivers Card =====
+[32mINFO    [0m test_home_page_coachable_drivers_card:test_F_1_HomePage.py:126  :  ✅ Coachable Drivers card is present and validated.
+[32mINFO    [0m test_home_page_event_summary_card:test_F_1_HomePage.py:135  : ===== Validating Event Summary Card =====
+[32mINFO    [0m test_home_page_event_summary_card:test_F_1_HomePage.py:138  :  ✅ Event Summary card is displayed and validated.
+[32mINFO    [0m test_home_page_event_trend_card:test_F_1_HomePage.py:147  : ===== Validating Event Trend Card =====
+[32mINFO    [0m test_home_page_event_trend_card:test_F_1_HomePage.py:150  :  ✅ Event Trend card is present and validated.

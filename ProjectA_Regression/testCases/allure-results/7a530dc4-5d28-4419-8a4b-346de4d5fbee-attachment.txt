@@ -1,0 +1,24 @@
+local_shipping
+Assets ====> ( Page matched ) 📑
+🔗 https://dashboard.lightmetrics.co/assets
+OVERVIEW ====> ( Tab matched ) ✅
+Asset List ====> ( Table matched )
+SHOW FILTERS ====> ( Button matched )
+Select Filter Type ====> ( Filter matched )
+Asset ID/Name ====> ( Filter matched )
+HIDE FILTERS ====> ( Button matched )
+EXPORT ASSETS ====> ( Button matched )
+MANAGE ASSETS ====> ( Tab matched ) ✅ 
+Batch Update ====> ( Card matched )
+Batch Provisioning ====> ( Card matched )
+DEVICES ====> ( Tab matched ) ✅ 
+Semi-Provisioned Devices ====> ( Table matched )
+DIAGNOSTICS
+(BETA) ====> ( Tab matched ) ✅ 
+DEVICES
+9 ====> ( Card matched )
+DEVICE WITH EVENTS
+9 ====> ( Card matched )
+Camera Visibility Events ====> ( Page matched )
+Device Diagnostic Events ====> ( Page matched )
+Device Online Status ====> ( Page matched )

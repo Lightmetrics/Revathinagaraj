@@ -1,0 +1,9 @@
+[32mINFO    [0m test_run_users_page:test_Suite_Controller.py:220 ===== Suite Controller: Fleet Users Page =====
+[32mINFO    [0m test_users_page:test_F_11_UsersPage.py:14 ===== Validating Users Page presence =====
+[32mINFO    [0m test_users_page:test_F_11_UsersPage.py:18  :  ✅ Users Page is present.
+[32mINFO    [0m test_users_tab:test_F_11_UsersPage.py:28 ===== Validating Users Tab presence =====
+[32mINFO    [0m test_users_tab:test_F_11_UsersPage.py:32  :  ✅ Users Tab is present.
+[32mINFO    [0m test_users_page_roles_tab:test_F_11_UsersPage.py:56 ===== Validating Roles Tab presence =====
+[32mINFO    [0m test_users_page_roles_tab:test_F_11_UsersPage.py:60  :  ✅ Roles Tab is present.
+[32mINFO    [0m test_users_page_user_activity_log_tab:test_F_11_UsersPage.py:83 ===== Validating User Activity Log Tab presence =====
+[32mINFO    [0m test_users_page_user_activity_log_tab:test_F_11_UsersPage.py:87  :  ✅ User Activity Log Tab is present.

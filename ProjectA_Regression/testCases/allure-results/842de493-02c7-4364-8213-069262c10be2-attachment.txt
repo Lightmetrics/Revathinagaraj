@@ -1,0 +1,9 @@
+🔗 https://master.lightmetrics.co/home
+🌐 Master portal Name  : lmpresales ✅
+Master Portal Version :: v5.27.0 
+Manual Version :: v5.27.0 
+Version result :: True 
+************ Master portal version matched ************ ✅
+🌐/🚀 Navigate to Account & Launch Fleet Dashboard
+🔗 https://dashboard.lightmetrics.co/admin-login?code=a9b6ecbc-9f20-4f42-849a-68a274b985a8&state=lmpresales+acmetransport+us-east-1
+🌐 ✅ Fleet Dashboard launched successfully. Title: RideView Fleet Portal

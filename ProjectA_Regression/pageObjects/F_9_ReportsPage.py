@@ -2,7 +2,6 @@ import time
 from selenium.webdriver.common.by import By
 
 from ProjectA_Regression.pageObjects.Locators_Fleet import FleetPortal_Locators
-from telnetlib import EC
 import pytest
 from selenium.common import NoSuchElementException
 from selenium.webdriver.support.ui import WebDriverWait

@@ -1,0 +1,27 @@
+🔗 https://dashboard.lightmetrics.co/reports
+description
+Reports ====> ( Page matched ) 📑
+OVERVIEW ====> ( Tab matched ) ✅
+Coaching Session Report ====> ( Card matched )
+View ====> ( Button matched )
+📄/🚀 ✅ Successfully launched 'Coaching Session Report' Page, from the 'Coaching Session' card.
+Select Driver ====> ( Filter matched )
+Coaching Session ====> ( Filter matched )
+Schedule ====> ( Button matched )
+📄/🚀 ✅ Successfully launched 'Create Schedule Reports' Page, from the 'Coaching Session' card.
+Coaching Effectiveness (Driver) ====> ( Card matched )
+View ====> ( Button matched )
+📄/🚀 ✅ Successfully launched 'Coaching Effectiveness Report' Page, from the 'Coaching Effectiveness' card.
+Select Driver ====> ( Filter matched )
+Coaching Session ====> ( Filter matched )
+Fleet Safety Report ====> ( Card matched )
+View ====> ( Button matched )
+📄/🚀 ✅ Successfully launched 'Fleet Safety Report' Page, from the 'Fleet Safety' card.
+ ====> ( Button matched )
+EXPORT HISTORY ====> ( Tab matched ) ✅
+Export History info_outline ====> ( Table matched )
+Select Request Type ====> ( Filter matched )
+Select Duration ====> ( Filter matched )
+SCHEDULED ====> ( Tab matched ) ✅
+CREATE SCHEDULE ====> ( Button matched )
+📄/🚀 ✅ Successfully launched 'Create Schedule Reports' Page, from the 'Scheduled' tab.

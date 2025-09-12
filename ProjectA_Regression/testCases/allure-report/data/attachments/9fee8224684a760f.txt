@@ -1,0 +1,3 @@
+[32mINFO    [0m test_run_fleet_live_view_page:test_Suite_Controller.py:110 ===== Suite Controller: Fleet Live View Page =====
+[32mINFO    [0m test_live_view_page_btn:test_F_4_LiveViewPage.py:13 ===== Validating Live View Button presence =====
+[32mINFO    [0m test_live_view_page_btn:test_F_4_LiveViewPage.py:17  :  ✅ Live View page button is present.

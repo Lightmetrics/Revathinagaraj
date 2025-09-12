@@ -1,0 +1,22 @@
+🔗 https://dashboard.lightmetrics.co/configurations
+video_settings
+Configurations ====> ( Page matched )
+BASIC ====> ( Tab matched )
+Basic Configurations ====> ( Table matched )
+APPLY DEFAULTS ====> ( Button matched )
+Heavy ====> ( Duty type matched )
+Medium ====> ( Duty type matched )
+Light ====> ( Duty type matched )
+ADVANCED ====> ( Tab matched )
+Advanced Configurations ====> ( Table matched )
+APPLY DEFAULTS ====> ( Button matched )
+Heavy ====> ( Duty type matched )
+Medium ====> ( Duty type matched )
+Light ====> ( Duty type matched )
+Driver Configurations ====> ( Table matched )
+COACHING ====> ( Tab matched )
+Coaching Thresholds ====> ( Table matched )
+Automated Triaging ====> ( Table matched )
+TAGGING ====> ( Tab matched )
+Overview ====> ( Table matched )
+🔆✅ ✅ =====@ Full suite passed for customer @===== ✅ ✅🔆

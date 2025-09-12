@@ -1,0 +1,12 @@
+manage_accounts
+Users ====> ( Page matched )
+🔗 https://dashboard.lightmetrics.co/user-management
+USERS ====> ( Tab matched )
+Manage Users ====> ( Table matched )
+ADD USER ====> ( Button matched )
+ROLES ====> ( Tab matched )
+Manage Roles ====> ( Table matched )
+VIEW HIERARCHY ====> ( Button matched )
+ADD ROLE ====> ( Button matched )
+ACTIVITY LOG ====> ( Tab matched )
+User Activity Logs ====> ( Table matched )

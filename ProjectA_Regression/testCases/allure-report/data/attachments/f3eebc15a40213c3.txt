@@ -1,0 +1,27 @@
+🔗 https://dashboard.lightmetrics.co/trips
+location_on
+Trips ====>  ( Page matched ) 📑
+TRIPS ====>  ( Tab matched ) ✅
+Trip Filter ====>  ( Card matched )
+Past 30 days ====>  ( Selected Date Range )
+Filter Type * ====>  ( Filter type matched )
+Driver ID/Name ====>  ( Filter type matched )
+Select Tags ====>  ( Filter type matched )
+Trip List
+(2577 Trips) ====>  ( Table matched )
+Bulk Trip Edit ====>  ( Button matched )
+✏️/🚀 ✅  Successfully launched 'Bulk Edit' page, from the 'Trips' page.
+EXPORT OPTIONS arrow_drop_down ====>  ( Button matched )
+Export Now ====>  ( Button matched )
+Your file download is currently being processed and will be available for download shortly.  :: 📥/🔔 ✅ Download Status (Info notification) matched
+VIEW DOWNLOADS ====>  ( Button matched )
+📥/🚀 ✅ Successfully navigated to the 'Download History' Page, from the 'Export Trips' option.
+Schedule ====>  ( Button matched )
+🗓️/🚀 ✅ Successfully navigated to the 'Schedule Reports' page, from the export 'Schedule Trips' option.
+ACTIVE DRIVERS ====>  ( Tab matched ) ✅
+Active Driver Filter ====>  ( Card matched )
+Past 30 days ====>  ( Selected Date Range )
+Select Tags ====>  ( Filter type matched )
+Active Drivers info_outline ====>  ( Table matched )
+MANAGE ====>  ( Tab matched ) ✅
+Bulk Updation Log ====>  ( Table matched )

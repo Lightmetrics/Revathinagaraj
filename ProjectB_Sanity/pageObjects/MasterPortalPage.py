@@ -59,7 +59,7 @@ class MasterPortalPage:
         try:
             version_element = self.driver.find_element(*MasterPortalPage.master_portal_version)
             text_version_str = version_element.text.strip()
-            manual_version_str = "v5.0.0"  # Expected version
+            manual_version_str = "v5.25.0"  # Expected version
 
             log.info("************ Master Portal Version ************ :: %s " % text_version_str)
             print("Master Portal Version :: %s " % text_version_str)

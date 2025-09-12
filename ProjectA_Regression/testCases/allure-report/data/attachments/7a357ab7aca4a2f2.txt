@@ -1,0 +1,7 @@
+🔗 https://dashboard.lightmetrics.co/challenges
+content_paste_search
+Challenges ====> ( Page matched ) 📑
+Past 30 days ====> ( Selected Date Range )
+Select Event Type ====>  ( Filter type matched )
+Challenge Status ====>  ( Filter type matched )
+Challenged Events info_outline ====> ( Table matched )

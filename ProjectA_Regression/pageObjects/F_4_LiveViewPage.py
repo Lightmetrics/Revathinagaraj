@@ -76,23 +76,23 @@ class LiveViewPage:
 
             time.sleep(5)
 
-            WebDriverWait(self.driver, 10).until(
-                EC.element_to_be_clickable(FleetPortal_Locators.asset_select_opt)).click()
+            # WebDriverWait(self.driver, 10).until(
+            #     EC.element_to_be_clickable(FleetPortal_Locators.asset_select_opt)).click()
+            #
+            # asset_opt1 = WebDriverWait(self.driver, 10).until(
+            #     EC.element_to_be_clickable(FleetPortal_Locators.asset_opt)
+            # )
+            # status = asset_opt1.is_displayed()
+            # print(asset_opt1.text + " ====>  ( Option matched )")
 
-            asset_opt1 = WebDriverWait(self.driver, 10).until(
-                EC.element_to_be_clickable(FleetPortal_Locators.asset_opt)
-            )
-            status = asset_opt1.is_displayed()
-            print(asset_opt1.text + " ====>  ( Option matched )")
-
-            tag_opt1 = WebDriverWait(self.driver, 10).until(
-                EC.element_to_be_clickable(FleetPortal_Locators.tag_opt)
-            )
-            status = tag_opt1.is_displayed()
-            print(tag_opt1.text + " ====>  ( Option matched )")
-
-            pyautogui.press('esc')
-            time.sleep(1)
+            # tag_opt1 = WebDriverWait(self.driver, 10).until(
+            #     EC.element_to_be_clickable(FleetPortal_Locators.tag_opt)
+            # )
+            # status = tag_opt1.is_displayed()
+            # print(tag_opt1.text + " ====>  ( Option matched )")
+            #
+            # pyautogui.press('esc')
+            # time.sleep(1)
 
             search_filter = WebDriverWait(self.driver, 10).until(
                 EC.element_to_be_clickable(FleetPortal_Locators.enter_asset_id_name)

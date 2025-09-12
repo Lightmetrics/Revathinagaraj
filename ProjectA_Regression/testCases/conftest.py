@@ -40,7 +40,7 @@ def browser_driver(request):
         raise Exception("IE is deprecated and unsupported.")
 
     driver.maximize_window()
-    driver.get("https://admin-qa.lightmetrics.co/statistics")
+    driver.get("https://admin.lightmetrics.co/statistics")
     print(driver.title)
 
     yield driver
@@ -110,7 +110,7 @@ def pytest_html_results_summary(prefix, summary, postfix):
         html.h3(html.b("Team: "), "QA - Automation"),
         html.h3(html.b("Testing Suite: "), "Regression Testing"),
 
-        html.h3(html.b("TSP Name: "), "lmqatesting1"),
+        html.h3(html.b("TSP Name: "), "Lmpresales"),
         html.h3(html.b("Fleet: "), "Sreenivas Fleet"),
 
         html.hr()  # horizontal line

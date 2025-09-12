@@ -1,0 +1,27 @@
+[33mWARNING [0m test_home_page_version:MasterPortalPage.py:74 ************ Master portal version NOT matched ************ ❌
+[33mWARNING [0m test_home_page_version:MasterPortalPage.py:76 ********* Expected: v5.0.0 | Actual: v5.25.0 ❗❗
+[33mWARNING [0m test_home_page_version:FleetPortalPage.py:82 ************ Fleet portal version NOT matched ************ ❌
+[33mWARNING [0m test_home_page_version:FleetPortalPage.py:84 Expected: v9.0.0 | Actual: v10.6.0 ❗❗
+[33mWARNING [0m test_drivers_page_check_box_validation:F_7_DriversPage.py:383  :: 📥/🔴 'Download QR Code' button not available for 'Selected Drivers' — proceeding normally. ❗❗
+[1m[31mERROR   [0m test_run_full_suite_for_customer:test_Suite_Controller.py:251 ❌ Full suite failed for lmqatesting1: Message: 
+Stacktrace:
+#0 0x640470f186da <unknown>
+#1 0x640470a2cf80 <unknown>
+#2 0x640470a79b46 <unknown>
+#3 0x640470a79de1 <unknown>
+#4 0x640470abf174 <unknown>
+#5 0x640470a9dbdd <unknown>
+#6 0x640470abc69d <unknown>
+#7 0x640470a9d953 <unknown>
+#8 0x640470a6c72e <unknown>
+#9 0x640470a6d79e <unknown>
+#10 0x640470ee3f1b <unknown>
+#11 0x640470ee7eb8 <unknown>
+#12 0x640470ed142c <unknown>
+#13 0x640470ee8a37 <unknown>
+#14 0x640470eb5fef <unknown>
+#15 0x640470f06ad8 <unknown>
+#16 0x640470f06ca0 <unknown>
+#17 0x640470f17556 <unknown>
+#18 0x7f2cece9caa4 <unknown>
+#19 0x7f2cecf29c3c <unknown>

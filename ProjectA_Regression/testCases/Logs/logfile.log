@@ -18533,3 +18533,854 @@ Stacktrace:
 2025-07-30 19:31:30,748 :INFO : test_manage_users_table_data :===== Validating Manage Users Table Data =====
 2025-07-30 19:31:35,766 :INFO : test_run_configurations_page :===== Suite Controller: Fleet Configurations Page =====
 2025-07-30 19:31:35,768 :INFO : test_configurations_page :===== Validating Fleet Configurations Page Test =====
+2025-09-09 20:43:10,535 :INFO : test_run_admin_portal :🔆=====@ @ @ Running Full Suite for Customer @ @ @=====🔆
+2025-09-09 20:43:10,536 :INFO : test_run_admin_portal :===== Suite Controller: Admin Portal =====
+2025-09-09 20:43:10,537 :INFO : test_admin_login :===== Test Case: Admin Portal Login =====
+2025-09-09 20:43:10,537 :INFO : test_admin_login : : ******* 🌐/🔐 Attempting login to Admin Page
+2025-09-09 20:43:18,212 :INFO : test_admin_login : : ******* 🌐 ✅ Logged in successfully. Page Title: Admin Portal
+2025-09-09 20:43:18,219 :INFO : test_admin_login : : *******  ✅ Actual Title: Admin Portal
+2025-09-09 20:43:18,221 :INFO : test_customer_selection_and_master_portal :===== Test Case: Switch to Master Portal =====
+2025-09-09 20:43:27,056 :INFO : test_customer_selection_and_master_portal :✅ Found TSP: Lmqatesting1
+2025-09-09 20:43:30,439 :INFO : test_customer_selection_and_master_portal : : ******* 🌐/🚀 Navigating to Master Portal
+2025-09-09 20:43:40,457 :INFO : test_customer_selection_and_master_portal : : ******* 🌐 ✅ Switched to Master Portal. Title: Master Portal
+2025-09-09 20:43:40,470 :INFO : test_customer_selection_and_master_portal : : ******* 🔗 Current URL: https://master-qa.lightmetrics.co/admin-login?code=30074ca3-0105-4b54-8df3-9df18641bee6&state=lmqatesting1
+2025-09-09 20:43:40,484 :INFO : test_customer_selection_and_master_portal : : *******  ✅ Actual Title after switch: Master Portal
+2025-09-09 20:43:40,496 :INFO : test_run_master_portal :===== Suite Controller: Master Portal =====
+2025-09-09 20:43:40,502 :INFO : test_validate_master_name : ====== Validating Master Portal Name ======
+2025-09-09 20:43:43,543 :INFO : test_validate_master_name :****** 🌐 Master portal Name : lmqatesting1 ✅
+2025-09-09 20:43:43,573 :INFO : test_validate_master_name : : ******* ✅  Master title is visible and correct.
+2025-09-09 20:43:43,576 :INFO : test_home_page_version :=== Starting Master Portal Version Validation Test ===
+2025-09-09 20:43:43,637 :INFO : test_home_page_version :************ Master Portal Version ************ :: v5.26.0 
+2025-09-09 20:43:43,638 :INFO : test_home_page_version :************ Manual Version ************ :: v5.0.0 
+2025-09-09 20:43:43,638 :INFO : test_home_page_version : *********** Version result ******* :: False 
+2025-09-09 20:43:43,638 :WARNING : test_home_page_version :************ Master portal version NOT matched ************ ❌
+2025-09-09 20:43:43,638 :WARNING : test_home_page_version :********* Expected: v5.0.0 | Actual: v5.26.0 ❗❗
+2025-09-09 20:43:43,639 :INFO : test_home_page_version :=== ✅ Completed Master Portal Version Validation Test ===
+2025-09-09 20:43:43,642 :INFO : test_account_navigation_and_fleet_dashboard_launch :===== Test Case: Switch to Fleet Portal =====
+2025-09-09 20:43:43,642 :INFO : test_account_navigation_and_fleet_dashboard_launch : : 🌐/🚀 *******  Starting test: Navigate to Account & Launch Fleet Dashboard
+2025-09-09 20:43:47,922 :INFO : test_run_fleet_portal :===== Suite Controller: Fleet Portal =====
+2025-09-09 20:43:47,925 :INFO : test_validate_fleet_name : : ====== Validating Fleet Portal Name ======
+2025-09-09 20:44:38,166 :ERROR : test_validate_fleet_name : : ******* ❌ Fleet name validation failed: Message: 
+Stacktrace:
+#0 0x5a0eb1feb6da <unknown>
+#1 0x5a0eb1afff80 <unknown>
+#2 0x5a0eb1b4cb46 <unknown>
+#3 0x5a0eb1b4cde1 <unknown>
+#4 0x5a0eb1b92174 <unknown>
+#5 0x5a0eb1b70bdd <unknown>
+#6 0x5a0eb1b8f69d <unknown>
+#7 0x5a0eb1b70953 <unknown>
+#8 0x5a0eb1b3f72e <unknown>
+#9 0x5a0eb1b4079e <unknown>
+#10 0x5a0eb1fb6f1b <unknown>
+#11 0x5a0eb1fbaeb8 <unknown>
+#12 0x5a0eb1fa442c <unknown>
+#13 0x5a0eb1fbba37 <unknown>
+#14 0x5a0eb1f88fef <unknown>
+#15 0x5a0eb1fd9ad8 <unknown>
+#16 0x5a0eb1fd9ca0 <unknown>
+#17 0x5a0eb1fea556 <unknown>
+#18 0x70d7d9e9caa4 <unknown>
+#19 0x70d7d9f29c3c <unknown>
+
+2025-09-09 20:44:38,397 :INFO : test_run_reports_page :===== Suite Controller: Fleet Reports Page =====
+2025-09-09 20:44:38,400 :INFO : test_reports_page :===== Validating Reports Page presence =====
+2025-09-09 20:45:43,291 :INFO : test_run_admin_portal :🔆=====@ @ @ Running Full Suite for Customer @ @ @=====🔆
+2025-09-09 20:45:43,291 :INFO : test_run_admin_portal :===== Suite Controller: Admin Portal =====
+2025-09-09 20:45:43,293 :INFO : test_admin_login :===== Test Case: Admin Portal Login =====
+2025-09-09 20:45:43,293 :INFO : test_admin_login : : ******* 🌐/🔐 Attempting login to Admin Page
+2025-09-09 20:45:50,942 :INFO : test_admin_login : : ******* 🌐 ✅ Logged in successfully. Page Title: Admin Portal
+2025-09-09 20:45:50,953 :INFO : test_admin_login : : *******  ✅ Actual Title: Admin Portal
+2025-09-09 20:45:50,957 :INFO : test_customer_selection_and_master_portal :===== Test Case: Switch to Master Portal =====
+2025-09-09 20:45:59,662 :INFO : test_customer_selection_and_master_portal :✅ Found TSP: Lmqatesting1
+2025-09-09 20:46:02,967 :INFO : test_customer_selection_and_master_portal : : ******* 🌐/🚀 Navigating to Master Portal
+2025-09-09 20:46:14,062 :INFO : test_customer_selection_and_master_portal : : ******* 🌐 ✅ Switched to Master Portal. Title: Master Portal
+2025-09-09 20:46:14,069 :INFO : test_customer_selection_and_master_portal : : ******* 🔗 Current URL: https://master-qa.lightmetrics.co/admin-login?code=c105e02f-118d-4498-98c6-16898db99d71&state=lmqatesting1
+2025-09-09 20:46:14,076 :INFO : test_customer_selection_and_master_portal : : *******  ✅ Actual Title after switch: Master Portal
+2025-09-09 20:46:14,085 :INFO : test_run_master_portal :===== Suite Controller: Master Portal =====
+2025-09-09 20:46:14,087 :INFO : test_validate_master_name : ====== Validating Master Portal Name ======
+2025-09-09 20:46:16,330 :INFO : test_validate_master_name :****** 🌐 Master portal Name : lmqatesting1 ✅
+2025-09-09 20:46:16,350 :INFO : test_validate_master_name : : ******* ✅  Master title is visible and correct.
+2025-09-09 20:46:16,351 :INFO : test_home_page_version :=== Starting Master Portal Version Validation Test ===
+2025-09-09 20:46:16,398 :INFO : test_home_page_version :************ Master Portal Version ************ :: v5.26.0 
+2025-09-09 20:46:16,399 :INFO : test_home_page_version :************ Manual Version ************ :: v5.0.0 
+2025-09-09 20:46:16,399 :INFO : test_home_page_version : *********** Version result ******* :: False 
+2025-09-09 20:46:16,399 :WARNING : test_home_page_version :************ Master portal version NOT matched ************ ❌
+2025-09-09 20:46:16,399 :WARNING : test_home_page_version :********* Expected: v5.0.0 | Actual: v5.26.0 ❗❗
+2025-09-09 20:46:16,399 :INFO : test_home_page_version :=== ✅ Completed Master Portal Version Validation Test ===
+2025-09-09 20:46:16,401 :INFO : test_account_navigation_and_fleet_dashboard_launch :===== Test Case: Switch to Fleet Portal =====
+2025-09-09 20:46:16,402 :INFO : test_account_navigation_and_fleet_dashboard_launch : : 🌐/🚀 *******  Starting test: Navigate to Account & Launch Fleet Dashboard
+2025-09-09 20:46:20,025 :INFO : test_run_fleet_portal :===== Suite Controller: Fleet Portal =====
+2025-09-09 20:46:20,028 :INFO : test_validate_fleet_name : : ====== Validating Fleet Portal Name ======
+2025-09-09 20:46:25,864 :ERROR : test_validate_fleet_name : : ******* ❌ Fleet name validation failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.69)
+Stacktrace:
+#0 0x629becd7a6da <unknown>
+#1 0x629bec88ef80 <unknown>
+#2 0x629bec8652ef <unknown>
+#3 0x629bec907eed <unknown>
+#4 0x629bec91df49 <unknown>
+#5 0x629bec8ff953 <unknown>
+#6 0x629bec8ce72e <unknown>
+#7 0x629bec8cf79e <unknown>
+#8 0x629becd45f1b <unknown>
+#9 0x629becd49eb8 <unknown>
+#10 0x629becd3342c <unknown>
+#11 0x629becd4aa37 <unknown>
+#12 0x629becd17fef <unknown>
+#13 0x629becd68ad8 <unknown>
+#14 0x629becd68ca0 <unknown>
+#15 0x629becd79556 <unknown>
+#16 0x79996e09caa4 <unknown>
+#17 0x79996e129c3c <unknown>
+
+2025-09-09 20:56:56,554 :INFO : test_run_admin_portal :🔆=====@ @ @ Running Full Suite for Customer @ @ @=====🔆
+2025-09-09 20:56:56,554 :INFO : test_run_admin_portal :===== Suite Controller: Admin Portal =====
+2025-09-09 20:56:56,556 :INFO : test_admin_login :===== Test Case: Admin Portal Login =====
+2025-09-09 20:56:56,556 :INFO : test_admin_login : : ******* 🌐/🔐 Attempting login to Admin Page
+2025-09-09 20:57:04,142 :INFO : test_admin_login : : ******* 🌐 ✅ Logged in successfully. Page Title: Admin Portal
+2025-09-09 20:57:04,152 :INFO : test_admin_login : : *******  ✅ Actual Title: Admin Portal
+2025-09-09 20:57:04,156 :INFO : test_customer_selection_and_master_portal :===== Test Case: Switch to Master Portal =====
+2025-09-09 20:57:12,963 :INFO : test_customer_selection_and_master_portal :✅ Found TSP: Lmqatesting1
+2025-09-09 20:57:16,287 :INFO : test_customer_selection_and_master_portal : : ******* 🌐/🚀 Navigating to Master Portal
+2025-09-09 20:57:24,874 :INFO : test_customer_selection_and_master_portal : : ******* 🌐 ✅ Switched to Master Portal. Title: Master Portal
+2025-09-09 20:57:24,880 :INFO : test_customer_selection_and_master_portal : : ******* 🔗 Current URL: https://master.lightmetrics.co/admin-login?code=89248468-f74d-4a70-9d20-27d85ca35654&state=lmqatesting1%20us-east-1
+2025-09-09 20:57:24,888 :INFO : test_customer_selection_and_master_portal : : *******  ✅ Actual Title after switch: Master Portal
+2025-09-09 20:57:24,894 :INFO : test_run_master_portal :===== Suite Controller: Master Portal =====
+2025-09-09 20:57:24,897 :INFO : test_validate_master_name : ====== Validating Master Portal Name ======
+2025-09-09 20:57:27,723 :INFO : test_validate_master_name :****** 🌐 Master portal Name : lmqatesting1 ✅
+2025-09-09 20:57:27,750 :INFO : test_validate_master_name : : ******* ✅  Master title is visible and correct.
+2025-09-09 20:57:27,754 :INFO : test_home_page_version :=== Starting Master Portal Version Validation Test ===
+2025-09-09 20:57:27,822 :INFO : test_home_page_version :************ Master Portal Version ************ :: v5.27.0 
+2025-09-09 20:57:27,822 :INFO : test_home_page_version :************ Manual Version ************ :: v5.0.0 
+2025-09-09 20:57:27,822 :INFO : test_home_page_version : *********** Version result ******* :: False 
+2025-09-09 20:57:27,822 :WARNING : test_home_page_version :************ Master portal version NOT matched ************ ❌
+2025-09-09 20:57:27,823 :WARNING : test_home_page_version :********* Expected: v5.0.0 | Actual: v5.27.0 ❗❗
+2025-09-09 20:57:27,823 :INFO : test_home_page_version :=== ✅ Completed Master Portal Version Validation Test ===
+2025-09-09 20:57:27,826 :INFO : test_account_navigation_and_fleet_dashboard_launch :===== Test Case: Switch to Fleet Portal =====
+2025-09-09 20:57:27,826 :INFO : test_account_navigation_and_fleet_dashboard_launch : : 🌐/🚀 *******  Starting test: Navigate to Account & Launch Fleet Dashboard
+2025-09-09 20:57:48,508 :ERROR : test_account_navigation_and_fleet_dashboard_launch : : ******* 🌐 ❌ Fleet Dashboard did not launch or title mismatch.
+2025-09-09 20:57:48,661 :INFO : test_run_fleet_portal :===== Suite Controller: Fleet Portal =====
+2025-09-09 20:57:48,662 :INFO : test_validate_fleet_name : : ====== Validating Fleet Portal Name ======
+2025-09-09 21:30:38,131 :INFO : test_run_admin_portal :🔆=====@ @ @ Running Full Suite for Customer @ @ @=====🔆
+2025-09-09 21:30:38,131 :INFO : test_run_admin_portal :===== Suite Controller: Admin Portal =====
+2025-09-09 21:30:38,133 :INFO : test_admin_login :===== Test Case: Admin Portal Login =====
+2025-09-09 21:30:38,134 :INFO : test_admin_login : : ******* 🌐/🔐 Attempting login to Admin Page
+2025-09-09 21:30:45,714 :INFO : test_admin_login : : ******* 🌐 ✅ Logged in successfully. Page Title: Admin Portal
+2025-09-09 21:30:45,725 :INFO : test_admin_login : : *******  ✅ Actual Title: Admin Portal
+2025-09-09 21:30:45,730 :INFO : test_customer_selection_and_master_portal :===== Test Case: Switch to Master Portal =====
+2025-09-09 21:30:54,493 :INFO : test_customer_selection_and_master_portal :✅ Found TSP: Lmpresales
+2025-09-09 21:30:57,883 :INFO : test_customer_selection_and_master_portal : : ******* 🌐/🚀 Navigating to Master Portal
+2025-09-09 21:31:06,400 :INFO : test_customer_selection_and_master_portal : : ******* 🌐 ✅ Switched to Master Portal. Title: Master Portal
+2025-09-09 21:31:06,413 :INFO : test_customer_selection_and_master_portal : : ******* 🔗 Current URL: https://master.lightmetrics.co/admin-login?code=ed86bfb5-4bba-43de-8622-3b96b3382ff8&state=lmpresales%20us-east-1
+2025-09-09 21:31:06,421 :INFO : test_customer_selection_and_master_portal : : *******  ✅ Actual Title after switch: Master Portal
+2025-09-09 21:31:06,433 :INFO : test_run_master_portal :===== Suite Controller: Master Portal =====
+2025-09-09 21:31:06,437 :INFO : test_validate_master_name : ====== Validating Master Portal Name ======
+2025-09-09 21:31:08,707 :INFO : test_validate_master_name :****** 🌐 Master portal Name : lmpresales ✅
+2025-09-09 21:31:08,724 :INFO : test_validate_master_name : : ******* ✅  Master title is visible and correct.
+2025-09-09 21:31:08,726 :INFO : test_home_page_version :=== Starting Master Portal Version Validation Test ===
+2025-09-09 21:31:08,765 :INFO : test_home_page_version :************ Master Portal Version ************ :: v5.27.0 
+2025-09-09 21:31:08,766 :INFO : test_home_page_version :************ Manual Version ************ :: v5.27.0 
+2025-09-09 21:31:08,766 :INFO : test_home_page_version : *********** Version result ******* :: True 
+2025-09-09 21:31:08,766 :INFO : test_home_page_version :Master portal version matched ✅
+2025-09-09 21:31:08,766 :INFO : test_home_page_version :=== ✅ Completed Master Portal Version Validation Test ===
+2025-09-09 21:31:08,768 :INFO : test_account_navigation_and_fleet_dashboard_launch :===== Test Case: Switch to Fleet Portal =====
+2025-09-09 21:31:08,768 :INFO : test_account_navigation_and_fleet_dashboard_launch : : 🌐/🚀 *******  Starting test: Navigate to Account & Launch Fleet Dashboard
+2025-09-09 21:31:39,689 :ERROR : test_account_navigation_and_fleet_dashboard_launch : : ******* 🌐 ❌ Fleet Dashboard did not launch or title mismatch.
+2025-09-09 21:31:39,861 :INFO : test_run_fleet_portal :===== Suite Controller: Fleet Portal =====
+2025-09-09 21:31:39,864 :INFO : test_validate_fleet_name : : ====== Validating Fleet Portal Name ======
+2025-09-09 21:38:03,501 :INFO : test_run_admin_portal :🔆=====@ @ @ Running Full Suite for Customer @ @ @=====🔆
+2025-09-09 21:38:03,501 :INFO : test_run_admin_portal :===== Suite Controller: Admin Portal =====
+2025-09-09 21:38:03,503 :INFO : test_admin_login :===== Test Case: Admin Portal Login =====
+2025-09-09 21:38:03,503 :INFO : test_admin_login : : ******* 🌐/🔐 Attempting login to Admin Page
+2025-09-09 21:38:11,236 :INFO : test_admin_login : : ******* 🌐 ✅ Logged in successfully. Page Title: Admin Portal
+2025-09-09 21:38:11,245 :INFO : test_admin_login : : *******  ✅ Actual Title: Admin Portal
+2025-09-09 21:38:11,247 :INFO : test_customer_selection_and_master_portal :===== Test Case: Switch to Master Portal =====
+2025-09-09 21:38:20,270 :INFO : test_customer_selection_and_master_portal :✅ Found TSP: Lmpresales
+2025-09-09 21:38:23,664 :INFO : test_customer_selection_and_master_portal : : ******* 🌐/🚀 Navigating to Master Portal
+2025-09-09 21:38:32,237 :INFO : test_customer_selection_and_master_portal : : ******* 🌐 ✅ Switched to Master Portal. Title: Master Portal
+2025-09-09 21:38:32,251 :INFO : test_customer_selection_and_master_portal : : ******* 🔗 Current URL: https://master.lightmetrics.co/admin-login?code=1b069048-ed26-4669-a4b5-79921a04ea3a&state=lmpresales%20us-east-1
+2025-09-09 21:38:32,263 :INFO : test_customer_selection_and_master_portal : : *******  ✅ Actual Title after switch: Master Portal
+2025-09-09 21:38:32,270 :INFO : test_run_master_portal :===== Suite Controller: Master Portal =====
+2025-09-09 21:38:32,273 :INFO : test_validate_master_name : ====== Validating Master Portal Name ======
+2025-09-09 21:38:34,341 :INFO : test_validate_master_name :****** 🌐 Master portal Name : lmpresales ✅
+2025-09-09 21:38:34,514 :INFO : test_validate_master_name : : ******* ✅  Master title is visible and correct.
+2025-09-09 21:38:34,517 :INFO : test_home_page_version :=== Starting Master Portal Version Validation Test ===
+2025-09-09 21:38:34,677 :INFO : test_home_page_version :************ Master Portal Version ************ :: v5.27.0 
+2025-09-09 21:38:34,677 :INFO : test_home_page_version :************ Manual Version ************ :: v5.27.0 
+2025-09-09 21:38:34,677 :INFO : test_home_page_version : *********** Version result ******* :: True 
+2025-09-09 21:38:34,678 :INFO : test_home_page_version :Master portal version matched ✅
+2025-09-09 21:38:34,678 :INFO : test_home_page_version :=== ✅ Completed Master Portal Version Validation Test ===
+2025-09-09 21:38:34,680 :INFO : test_account_navigation_and_fleet_dashboard_launch :===== Test Case: Switch to Fleet Portal =====
+2025-09-09 21:38:34,681 :INFO : test_account_navigation_and_fleet_dashboard_launch : : 🌐/🚀 *******  Starting test: Navigate to Account & Launch Fleet Dashboard
+2025-09-09 21:38:48,998 :INFO : test_account_navigation_and_fleet_dashboard_launch : : ******* 🌐 ✅ Fleet Dashboard launched successfully. Title: RideView Fleet Portal
+2025-09-09 21:38:49,003 :INFO : test_run_fleet_portal :===== Suite Controller: Fleet Portal =====
+2025-09-09 21:38:49,005 :INFO : test_validate_fleet_name : : ====== Validating Fleet Portal Name ======
+2025-09-09 21:38:57,963 :INFO : test_validate_fleet_name : ****** 🌐 Fleet portal name ****** : Acme Transport ✅ 
+2025-09-09 21:38:58,007 :INFO : test_validate_fleet_name : : ******* ✅ Fleet name is visible and correct.
+2025-09-09 21:38:58,010 :INFO : test_home_page_version :=== Starting Fleet Portal Version Validation Test ===
+2025-09-09 21:38:58,010 :INFO : test_home_page_version :=== Starting Fleet Portal Version Validation Test ===
+2025-09-09 21:38:58,101 :INFO : test_home_page_version :************ Fleet Portal Version ************ :: v10.8.0 
+2025-09-09 21:38:58,101 :INFO : test_home_page_version :************ Fleet Portal Version ************ :: v10.8.0 
+2025-09-09 21:38:58,101 :INFO : test_home_page_version :************ Manual Version ************ :: v10.8.0 
+2025-09-09 21:38:58,101 :INFO : test_home_page_version :************ Manual Version ************ :: v10.8.0 
+2025-09-09 21:38:58,102 :INFO : test_home_page_version : *********** Version result ******* :: True 
+2025-09-09 21:38:58,102 :INFO : test_home_page_version : *********** Version result ******* :: True 
+2025-09-09 21:38:58,102 :INFO : test_home_page_version :Fleet portal version matched ✅
+2025-09-09 21:38:58,102 :INFO : test_home_page_version :Fleet portal version matched ✅
+2025-09-09 21:38:58,102 :INFO : test_home_page_version :=== ✅ Completed Fleet Portal Version Validation Test ===
+2025-09-09 21:38:58,102 :INFO : test_home_page_version :=== ✅ Completed Fleet Portal Version Validation Test ===
+2025-09-09 21:38:58,106 :INFO : test_run_safety_events_page :===== Suite Controller: Fleet Safety Events Page =====
+2025-09-09 21:38:58,109 :INFO : test_safety_events_page_btn :===== Validating Safety Events Button presence =====
+2025-09-09 21:39:04,879 :INFO : test_safety_events_page_btn : :  ✅ Safety Events button is present.
+2025-09-09 21:39:04,883 :INFO : test_safety_events_page_events_view :===== Validating Events View card presence =====
+2025-09-09 21:39:05,050 :INFO : test_safety_events_page_events_view : :  ✅ Events View card is present.
+2025-09-09 21:39:05,053 :INFO : test_safety_events_page_filters :===== Validating Safety Events filters presence =====
+2025-09-09 21:39:12,304 :INFO : test_safety_events_page_filters : :  ✅ View Safety Events filters is present.
+2025-09-09 21:39:12,306 :INFO : test_safety_events_navigation_to_tripdetails :===== Validating Navigation to Trip Details page =====
+2025-09-09 21:39:26,222 :INFO : test_safety_events_navigation_to_tripdetails : :  ✅ Successfully navigated to Trip Details page.
+2025-09-09 21:39:26,230 :INFO : test_run_fleet_home_page :===== Suite Controller: Fleet Home Page =====
+2025-09-09 21:39:26,233 :INFO : test_validate_select_date_range : : ===== Validating Select Date Range =====
+2025-09-09 21:39:43,123 :INFO : test_validate_select_date_range : :  ✅ Select Date Range is functioning correctly.
+2025-09-09 21:39:43,128 :INFO : test_validate_trips_card_present : : ===== Validating Trips Card =====
+2025-09-09 21:39:44,073 :INFO : test_validate_trips_card_present : :  ✅ Trips card is present and displayed.
+2025-09-09 21:39:44,076 :INFO : test_validate_distance_card : : ===== Validating Distance Card =====
+2025-09-09 21:39:44,419 :INFO : test_validate_distance_card : :  ✅ Distance card is displayed correctly.
+2025-09-09 21:39:44,423 :INFO : test_validate_event_per_100_miles_card : : ===== Validating Events Per 100 Miles Card =====
+2025-09-09 21:39:44,599 :INFO : test_validate_event_per_100_miles_card : :  ✅ Events Per 100 Miles card is visible and validated.
+2025-09-09 21:39:44,601 :INFO : test_home_page_duration : : ===== Validating Duration (Hours) Card =====
+2025-09-09 21:39:44,814 :INFO : test_home_page_duration : :  ✅ Duration (Hours) card is displayed correctly.
+2025-09-09 21:39:44,816 :INFO : test_home_page_recommended_events : : ===== Validating Recommended for Coaching Card =====
+2025-09-09 21:39:54,959 :ERROR : test_home_page_recommended_events : :  ❌ Recommended for Coaching card validation failed: Message: 
+Stacktrace:
+#0 0x5c7efe4f16da <unknown>
+#1 0x5c7efe005f80 <unknown>
+#2 0x5c7efe052b46 <unknown>
+#3 0x5c7efe052de1 <unknown>
+#4 0x5c7efe098174 <unknown>
+#5 0x5c7efe076bdd <unknown>
+#6 0x5c7efe09569d <unknown>
+#7 0x5c7efe076953 <unknown>
+#8 0x5c7efe04572e <unknown>
+#9 0x5c7efe04679e <unknown>
+#10 0x5c7efe4bcf1b <unknown>
+#11 0x5c7efe4c0eb8 <unknown>
+#12 0x5c7efe4aa42c <unknown>
+#13 0x5c7efe4c1a37 <unknown>
+#14 0x5c7efe48efef <unknown>
+#15 0x5c7efe4dfad8 <unknown>
+#16 0x5c7efe4dfca0 <unknown>
+#17 0x5c7efe4f0556 <unknown>
+#18 0x7e9370c9caa4 <unknown>
+#19 0x7e9370d29c3c <unknown>
+
+2025-09-09 21:39:55,263 :INFO : test_run_fleet_trips_page :===== Suite Controller: Fleet Trips Page =====
+2025-09-09 21:39:55,268 :INFO : test_trips_page_btn :===== Validating Trips Button presence =====
+2025-09-09 21:39:58,886 :INFO : test_trips_page_btn : :  ✅ Trips page button is present.
+2025-09-09 21:39:58,889 :INFO : test_trips_page_trips_tab :===== Validating Trips Tab presence =====
+2025-09-09 21:40:00,215 :INFO : test_trips_page_trips_tab : :  ✅ Trips Tab is present.
+2025-09-09 21:40:00,218 :INFO : test_trips_page_trip_filter_card :===== Validating Trips Filter Card presence =====
+2025-09-09 21:40:09,951 :INFO : test_trips_page_trip_filter_card : :  ✅ Trips Filter Card is present.
+2025-09-09 21:40:09,955 :INFO : test_trips_page_trips_list_table :===== Validating Trips List Table presence =====
+2025-09-09 21:40:10,044 :INFO : test_trips_page_trips_list_table : :  ✅ Trips List Table is present.
+2025-09-09 21:40:10,047 :INFO : test_trips_page_bulk_edit :===== Validating Bulk Edit presence =====
+2025-09-09 21:40:22,828 :INFO : test_trips_page_bulk_edit : :  ✅ Bulk Edit option is present.
+2025-09-09 21:40:22,831 :INFO : test_trips_page_export_trips :===== Validating Export Trips presence =====
+2025-09-09 21:40:32,128 :INFO : test_trips_page_export_trips : :  ✅ Export Trips option is present.
+2025-09-09 21:40:32,134 :INFO : test_trips_page_navigations :===== Validating Navigation buttons =====
+2025-09-09 21:40:46,805 :INFO : test_trips_page_navigations : :  ✅ Successfully validated navigation buttons.
+2025-09-09 21:40:46,810 :INFO : test_trips_page_active_drivers_tab :===== Validating Active Drivers Tab presence =====
+2025-09-09 21:40:52,990 :INFO : test_trips_page_active_drivers_tab : :  ✅ Active Drivers Tab is present.
+2025-09-09 21:40:52,992 :INFO : test_trips_page_manage_tab :===== Validating Manage Tab presence =====
+2025-09-09 21:40:55,318 :INFO : test_trips_page_manage_tab : :  ✅ Manage Tab is present.
+2025-09-09 21:40:55,324 :INFO : test_run_fleet_live_view_page :===== Suite Controller: Fleet Live View Page =====
+2025-09-09 21:40:55,327 :INFO : test_live_view_page_btn :===== Validating Live View Button presence =====
+2025-09-09 21:41:21,898 :INFO : test_run_coaching_page :===== Suite Controller: Fleet Coaching Page =====
+2025-09-09 21:41:21,901 :INFO : test_coaching_page_btn :===== Validating Coaching Page Button presence =====
+2025-09-09 21:41:23,495 :INFO : test_run_video_requests_page :===== Suite Controller: Fleet Video Requests Page =====
+2025-09-09 21:41:23,497 :INFO : test_video_requests_page :===== Validating Video Requests Page presence =====
+2025-09-09 21:41:25,205 :INFO : test_run_drivers_page :===== Suite Controller: Fleet Drivers Page =====
+2025-09-09 21:41:25,208 :INFO : test_drivers_page :===== Validating Drivers Page presence =====
+2025-09-09 21:41:26,938 :INFO : test_run_challenges_page :===== Suite Controller: Fleet Challenges Page =====
+2025-09-09 21:41:26,945 :INFO : test_challenges_page :===== Validating Challenges Page presence =====
+2025-09-09 21:41:28,489 :INFO : test_run_reports_page :===== Suite Controller: Fleet Reports Page =====
+2025-09-09 21:41:28,490 :INFO : test_reports_page :===== Validating Reports Page presence =====
+2025-09-09 21:41:29,854 :INFO : test_run_assets_page :===== Suite Controller: Fleet Assets Page =====
+2025-09-09 21:41:29,856 :INFO : test_assets_page :===== Validating Assets Page presence =====
+2025-09-09 21:41:31,284 :INFO : test_run_users_page :===== Suite Controller: Fleet Users Page =====
+2025-09-09 21:41:31,288 :INFO : test_users_page :===== Validating Users Page presence =====
+2025-09-09 21:41:32,843 :INFO : test_run_configurations_page :===== Suite Controller: Fleet Configurations Page =====
+2025-09-09 21:41:32,847 :INFO : test_configurations_page :===== Validating Fleet Configurations Page Test =====
+2025-09-09 21:46:01,182 :INFO : test_run_admin_portal :🔆=====@ @ @ Running Full Suite for Customer @ @ @=====🔆
+2025-09-09 21:46:01,182 :INFO : test_run_admin_portal :===== Suite Controller: Admin Portal =====
+2025-09-09 21:46:01,184 :INFO : test_admin_login :===== Test Case: Admin Portal Login =====
+2025-09-09 21:46:01,184 :INFO : test_admin_login : : ******* 🌐/🔐 Attempting login to Admin Page
+2025-09-09 21:46:08,757 :INFO : test_admin_login : : ******* 🌐 ✅ Logged in successfully. Page Title: Admin Portal
+2025-09-09 21:46:08,766 :INFO : test_admin_login : : *******  ✅ Actual Title: Admin Portal
+2025-09-09 21:46:08,770 :INFO : test_customer_selection_and_master_portal :===== Test Case: Switch to Master Portal =====
+2025-09-09 21:46:17,511 :INFO : test_customer_selection_and_master_portal :✅ Found TSP: Lmpresales
+2025-09-09 21:46:20,816 :INFO : test_customer_selection_and_master_portal : : ******* 🌐/🚀 Navigating to Master Portal
+2025-09-09 21:46:29,286 :INFO : test_customer_selection_and_master_portal : : ******* 🌐 ✅ Switched to Master Portal. Title: Master Portal
+2025-09-09 21:46:29,294 :INFO : test_customer_selection_and_master_portal : : ******* 🔗 Current URL: https://master.lightmetrics.co/admin-login?code=78c8b1b5-d399-4ee4-a27e-70e313e05c9b&state=lmpresales%20us-east-1
+2025-09-09 21:46:29,307 :INFO : test_customer_selection_and_master_portal : : *******  ✅ Actual Title after switch: Master Portal
+2025-09-09 21:46:29,313 :INFO : test_run_master_portal :===== Suite Controller: Master Portal =====
+2025-09-09 21:46:29,318 :INFO : test_validate_master_name : ====== Validating Master Portal Name ======
+2025-09-09 21:46:31,402 :INFO : test_validate_master_name :****** 🌐 Master portal Name : lmpresales ✅
+2025-09-09 21:46:31,606 :INFO : test_validate_master_name : : ******* ✅  Master title is visible and correct.
+2025-09-09 21:46:31,609 :INFO : test_home_page_version :=== Starting Master Portal Version Validation Test ===
+2025-09-09 21:46:31,708 :INFO : test_home_page_version :************ Master Portal Version ************ :: v5.27.0 
+2025-09-09 21:46:31,708 :INFO : test_home_page_version :************ Manual Version ************ :: v5.27.0 
+2025-09-09 21:46:31,708 :INFO : test_home_page_version : *********** Version result ******* :: True 
+2025-09-09 21:46:31,709 :INFO : test_home_page_version :Master portal version matched ✅
+2025-09-09 21:46:31,709 :INFO : test_home_page_version :=== ✅ Completed Master Portal Version Validation Test ===
+2025-09-09 21:46:31,710 :INFO : test_account_navigation_and_fleet_dashboard_launch :===== Test Case: Switch to Fleet Portal =====
+2025-09-09 21:46:31,710 :INFO : test_account_navigation_and_fleet_dashboard_launch : : 🌐/🚀 *******  Starting test: Navigate to Account & Launch Fleet Dashboard
+2025-09-09 21:46:46,722 :INFO : test_account_navigation_and_fleet_dashboard_launch : : ******* 🌐 ✅ Fleet Dashboard launched successfully. Title: RideView Fleet Portal
+2025-09-09 21:46:46,726 :INFO : test_run_fleet_portal :===== Suite Controller: Fleet Portal =====
+2025-09-09 21:46:46,728 :INFO : test_validate_fleet_name : : ====== Validating Fleet Portal Name ======
+2025-09-09 21:46:55,493 :INFO : test_validate_fleet_name : ****** 🌐 Fleet portal name ****** : Acme Transport ✅ 
+2025-09-09 21:46:55,523 :INFO : test_validate_fleet_name : : ******* ✅ Fleet name is visible and correct.
+2025-09-09 21:46:55,525 :INFO : test_home_page_version :=== Starting Fleet Portal Version Validation Test ===
+2025-09-09 21:46:55,525 :INFO : test_home_page_version :=== Starting Fleet Portal Version Validation Test ===
+2025-09-09 21:46:55,589 :INFO : test_home_page_version :************ Fleet Portal Version ************ :: v10.8.0 
+2025-09-09 21:46:55,589 :INFO : test_home_page_version :************ Fleet Portal Version ************ :: v10.8.0 
+2025-09-09 21:46:55,589 :INFO : test_home_page_version :************ Manual Version ************ :: v10.8.0 
+2025-09-09 21:46:55,589 :INFO : test_home_page_version :************ Manual Version ************ :: v10.8.0 
+2025-09-09 21:46:55,589 :INFO : test_home_page_version : *********** Version result ******* :: True 
+2025-09-09 21:46:55,589 :INFO : test_home_page_version : *********** Version result ******* :: True 
+2025-09-09 21:46:55,589 :INFO : test_home_page_version :Fleet portal version matched ✅
+2025-09-09 21:46:55,589 :INFO : test_home_page_version :Fleet portal version matched ✅
+2025-09-09 21:46:55,589 :INFO : test_home_page_version :=== ✅ Completed Fleet Portal Version Validation Test ===
+2025-09-09 21:46:55,589 :INFO : test_home_page_version :=== ✅ Completed Fleet Portal Version Validation Test ===
+2025-09-09 21:46:55,594 :INFO : test_run_safety_events_page :===== Suite Controller: Fleet Safety Events Page =====
+2025-09-09 21:46:55,596 :INFO : test_safety_events_page_btn :===== Validating Safety Events Button presence =====
+2025-09-09 21:47:01,863 :INFO : test_safety_events_page_btn : :  ✅ Safety Events button is present.
+2025-09-09 21:47:01,868 :INFO : test_safety_events_page_events_view :===== Validating Events View card presence =====
+2025-09-09 21:47:02,045 :INFO : test_safety_events_page_events_view : :  ✅ Events View card is present.
+2025-09-09 21:47:02,047 :INFO : test_safety_events_page_filters :===== Validating Safety Events filters presence =====
+2025-09-09 21:47:09,160 :INFO : test_safety_events_page_filters : :  ✅ View Safety Events filters is present.
+2025-09-09 21:47:09,163 :INFO : test_safety_events_navigation_to_tripdetails :===== Validating Navigation to Trip Details page =====
+2025-09-09 21:47:22,653 :INFO : test_safety_events_navigation_to_tripdetails : :  ✅ Successfully navigated to Trip Details page.
+2025-09-09 21:47:22,662 :INFO : test_run_fleet_home_page :===== Suite Controller: Fleet Home Page =====
+2025-09-09 21:47:22,666 :INFO : test_validate_select_date_range : : ===== Validating Select Date Range =====
+2025-09-09 21:47:39,764 :INFO : test_validate_select_date_range : :  ✅ Select Date Range is functioning correctly.
+2025-09-09 21:47:39,771 :INFO : test_validate_trips_card_present : : ===== Validating Trips Card =====
+2025-09-09 21:47:41,244 :INFO : test_validate_trips_card_present : :  ✅ Trips card is present and displayed.
+2025-09-09 21:47:41,250 :INFO : test_validate_distance_card : : ===== Validating Distance Card =====
+2025-09-09 21:47:41,384 :INFO : test_validate_distance_card : :  ✅ Distance card is displayed correctly.
+2025-09-09 21:47:41,386 :INFO : test_validate_event_per_100_miles_card : : ===== Validating Events Per 100 Miles Card =====
+2025-09-09 21:47:41,481 :INFO : test_validate_event_per_100_miles_card : :  ✅ Events Per 100 Miles card is visible and validated.
+2025-09-09 21:47:41,484 :INFO : test_home_page_duration : : ===== Validating Duration (Hours) Card =====
+2025-09-09 21:47:41,570 :INFO : test_home_page_duration : :  ✅ Duration (Hours) card is displayed correctly.
+2025-09-09 21:47:41,574 :INFO : test_home_page_recommended_events : : ===== Validating Recommended for Coaching Card =====
+2025-09-09 21:47:51,824 :ERROR : test_home_page_recommended_events : :  ❌ Recommended for Coaching card validation failed: Message: 
+Stacktrace:
+#0 0x56d6d5ae16da <unknown>
+#1 0x56d6d55f5f80 <unknown>
+#2 0x56d6d5642b46 <unknown>
+#3 0x56d6d5642de1 <unknown>
+#4 0x56d6d5688174 <unknown>
+#5 0x56d6d5666bdd <unknown>
+#6 0x56d6d568569d <unknown>
+#7 0x56d6d5666953 <unknown>
+#8 0x56d6d563572e <unknown>
+#9 0x56d6d563679e <unknown>
+#10 0x56d6d5aacf1b <unknown>
+#11 0x56d6d5ab0eb8 <unknown>
+#12 0x56d6d5a9a42c <unknown>
+#13 0x56d6d5ab1a37 <unknown>
+#14 0x56d6d5a7efef <unknown>
+#15 0x56d6d5acfad8 <unknown>
+#16 0x56d6d5acfca0 <unknown>
+#17 0x56d6d5ae0556 <unknown>
+#18 0x7eb71649caa4 <unknown>
+#19 0x7eb716529c3c <unknown>
+
+2025-09-09 21:47:53,192 :INFO : test_run_fleet_trips_page :===== Suite Controller: Fleet Trips Page =====
+2025-09-09 21:47:53,196 :INFO : test_trips_page_btn :===== Validating Trips Button presence =====
+2025-09-09 21:47:56,717 :INFO : test_trips_page_btn : :  ✅ Trips page button is present.
+2025-09-09 21:47:56,723 :INFO : test_trips_page_trips_tab :===== Validating Trips Tab presence =====
+2025-09-09 21:47:56,834 :INFO : test_trips_page_trips_tab : :  ✅ Trips Tab is present.
+2025-09-09 21:47:56,837 :INFO : test_trips_page_trip_filter_card :===== Validating Trips Filter Card presence =====
+2025-09-09 21:48:08,844 :INFO : test_trips_page_trip_filter_card : :  ✅ Trips Filter Card is present.
+2025-09-09 21:48:08,849 :INFO : test_trips_page_trips_list_table :===== Validating Trips List Table presence =====
+2025-09-09 21:48:08,941 :INFO : test_trips_page_trips_list_table : :  ✅ Trips List Table is present.
+2025-09-09 21:48:08,945 :INFO : test_trips_page_bulk_edit :===== Validating Bulk Edit presence =====
+2025-09-09 21:48:21,645 :INFO : test_trips_page_bulk_edit : :  ✅ Bulk Edit option is present.
+2025-09-09 21:48:21,649 :INFO : test_trips_page_export_trips :===== Validating Export Trips presence =====
+2025-09-09 21:48:30,989 :INFO : test_trips_page_export_trips : :  ✅ Export Trips option is present.
+2025-09-09 21:48:30,994 :INFO : test_trips_page_navigations :===== Validating Navigation buttons =====
+2025-09-09 21:48:43,998 :INFO : test_run_fleet_live_view_page :===== Suite Controller: Fleet Live View Page =====
+2025-09-09 21:48:44,000 :INFO : test_live_view_page_btn :===== Validating Live View Button presence =====
+2025-09-09 21:49:00,192 :INFO : test_live_view_page_btn : :  ✅ Live View page button is present.
+2025-09-09 21:49:00,195 :INFO : test_live_view_page_asset_table :===== Validating Asset Table presence =====
+2025-09-09 21:49:32,622 :INFO : test_live_view_page_asset_table : :  ✅ Asset Table is present.
+2025-09-09 21:49:32,629 :INFO : test_run_coaching_page :===== Suite Controller: Fleet Coaching Page =====
+2025-09-09 21:49:32,631 :INFO : test_coaching_page_btn :===== Validating Coaching Page Button presence =====
+2025-09-09 21:49:39,680 :INFO : test_coaching_page_btn : :  ✅ Coaching page button is present.
+2025-09-09 21:49:39,684 :INFO : test_coaching_page_coachable_drivers_table :===== Validating Coachable Drivers Table presence =====
+2025-09-09 21:49:39,793 :INFO : test_coaching_page_coachable_drivers_table : :  ✅ Coachable Drivers Table is present.
+2025-09-09 21:49:39,796 :INFO : test_coaching_page_completed_coaching_sessions_table :===== Validating Completed Coaching Sessions Table presence =====
+2025-09-09 21:49:39,893 :INFO : test_coaching_page_completed_coaching_sessions_table : :  ✅ Completed Coaching Sessions Table is present.
+2025-09-09 21:49:39,902 :INFO : test_run_video_requests_page :===== Suite Controller: Fleet Video Requests Page =====
+2025-09-09 21:49:39,905 :INFO : test_video_requests_page :===== Validating Video Requests Page presence =====
+2025-09-09 21:49:47,813 :INFO : test_video_requests_page : :  ✅ Video Requests Page is present.
+2025-09-09 21:49:47,815 :INFO : test_video_requests_page_table :===== Validating Video Requests Table presence =====
+2025-09-09 21:49:47,867 :INFO : test_video_requests_page_table : :  ✅ Video Requests Table is present.
+2025-09-09 21:49:47,869 :INFO : test_video_requests_page_video_request :===== Validating Request Video PopUp presence =====
+2025-09-09 21:49:49,409 :INFO : test_video_requests_page_video_request : :  ✅ Request Video PopUp is present.
+2025-09-09 21:49:49,411 :INFO : test_video_requests_page_filter :===== Validating Video Requests Filter presence =====
+2025-09-09 21:49:49,528 :INFO : test_video_requests_page_filter : :  ✅ Video Requests Filter is present.
+2025-09-09 21:49:49,531 :INFO : test_video_requests_page_panic_btn_filter :===== Validating Panic Button Filter presence =====
+2025-09-09 21:49:49,581 :INFO : test_video_requests_page_panic_btn_filter : :  ✅ Panic Button Filter is present.
+2025-09-09 21:49:49,583 :INFO : test_video_requests_page_event_on_demand_filter :===== Validating Event On Demand Filter presence =====
+2025-09-09 21:49:49,634 :INFO : test_video_requests_page_event_on_demand_filter : :  ✅ Event On Demand Filter is present.
+2025-09-09 21:49:49,638 :INFO : test_run_drivers_page :===== Suite Controller: Fleet Drivers Page =====
+2025-09-09 21:49:49,640 :INFO : test_drivers_page :===== Validating Drivers Page presence =====
+2025-09-09 21:49:54,548 :INFO : test_drivers_page : :  ✅ Drivers Page is present.
+2025-09-09 21:49:54,551 :INFO : test_drivers_page_driver_list_table :===== Validating Driver List Table presence =====
+2025-09-09 21:49:54,673 :INFO : test_drivers_page_driver_list_table : :  ✅ Driver List Table is present.
+2025-09-09 21:49:54,676 :INFO : test_drivers_page_search_driver_opt :===== Validating Search Driver Option presence =====
+2025-09-09 21:49:54,793 :INFO : test_drivers_page_search_driver_opt : :  ✅ Search Driver is present.
+2025-09-09 21:49:54,796 :INFO : test_drivers_page_batch_update_btn :===== Validating Batch Update Button presence =====
+2025-09-09 21:49:54,855 :INFO : test_drivers_page_batch_update_btn : :  ✅ Batch Update Button is present.
+2025-09-09 21:49:54,858 :INFO : test_drivers_page_export_button :===== Validating Export Button presence =====
+2025-09-09 21:49:57,182 :INFO : test_drivers_page_export_button : :  ✅ Export Button is present.
+2025-09-09 21:49:57,187 :INFO : test_drivers_page_download_qrcode :===== Validating QR Code Download For Single Driver =====
+2025-09-09 21:50:00,601 :INFO : test_drivers_page_download_qrcode : :  ✅ QR Code Download is successful for single driver.
+2025-09-09 21:50:00,603 :INFO : test_drivers_page_add_images_option :===== Validating Add Images Option presence =====
+2025-09-09 21:50:13,787 :INFO : test_drivers_page_add_images_option : :  ✅ Add Images Option is present.
+2025-09-09 21:50:13,792 :INFO : test_drivers_page_verify_driver_name :===== Verifying Driver Name Availability =====
+2025-09-09 21:51:02,298 :INFO : test_drivers_page_verify_driver_name : :  ✅ Driver name already exists.
+2025-09-09 21:51:02,302 :INFO : test_drivers_page_check_box_validation :===== Validating Check Box Selection =====
+2025-09-09 21:51:09,736 :INFO : test_drivers_page_check_box_validation : :  ✅ Check Box Selection is successful.
+2025-09-09 21:51:09,740 :INFO : test_drivers_page_installers_tab :===== Validating Installers Tab presence =====
+2025-09-09 21:51:17,294 :INFO : test_drivers_page_installers_tab : :  ✅ Installers Tab is present.
+2025-09-09 21:51:17,300 :INFO : test_run_challenges_page :===== Suite Controller: Fleet Challenges Page =====
+2025-09-09 21:51:17,302 :INFO : test_challenges_page :===== Validating Challenges Page presence =====
+2025-09-09 21:51:25,329 :INFO : test_challenges_page : :  ✅ Challenges Page is present.
+2025-09-09 21:51:25,333 :INFO : test_challenges_page_challenged_events_table :===== Validating Challenged Events Table presence =====
+2025-09-09 21:51:25,433 :INFO : test_challenges_page_challenged_events_table : :  ✅ Challenged Events Table is present.
+2025-09-09 21:51:25,440 :INFO : test_run_reports_page :===== Suite Controller: Fleet Reports Page =====
+2025-09-09 21:51:25,443 :INFO : test_reports_page :===== Validating Reports Page presence =====
+2025-09-09 21:51:28,788 :INFO : test_reports_page : :  ✅ Reports Page is present.
+2025-09-09 21:51:28,790 :INFO : test_reports_page_Coaching_session_report :===== Validating Coaching Session Report presence =====
+2025-09-09 21:51:37,739 :INFO : test_reports_page_Coaching_session_report : :  ✅ Coaching Session Report is present.
+2025-09-09 21:51:37,742 :INFO : test_reports_page_coaching_effectiveness_report :===== Validating Coaching Effectiveness Report presence =====
+2025-09-09 21:51:42,290 :INFO : test_reports_page_coaching_effectiveness_report : :  ✅ Coaching Effectiveness Report is present.
+2025-09-09 21:51:42,295 :INFO : test_reports_page_driver_privacy_mode_report :===== Validating Driver Privacy Mode Report presence =====
+2025-09-09 21:52:01,113 :INFO : test_reports_page_driver_privacy_mode_report : :  ✅ Driver Privacy Mode Report is present.
+2025-09-09 21:52:01,117 :INFO : test_reports_page_fleet_safety_view_report :===== Validating Fleet Safety View Report presence =====
+2025-09-09 21:52:06,013 :INFO : test_reports_page_fleet_safety_view_report : :  ✅ Fleet Safety View Report is present.
+2025-09-09 21:52:06,016 :INFO : test_reports_page_fleet_safety_create_schedule_report :===== Validating Fleet Safety Create Schedule Report presence =====
+2025-09-09 21:52:21,162 :INFO : test_reports_page_fleet_safety_create_schedule_report : :  ✅ Create Fleet Safety Schedule Report is present.
+2025-09-09 21:52:21,166 :INFO : test_reports_page_fleet_safety_edit_schedule_report_page :===== Validating Fleet Safety Edit Schedule Report Page presence =====
+2025-09-09 21:52:57,443 :INFO : test_reports_page_fleet_safety_edit_schedule_report_page : :  ✅ Edit Fleet Safety Schedule Report Page is present.
+2025-09-09 21:52:57,447 :INFO : test_reports_page_video_request_list_report :===== Validating Video Request List Report presence =====
+2025-09-09 21:53:16,106 :INFO : test_reports_page_video_request_list_report : :  ✅ Video Request List Report is present.
+2025-09-09 21:53:16,110 :INFO : test_reports_page_event_count_report :===== Validating Event Count Report presence =====
+2025-09-09 21:53:34,840 :INFO : test_reports_page_event_count_report : :  ✅ Event Count Report is present.
+2025-09-09 21:53:34,845 :INFO : test_reports_page_event_list_report :===== Validating Event List Report presence =====
+2025-09-09 21:53:53,475 :INFO : test_reports_page_event_list_report : :  ✅ Event List Report is present.
+2025-09-09 21:53:53,480 :INFO : test_reports_page_highg_event_list_report :===== Validating High G Event List Report presence =====
+2025-09-09 21:54:12,053 :INFO : test_reports_page_highg_event_list_report : :  ✅ High G Event List Report is present.
+2025-09-09 21:54:12,056 :INFO : test_reports_page_panic_button_list_report :===== Validating Panic Button List Report presence =====
+2025-09-09 21:54:30,741 :INFO : test_reports_page_panic_button_list_report : :  ✅ Panic Button List Report is present.
+2025-09-09 21:54:30,745 :INFO : test_reports_page_export_history_tab :===== Validating Export History Tab presence =====
+2025-09-09 21:54:33,149 :INFO : test_reports_page_export_history_tab : :  ✅ Export History Tab is present.
+2025-09-09 21:54:33,152 :INFO : test_reports_page_scheduled_tab :===== Validating Scheduled Tab presence =====
+2025-09-09 21:54:38,033 :INFO : test_reports_page_scheduled_tab : :  ✅ Scheduled Tab is present.
+2025-09-09 21:54:38,041 :INFO : test_run_assets_page :===== Suite Controller: Fleet Assets Page =====
+2025-09-09 21:54:38,043 :INFO : test_assets_page :===== Validating Assets Page presence =====
+2025-09-09 21:54:41,277 :INFO : test_assets_page : :  ✅ Assets Page is present.
+2025-09-09 21:54:41,280 :INFO : test_assets_page_overview_tab :===== Validating Assets Page Overview Tab presence =====
+2025-09-09 21:54:43,783 :INFO : test_assets_page_overview_tab : :  ✅ Overview Tab is present.
+2025-09-09 21:54:43,785 :INFO : test_assets_page_edit_assets_details_option :===== Validating Edit Assets Details Option =====
+2025-09-09 21:54:44,481 :INFO : test_assets_page_edit_assets_details_option :  ::  ✅ Clicked on first clickable Edit icon.
+2025-09-09 21:55:00,299 :WARNING : test_assets_page_edit_assets_details_option :  :: Skipping No Toggle icon present ❌ : Message: 
+Stacktrace:
+#0 0x56d6d5ae16da <unknown>
+#1 0x56d6d55f5f80 <unknown>
+#2 0x56d6d5642b46 <unknown>
+#3 0x56d6d5642de1 <unknown>
+#4 0x56d6d5688174 <unknown>
+#5 0x56d6d5666bdd <unknown>
+#6 0x56d6d568569d <unknown>
+#7 0x56d6d5666953 <unknown>
+#8 0x56d6d563572e <unknown>
+#9 0x56d6d563679e <unknown>
+#10 0x56d6d5aacf1b <unknown>
+#11 0x56d6d5ab0eb8 <unknown>
+#12 0x56d6d5a9a42c <unknown>
+#13 0x56d6d5ab1a37 <unknown>
+#14 0x56d6d5a7efef <unknown>
+#15 0x56d6d5acfad8 <unknown>
+#16 0x56d6d5acfca0 <unknown>
+#17 0x56d6d5ae0556 <unknown>
+#18 0x7eb71649caa4 <unknown>
+#19 0x7eb716529c3c <unknown>
+
+2025-09-09 21:55:06,207 :INFO : test_assets_page_edit_assets_details_option : :  ✅ Edit Assets Details Option is present.
+2025-09-09 21:55:06,212 :INFO : test_assets_page_manage_devices_opt :===== Validating Manage Devices Option presence =====
+2025-09-09 21:55:06,913 :INFO : test_assets_page_manage_devices_opt :  ::  ✅ Clicked on first clickable Manage Devices icon.
+2025-09-09 21:55:12,046 :INFO : test_assets_page_manage_devices_opt : :  ✅ Manage Devices Option is present.
+2025-09-09 21:55:12,051 :INFO : test_assets_page_manage_assets_tab :===== Validating Manage Assets Tab presence =====
+2025-09-09 21:55:20,166 :INFO : test_assets_page_manage_assets_tab : :  ✅ Manage Assets Tab is present.
+2025-09-09 21:55:20,169 :INFO : test_assets_page_devices_tab :===== Validating Devices Tab presence =====
+2025-09-09 21:55:23,589 :INFO : test_assets_page_devices_tab : :  ✅ Devices Tab is present.
+2025-09-09 21:55:23,592 :INFO : test_assets_page_diagnostics_tab :===== Validating Diagnostics Tab presence =====
+2025-09-09 21:55:35,794 :INFO : test_assets_page_diagnostics_tab : :  ✅ Diagnostics Tab is present.
+2025-09-09 21:55:35,801 :INFO : test_run_users_page :===== Suite Controller: Fleet Users Page =====
+2025-09-09 21:55:35,803 :INFO : test_users_page :===== Validating Users Page presence =====
+2025-09-09 21:55:39,773 :INFO : test_users_page : :  ✅ Users Page is present.
+2025-09-09 21:55:39,775 :INFO : test_users_tab :===== Validating Users Tab presence =====
+2025-09-09 21:55:39,948 :INFO : test_users_tab : :  ✅ Users Tab is present.
+2025-09-09 21:55:39,950 :INFO : test_manage_users_table_data :===== Validating Manage Users Table Data =====
+2025-09-09 21:55:52,120 :INFO : test_run_configurations_page :===== Suite Controller: Fleet Configurations Page =====
+2025-09-09 21:55:52,124 :INFO : test_configurations_page :===== Validating Fleet Configurations Page Test =====
+2025-09-09 21:55:57,271 :INFO : test_configurations_page : :  ✅ Configurations Page is present.
+2025-09-09 21:55:57,274 :INFO : test_configurations_page_basic_configurations_table :===== Validating Basic Configurations Table Test =====
+2025-09-09 21:55:58,776 :INFO : test_configurations_page_basic_configurations_table : :  ✅ Basic Configurations Table is present.
+2025-09-09 21:55:58,778 :INFO : test_configurations_page_advanced_tab :===== Validating Advanced Tab Test =====
+2025-09-09 21:56:02,853 :INFO : test_configurations_page_advanced_tab : :  ✅ Advanced Tab is present.
+2025-09-09 21:56:02,855 :INFO : test_configurations_page_coaching_tab :===== Validating Coaching Tab Test =====
+2025-09-09 21:56:06,344 :INFO : test_configurations_page_coaching_tab : :  ✅ Coaching Tab is present.
+2025-09-09 21:56:06,346 :INFO : test_configurations_page_tagging_tab :===== Validating Tagging Tab Test =====
+2025-09-09 21:56:09,679 :INFO : test_configurations_page_tagging_tab : :  ✅ Tagging Tab is present.
+2025-09-09 21:56:09,681 :INFO : test_configurations_page_add_tag :===== Validating Add Tag Test =====
+2025-09-09 22:02:39,672 :INFO : test_run_admin_portal :🔆=====@ @ @ Running Full Suite for Customer @ @ @=====🔆
+2025-09-09 22:02:39,672 :INFO : test_run_admin_portal :===== Suite Controller: Admin Portal =====
+2025-09-09 22:02:39,673 :INFO : test_admin_login :===== Test Case: Admin Portal Login =====
+2025-09-09 22:02:39,674 :INFO : test_admin_login : : ******* 🌐/🔐 Attempting login to Admin Page
+2025-09-09 22:02:47,249 :INFO : test_admin_login : : ******* 🌐 ✅ Logged in successfully. Page Title: Admin Portal
+2025-09-09 22:02:47,260 :INFO : test_admin_login : : *******  ✅ Actual Title: Admin Portal
+2025-09-09 22:02:47,264 :INFO : test_customer_selection_and_master_portal :===== Test Case: Switch to Master Portal =====
+2025-09-09 22:02:55,871 :INFO : test_customer_selection_and_master_portal :✅ Found TSP: Lmpresales
+2025-09-09 22:02:59,239 :INFO : test_customer_selection_and_master_portal : : ******* 🌐/🚀 Navigating to Master Portal
+2025-09-09 22:03:07,770 :INFO : test_customer_selection_and_master_portal : : ******* 🌐 ✅ Switched to Master Portal. Title: Master Portal
+2025-09-09 22:03:07,778 :INFO : test_customer_selection_and_master_portal : : ******* 🔗 Current URL: https://master.lightmetrics.co/admin-login?code=381d0718-5ba1-4df6-84aa-1b784e12d4a6&state=lmpresales%20us-east-1
+2025-09-09 22:03:07,788 :INFO : test_customer_selection_and_master_portal : : *******  ✅ Actual Title after switch: Master Portal
+2025-09-09 22:03:07,793 :INFO : test_run_master_portal :===== Suite Controller: Master Portal =====
+2025-09-09 22:03:07,796 :INFO : test_validate_master_name : ====== Validating Master Portal Name ======
+2025-09-09 22:03:10,146 :INFO : test_validate_master_name :****** 🌐 Master portal Name : lmpresales ✅
+2025-09-09 22:03:10,259 :INFO : test_validate_master_name : : ******* ✅  Master title is visible and correct.
+2025-09-09 22:03:10,261 :INFO : test_home_page_version :=== Starting Master Portal Version Validation Test ===
+2025-09-09 22:03:10,307 :INFO : test_home_page_version :************ Master Portal Version ************ :: v5.27.0 
+2025-09-09 22:03:10,307 :INFO : test_home_page_version :************ Manual Version ************ :: v5.27.0 
+2025-09-09 22:03:10,307 :INFO : test_home_page_version : *********** Version result ******* :: True 
+2025-09-09 22:03:10,307 :INFO : test_home_page_version :Master portal version matched ✅
+2025-09-09 22:03:10,307 :INFO : test_home_page_version :=== ✅ Completed Master Portal Version Validation Test ===
+2025-09-09 22:03:10,309 :INFO : test_account_navigation_and_fleet_dashboard_launch :===== Test Case: Switch to Fleet Portal =====
+2025-09-09 22:03:10,309 :INFO : test_account_navigation_and_fleet_dashboard_launch : : 🌐/🚀 *******  Starting test: Navigate to Account & Launch Fleet Dashboard
+2025-09-09 22:03:24,877 :INFO : test_account_navigation_and_fleet_dashboard_launch : : ******* 🌐 ✅ Fleet Dashboard launched successfully. Title: RideView Fleet Portal
+2025-09-09 22:03:24,885 :INFO : test_run_fleet_portal :===== Suite Controller: Fleet Portal =====
+2025-09-09 22:03:24,889 :INFO : test_validate_fleet_name : : ====== Validating Fleet Portal Name ======
+2025-09-09 22:03:33,546 :INFO : test_validate_fleet_name : ****** 🌐 Fleet portal name ****** : Acme Transport ✅ 
+2025-09-09 22:03:33,564 :INFO : test_validate_fleet_name : : ******* ✅ Fleet name is visible and correct.
+2025-09-09 22:03:33,566 :INFO : test_home_page_version :=== Starting Fleet Portal Version Validation Test ===
+2025-09-09 22:03:33,566 :INFO : test_home_page_version :=== Starting Fleet Portal Version Validation Test ===
+2025-09-09 22:03:33,604 :INFO : test_home_page_version :************ Fleet Portal Version ************ :: v10.8.0 
+2025-09-09 22:03:33,604 :INFO : test_home_page_version :************ Fleet Portal Version ************ :: v10.8.0 
+2025-09-09 22:03:33,605 :INFO : test_home_page_version :************ Manual Version ************ :: v10.8.0 
+2025-09-09 22:03:33,605 :INFO : test_home_page_version :************ Manual Version ************ :: v10.8.0 
+2025-09-09 22:03:33,605 :INFO : test_home_page_version : *********** Version result ******* :: True 
+2025-09-09 22:03:33,605 :INFO : test_home_page_version : *********** Version result ******* :: True 
+2025-09-09 22:03:33,605 :INFO : test_home_page_version :Fleet portal version matched ✅
+2025-09-09 22:03:33,605 :INFO : test_home_page_version :Fleet portal version matched ✅
+2025-09-09 22:03:33,605 :INFO : test_home_page_version :=== ✅ Completed Fleet Portal Version Validation Test ===
+2025-09-09 22:03:33,605 :INFO : test_home_page_version :=== ✅ Completed Fleet Portal Version Validation Test ===
+2025-09-09 22:03:33,609 :INFO : test_run_safety_events_page :===== Suite Controller: Fleet Safety Events Page =====
+2025-09-09 22:03:33,611 :INFO : test_safety_events_page_btn :===== Validating Safety Events Button presence =====
+2025-09-09 22:03:38,054 :INFO : test_safety_events_page_btn : :  ✅ Safety Events button is present.
+2025-09-09 22:03:38,058 :INFO : test_safety_events_page_events_view :===== Validating Events View card presence =====
+2025-09-09 22:03:38,238 :INFO : test_safety_events_page_events_view : :  ✅ Events View card is present.
+2025-09-09 22:03:38,240 :INFO : test_safety_events_page_filters :===== Validating Safety Events filters presence =====
+2025-09-09 22:03:45,434 :INFO : test_safety_events_page_filters : :  ✅ View Safety Events filters is present.
+2025-09-09 22:03:45,440 :INFO : test_run_fleet_home_page :===== Suite Controller: Fleet Home Page =====
+2025-09-09 22:03:45,442 :INFO : test_validate_select_date_range : : ===== Validating Select Date Range =====
+2025-09-09 22:04:08,673 :INFO : test_validate_select_date_range : :  ✅ Select Date Range is functioning correctly.
+2025-09-09 22:04:08,679 :INFO : test_validate_trips_card_present : : ===== Validating Trips Card =====
+2025-09-09 22:04:08,781 :INFO : test_validate_trips_card_present : :  ✅ Trips card is present and displayed.
+2025-09-09 22:04:08,785 :INFO : test_validate_distance_card : : ===== Validating Distance Card =====
+2025-09-09 22:04:08,873 :INFO : test_validate_distance_card : :  ✅ Distance card is displayed correctly.
+2025-09-09 22:04:08,876 :INFO : test_validate_event_per_100_miles_card : : ===== Validating Events Per 100 Miles Card =====
+2025-09-09 22:04:08,972 :INFO : test_validate_event_per_100_miles_card : :  ✅ Events Per 100 Miles card is visible and validated.
+2025-09-09 22:04:08,976 :INFO : test_home_page_duration : : ===== Validating Duration (Hours) Card =====
+2025-09-09 22:04:09,060 :INFO : test_home_page_duration : :  ✅ Duration (Hours) card is displayed correctly.
+2025-09-09 22:04:09,062 :INFO : test_home_page_top_drivers_card : : ===== Validating Top Drivers Card =====
+2025-09-09 22:04:14,167 :INFO : test_home_page_top_drivers_card : :  ✅ Top Drivers card is visible and validated.
+2025-09-09 22:04:14,171 :INFO : test_home_page_coachable_drivers_card : : ===== Validating Coachable Drivers Card =====
+2025-09-09 22:04:14,253 :INFO : test_home_page_coachable_drivers_card : :  ✅ Coachable Drivers card is present and validated.
+2025-09-09 22:04:14,255 :INFO : test_home_page_event_summary_card : : ===== Validating Event Summary Card =====
+2025-09-09 22:04:14,322 :INFO : test_home_page_event_summary_card : :  ✅ Event Summary card is displayed and validated.
+2025-09-09 22:04:14,324 :INFO : test_home_page_event_trend_card : : ===== Validating Event Trend Card =====
+2025-09-09 22:04:14,381 :INFO : test_home_page_event_trend_card : :  ✅ Event Trend card is present and validated.
+2025-09-09 22:04:14,385 :INFO : test_run_fleet_trips_page :===== Suite Controller: Fleet Trips Page =====
+2025-09-09 22:04:14,387 :INFO : test_trips_page_btn :===== Validating Trips Button presence =====
+2025-09-09 22:04:17,880 :INFO : test_trips_page_btn : :  ✅ Trips page button is present.
+2025-09-09 22:04:17,883 :INFO : test_trips_page_trips_tab :===== Validating Trips Tab presence =====
+2025-09-09 22:04:18,033 :INFO : test_trips_page_trips_tab : :  ✅ Trips Tab is present.
+2025-09-09 22:04:18,039 :INFO : test_trips_page_trip_filter_card :===== Validating Trips Filter Card presence =====
+2025-09-09 22:04:30,099 :INFO : test_trips_page_trip_filter_card : :  ✅ Trips Filter Card is present.
+2025-09-09 22:04:30,104 :INFO : test_trips_page_trips_list_table :===== Validating Trips List Table presence =====
+2025-09-09 22:04:30,195 :INFO : test_trips_page_trips_list_table : :  ✅ Trips List Table is present.
+2025-09-09 22:04:30,197 :INFO : test_trips_page_bulk_edit :===== Validating Bulk Edit presence =====
+2025-09-09 22:04:43,042 :INFO : test_trips_page_bulk_edit : :  ✅ Bulk Edit option is present.
+2025-09-09 22:04:43,045 :INFO : test_trips_page_export_trips :===== Validating Export Trips presence =====
+2025-09-09 22:04:53,656 :INFO : test_trips_page_export_trips : :  ✅ Export Trips option is present.
+2025-09-09 22:04:53,661 :INFO : test_trips_page_active_drivers_tab :===== Validating Active Drivers Tab presence =====
+2025-09-09 22:04:59,796 :INFO : test_trips_page_active_drivers_tab : :  ✅ Active Drivers Tab is present.
+2025-09-09 22:04:59,799 :INFO : test_trips_page_manage_tab :===== Validating Manage Tab presence =====
+2025-09-09 22:05:02,120 :INFO : test_trips_page_manage_tab : :  ✅ Manage Tab is present.
+2025-09-09 22:05:02,125 :INFO : test_run_fleet_live_view_page :===== Suite Controller: Fleet Live View Page =====
+2025-09-09 22:05:02,128 :INFO : test_live_view_page_btn :===== Validating Live View Button presence =====
+2025-09-09 22:05:17,931 :INFO : test_live_view_page_btn : :  ✅ Live View page button is present.
+2025-09-09 22:05:17,937 :INFO : test_run_coaching_page :===== Suite Controller: Fleet Coaching Page =====
+2025-09-09 22:05:17,940 :INFO : test_coaching_page_btn :===== Validating Coaching Page Button presence =====
+2025-09-09 22:05:23,968 :INFO : test_coaching_page_btn : :  ✅ Coaching page button is present.
+2025-09-09 22:05:23,970 :INFO : test_coaching_page_coachable_drivers_table :===== Validating Coachable Drivers Table presence =====
+2025-09-09 22:05:24,104 :INFO : test_coaching_page_coachable_drivers_table : :  ✅ Coachable Drivers Table is present.
+2025-09-09 22:05:24,107 :INFO : test_coaching_page_completed_coaching_sessions_table :===== Validating Completed Coaching Sessions Table presence =====
+2025-09-09 22:05:24,168 :INFO : test_coaching_page_completed_coaching_sessions_table : :  ✅ Completed Coaching Sessions Table is present.
+2025-09-09 22:05:24,174 :INFO : test_run_video_requests_page :===== Suite Controller: Fleet Video Requests Page =====
+2025-09-09 22:05:24,177 :INFO : test_video_requests_page :===== Validating Video Requests Page presence =====
+2025-09-09 22:05:31,880 :INFO : test_video_requests_page : :  ✅ Video Requests Page is present.
+2025-09-09 22:05:31,883 :INFO : test_video_requests_page_table :===== Validating Video Requests Table presence =====
+2025-09-09 22:05:31,942 :INFO : test_video_requests_page_table : :  ✅ Video Requests Table is present.
+2025-09-09 22:05:31,945 :INFO : test_video_requests_page_video_request :===== Validating Request Video PopUp presence =====
+2025-09-09 22:05:33,487 :INFO : test_video_requests_page_video_request : :  ✅ Request Video PopUp is present.
+2025-09-09 22:05:33,490 :INFO : test_video_requests_page_filter :===== Validating Video Requests Filter presence =====
+2025-09-09 22:05:33,610 :INFO : test_video_requests_page_filter : :  ✅ Video Requests Filter is present.
+2025-09-09 22:05:33,613 :INFO : test_video_requests_page_panic_btn_filter :===== Validating Panic Button Filter presence =====
+2025-09-09 22:05:33,673 :INFO : test_video_requests_page_panic_btn_filter : :  ✅ Panic Button Filter is present.
+2025-09-09 22:05:33,675 :INFO : test_video_requests_page_event_on_demand_filter :===== Validating Event On Demand Filter presence =====
+2025-09-09 22:05:33,732 :INFO : test_video_requests_page_event_on_demand_filter : :  ✅ Event On Demand Filter is present.
+2025-09-09 22:05:33,736 :INFO : test_run_drivers_page :===== Suite Controller: Fleet Drivers Page =====
+2025-09-09 22:05:33,737 :INFO : test_drivers_page :===== Validating Drivers Page presence =====
+2025-09-09 22:05:38,392 :INFO : test_drivers_page : :  ✅ Drivers Page is present.
+2025-09-09 22:05:38,395 :INFO : test_drivers_page_driver_list_table :===== Validating Driver List Table presence =====
+2025-09-09 22:05:38,554 :INFO : test_drivers_page_driver_list_table : :  ✅ Driver List Table is present.
+2025-09-09 22:05:38,556 :INFO : test_drivers_page_search_driver_opt :===== Validating Search Driver Option presence =====
+2025-09-09 22:05:38,690 :INFO : test_drivers_page_search_driver_opt : :  ✅ Search Driver is present.
+2025-09-09 22:05:38,695 :INFO : test_drivers_page_batch_update_btn :===== Validating Batch Update Button presence =====
+2025-09-09 22:05:38,815 :INFO : test_drivers_page_batch_update_btn : :  ✅ Batch Update Button is present.
+2025-09-09 22:05:38,821 :INFO : test_drivers_page_export_button :===== Validating Export Button presence =====
+2025-09-09 22:05:41,412 :INFO : test_drivers_page_export_button : :  ✅ Export Button is present.
+2025-09-09 22:05:41,417 :INFO : test_drivers_page_installers_tab :===== Validating Installers Tab presence =====
+2025-09-09 22:05:49,007 :INFO : test_drivers_page_installers_tab : :  ✅ Installers Tab is present.
+2025-09-09 22:05:49,014 :INFO : test_run_challenges_page :===== Suite Controller: Fleet Challenges Page =====
+2025-09-09 22:05:49,016 :INFO : test_challenges_page :===== Validating Challenges Page presence =====
+2025-09-09 22:05:58,033 :INFO : test_challenges_page : :  ✅ Challenges Page is present.
+2025-09-09 22:05:58,035 :INFO : test_challenges_page_challenged_events_table :===== Validating Challenged Events Table presence =====
+2025-09-09 22:05:58,096 :INFO : test_challenges_page_challenged_events_table : :  ✅ Challenged Events Table is present.
+2025-09-09 22:05:58,102 :INFO : test_run_reports_page :===== Suite Controller: Fleet Reports Page =====
+2025-09-09 22:05:58,104 :INFO : test_reports_page :===== Validating Reports Page presence =====
+2025-09-09 22:06:01,364 :INFO : test_reports_page : :  ✅ Reports Page is present.
+2025-09-09 22:06:01,366 :INFO : test_reports_page_Coaching_session_report :===== Validating Coaching Session Report presence =====
+2025-09-09 22:06:10,340 :INFO : test_reports_page_Coaching_session_report : :  ✅ Coaching Session Report is present.
+2025-09-09 22:06:10,344 :INFO : test_reports_page_coaching_effectiveness_report :===== Validating Coaching Effectiveness Report presence =====
+2025-09-09 22:06:15,032 :INFO : test_reports_page_coaching_effectiveness_report : :  ✅ Coaching Effectiveness Report is present.
+2025-09-09 22:06:15,037 :INFO : test_reports_page_fleet_safety_view_report :===== Validating Fleet Safety View Report presence =====
+2025-09-09 22:06:37,605 :INFO : test_run_assets_page :===== Suite Controller: Fleet Assets Page =====
+2025-09-09 22:06:37,606 :INFO : test_assets_page :===== Validating Assets Page presence =====
+2025-09-09 22:06:40,864 :INFO : test_assets_page : :  ✅ Assets Page is present.
+2025-09-09 22:06:40,867 :INFO : test_assets_page_overview_tab :===== Validating Assets Page Overview Tab presence =====
+2025-09-09 22:06:43,379 :INFO : test_assets_page_overview_tab : :  ✅ Overview Tab is present.
+2025-09-09 22:06:43,381 :INFO : test_assets_page_manage_assets_tab :===== Validating Manage Assets Tab presence =====
+2025-09-09 22:06:54,989 :INFO : test_assets_page_manage_assets_tab : :  ✅ Manage Assets Tab is present.
+2025-09-09 22:06:54,992 :INFO : test_assets_page_devices_tab :===== Validating Devices Tab presence =====
+2025-09-09 22:06:58,297 :INFO : test_assets_page_devices_tab : :  ✅ Devices Tab is present.
+2025-09-09 22:06:58,300 :INFO : test_assets_page_diagnostics_tab :===== Validating Diagnostics Tab presence =====
+2025-09-09 22:07:10,510 :INFO : test_assets_page_diagnostics_tab : :  ✅ Diagnostics Tab is present.
+2025-09-09 22:07:10,516 :INFO : test_run_users_page :===== Suite Controller: Fleet Users Page =====
+2025-09-09 22:07:10,518 :INFO : test_users_page :===== Validating Users Page presence =====
+2025-09-09 22:07:14,525 :INFO : test_users_page : :  ✅ Users Page is present.
+2025-09-09 22:07:14,528 :INFO : test_users_tab :===== Validating Users Tab presence =====
+2025-09-09 22:07:14,696 :INFO : test_users_tab : :  ✅ Users Tab is present.
+2025-09-09 22:07:14,698 :INFO : test_users_page_roles_tab :===== Validating Roles Tab presence =====
+2025-09-09 22:07:18,131 :INFO : test_users_page_roles_tab : :  ✅ Roles Tab is present.
+2025-09-09 22:07:18,132 :INFO : test_users_page_user_activity_log_tab :===== Validating User Activity Log Tab presence =====
+2025-09-09 22:07:20,546 :INFO : test_users_page_user_activity_log_tab : :  ✅ User Activity Log Tab is present.
+2025-09-09 22:07:20,550 :INFO : test_run_configurations_page :===== Suite Controller: Fleet Configurations Page =====
+2025-09-09 22:07:20,552 :INFO : test_configurations_page :===== Validating Fleet Configurations Page Test =====
+2025-09-09 22:07:27,005 :INFO : test_configurations_page : :  ✅ Configurations Page is present.
+2025-09-09 22:07:27,007 :INFO : test_configurations_page_basic_configurations_table :===== Validating Basic Configurations Table Test =====
+2025-09-09 22:07:28,495 :INFO : test_configurations_page_basic_configurations_table : :  ✅ Basic Configurations Table is present.
+2025-09-09 22:07:28,496 :INFO : test_configurations_page_advanced_tab :===== Validating Advanced Tab Test =====
+2025-09-09 22:07:32,596 :INFO : test_configurations_page_advanced_tab : :  ✅ Advanced Tab is present.
+2025-09-09 22:07:32,597 :INFO : test_configurations_page_coaching_tab :===== Validating Coaching Tab Test =====
+2025-09-09 22:07:36,080 :INFO : test_configurations_page_coaching_tab : :  ✅ Coaching Tab is present.
+2025-09-09 22:07:36,082 :INFO : test_configurations_page_tagging_tab :===== Validating Tagging Tab Test =====
+2025-09-09 22:07:39,383 :INFO : test_configurations_page_tagging_tab : :  ✅ Tagging Tab is present.
+2025-09-09 22:07:39,383 :INFO : test_run_configurations_page :🔆✅ ✅ =====@ Full suite passed for customer @===== ✅ ✅🔆
+2025-09-09 22:10:30,935 :INFO : test_run_admin_portal :🔆=====@ @ @ Running Full Suite for Customer @ @ @=====🔆
+2025-09-09 22:10:30,935 :INFO : test_run_admin_portal :===== Suite Controller: Admin Portal =====
+2025-09-09 22:10:30,937 :INFO : test_admin_login :===== Test Case: Admin Portal Login =====
+2025-09-09 22:10:30,937 :INFO : test_admin_login : : ******* 🌐/🔐 Attempting login to Admin Page
+2025-09-09 22:10:38,547 :INFO : test_admin_login : : ******* 🌐 ✅ Logged in successfully. Page Title: Admin Portal
+2025-09-09 22:10:38,558 :INFO : test_admin_login : : *******  ✅ Actual Title: Admin Portal
+2025-09-09 22:10:38,563 :INFO : test_customer_selection_and_master_portal :===== Test Case: Switch to Master Portal =====
+2025-09-09 22:10:47,521 :INFO : test_customer_selection_and_master_portal :✅ Found TSP: Lmpresales
+2025-09-09 22:10:50,892 :INFO : test_customer_selection_and_master_portal : : ******* 🌐/🚀 Navigating to Master Portal
+2025-09-09 22:10:59,740 :INFO : test_customer_selection_and_master_portal : : ******* 🌐 ✅ Switched to Master Portal. Title: Master Portal
+2025-09-09 22:10:59,748 :INFO : test_customer_selection_and_master_portal : : ******* 🔗 Current URL: https://master.lightmetrics.co/admin-login?code=2801bcf4-9022-4c00-b58f-697e0bc577d9&state=lmpresales%20us-east-1
+2025-09-09 22:10:59,756 :INFO : test_customer_selection_and_master_portal : : *******  ✅ Actual Title after switch: Master Portal
+2025-09-09 22:10:59,768 :INFO : test_run_master_portal :===== Suite Controller: Master Portal =====
+2025-09-09 22:10:59,772 :INFO : test_validate_master_name : ====== Validating Master Portal Name ======
+2025-09-09 22:11:01,950 :INFO : test_validate_master_name :****** 🌐 Master portal Name : lmpresales ✅
+2025-09-09 22:11:02,179 :INFO : test_validate_master_name : : ******* ✅  Master title is visible and correct.
+2025-09-09 22:11:02,181 :INFO : test_home_page_version :=== Starting Master Portal Version Validation Test ===
+2025-09-09 22:11:02,265 :INFO : test_home_page_version :************ Master Portal Version ************ :: v5.27.0 
+2025-09-09 22:11:02,266 :INFO : test_home_page_version :************ Manual Version ************ :: v5.27.0 
+2025-09-09 22:11:02,266 :INFO : test_home_page_version : *********** Version result ******* :: True 
+2025-09-09 22:11:02,266 :INFO : test_home_page_version :Master portal version matched ✅
+2025-09-09 22:11:02,266 :INFO : test_home_page_version :=== ✅ Completed Master Portal Version Validation Test ===
+2025-09-09 22:11:02,268 :INFO : test_account_navigation_and_fleet_dashboard_launch :===== Test Case: Switch to Fleet Portal =====
+2025-09-09 22:11:02,268 :INFO : test_account_navigation_and_fleet_dashboard_launch : : 🌐/🚀 *******  Starting test: Navigate to Account & Launch Fleet Dashboard
+2025-09-09 22:11:16,559 :INFO : test_account_navigation_and_fleet_dashboard_launch : : ******* 🌐 ✅ Fleet Dashboard launched successfully. Title: RideView Fleet Portal
+2025-09-09 22:11:16,574 :INFO : test_run_fleet_portal :===== Suite Controller: Fleet Portal =====
+2025-09-09 22:11:16,580 :INFO : test_validate_fleet_name : : ====== Validating Fleet Portal Name ======
+2025-09-09 22:11:25,547 :INFO : test_validate_fleet_name : ****** 🌐 Fleet portal name ****** : Acme Transport ✅ 
+2025-09-09 22:11:25,598 :INFO : test_validate_fleet_name : : ******* ✅ Fleet name is visible and correct.
+2025-09-09 22:11:25,600 :INFO : test_home_page_version :=== Starting Fleet Portal Version Validation Test ===
+2025-09-09 22:11:25,600 :INFO : test_home_page_version :=== Starting Fleet Portal Version Validation Test ===
+2025-09-09 22:11:25,695 :INFO : test_home_page_version :************ Fleet Portal Version ************ :: v10.8.0 
+2025-09-09 22:11:25,695 :INFO : test_home_page_version :************ Fleet Portal Version ************ :: v10.8.0 
+2025-09-09 22:11:25,695 :INFO : test_home_page_version :************ Manual Version ************ :: v10.8.0 
+2025-09-09 22:11:25,695 :INFO : test_home_page_version :************ Manual Version ************ :: v10.8.0 
+2025-09-09 22:11:25,696 :INFO : test_home_page_version : *********** Version result ******* :: True 
+2025-09-09 22:11:25,696 :INFO : test_home_page_version : *********** Version result ******* :: True 
+2025-09-09 22:11:25,696 :INFO : test_home_page_version :Fleet portal version matched ✅
+2025-09-09 22:11:25,696 :INFO : test_home_page_version :Fleet portal version matched ✅
+2025-09-09 22:11:25,696 :INFO : test_home_page_version :=== ✅ Completed Fleet Portal Version Validation Test ===
+2025-09-09 22:11:25,696 :INFO : test_home_page_version :=== ✅ Completed Fleet Portal Version Validation Test ===
+2025-09-09 22:11:25,702 :INFO : test_run_safety_events_page :===== Suite Controller: Fleet Safety Events Page =====
+2025-09-09 22:11:25,704 :INFO : test_safety_events_page_btn :===== Validating Safety Events Button presence =====
+2025-09-09 22:11:32,277 :INFO : test_safety_events_page_btn : :  ✅ Safety Events button is present.
+2025-09-09 22:11:32,281 :INFO : test_safety_events_page_events_view :===== Validating Events View card presence =====
+2025-09-09 22:11:32,444 :INFO : test_safety_events_page_events_view : :  ✅ Events View card is present.
+2025-09-09 22:11:32,446 :INFO : test_safety_events_page_filters :===== Validating Safety Events filters presence =====
+2025-09-09 22:11:40,743 :INFO : test_safety_events_page_filters : :  ✅ View Safety Events filters is present.
+2025-09-09 22:11:40,754 :INFO : test_run_fleet_home_page :===== Suite Controller: Fleet Home Page =====
+2025-09-09 22:11:40,758 :INFO : test_validate_select_date_range : : ===== Validating Select Date Range =====
+2025-09-09 22:12:02,891 :INFO : test_validate_select_date_range : :  ✅ Select Date Range is functioning correctly.
+2025-09-09 22:12:02,897 :INFO : test_validate_trips_card_present : : ===== Validating Trips Card =====
+2025-09-09 22:12:02,994 :INFO : test_validate_trips_card_present : :  ✅ Trips card is present and displayed.
+2025-09-09 22:12:02,999 :INFO : test_validate_distance_card : : ===== Validating Distance Card =====
+2025-09-09 22:12:03,094 :INFO : test_validate_distance_card : :  ✅ Distance card is displayed correctly.
+2025-09-09 22:12:03,098 :INFO : test_validate_event_per_100_miles_card : : ===== Validating Events Per 100 Miles Card =====
+2025-09-09 22:12:03,192 :INFO : test_validate_event_per_100_miles_card : :  ✅ Events Per 100 Miles card is visible and validated.
+2025-09-09 22:12:03,196 :INFO : test_home_page_duration : : ===== Validating Duration (Hours) Card =====
+2025-09-09 22:12:03,299 :INFO : test_home_page_duration : :  ✅ Duration (Hours) card is displayed correctly.
+2025-09-09 22:12:03,304 :INFO : test_home_page_top_drivers_card : : ===== Validating Top Drivers Card =====
+2025-09-09 22:12:08,429 :INFO : test_home_page_top_drivers_card : :  ✅ Top Drivers card is visible and validated.
+2025-09-09 22:12:08,432 :INFO : test_home_page_coachable_drivers_card : : ===== Validating Coachable Drivers Card =====
+2025-09-09 22:12:08,562 :INFO : test_home_page_coachable_drivers_card : :  ✅ Coachable Drivers card is present and validated.
+2025-09-09 22:12:08,565 :INFO : test_home_page_event_summary_card : : ===== Validating Event Summary Card =====
+2025-09-09 22:12:08,631 :INFO : test_home_page_event_summary_card : :  ✅ Event Summary card is displayed and validated.
+2025-09-09 22:12:08,633 :INFO : test_home_page_event_trend_card : : ===== Validating Event Trend Card =====
+2025-09-09 22:12:08,700 :INFO : test_home_page_event_trend_card : :  ✅ Event Trend card is present and validated.
+2025-09-09 22:12:08,706 :INFO : test_run_fleet_trips_page :===== Suite Controller: Fleet Trips Page =====
+2025-09-09 22:12:08,708 :INFO : test_trips_page_btn :===== Validating Trips Button presence =====
+2025-09-09 22:12:15,875 :INFO : test_trips_page_btn : :  ✅ Trips page button is present.
+2025-09-09 22:12:15,880 :INFO : test_trips_page_trips_tab :===== Validating Trips Tab presence =====
+2025-09-09 22:12:18,684 :INFO : test_trips_page_trips_tab : :  ✅ Trips Tab is present.
+2025-09-09 22:12:18,687 :INFO : test_trips_page_trip_filter_card :===== Validating Trips Filter Card presence =====
+2025-09-09 22:12:28,426 :INFO : test_trips_page_trip_filter_card : :  ✅ Trips Filter Card is present.
+2025-09-09 22:12:28,430 :INFO : test_trips_page_trips_list_table :===== Validating Trips List Table presence =====
+2025-09-09 22:12:28,514 :INFO : test_trips_page_trips_list_table : :  ✅ Trips List Table is present.
+2025-09-09 22:12:28,518 :INFO : test_trips_page_bulk_edit :===== Validating Bulk Edit presence =====
+2025-09-09 22:12:41,044 :INFO : test_trips_page_bulk_edit : :  ✅ Bulk Edit option is present.
+2025-09-09 22:12:41,048 :INFO : test_trips_page_export_trips :===== Validating Export Trips presence =====
+2025-09-09 22:12:50,607 :INFO : test_trips_page_export_trips : :  ✅ Export Trips option is present.
+2025-09-09 22:12:50,610 :INFO : test_trips_page_active_drivers_tab :===== Validating Active Drivers Tab presence =====
+2025-09-09 22:12:56,705 :INFO : test_trips_page_active_drivers_tab : :  ✅ Active Drivers Tab is present.
+2025-09-09 22:12:56,708 :INFO : test_trips_page_manage_tab :===== Validating Manage Tab presence =====
+2025-09-09 22:12:59,029 :INFO : test_trips_page_manage_tab : :  ✅ Manage Tab is present.
+2025-09-09 22:12:59,034 :INFO : test_run_fleet_live_view_page :===== Suite Controller: Fleet Live View Page =====
+2025-09-09 22:12:59,036 :INFO : test_live_view_page_btn :===== Validating Live View Button presence =====
+2025-09-09 22:13:14,953 :INFO : test_live_view_page_btn : :  ✅ Live View page button is present.
+2025-09-09 22:13:14,961 :INFO : test_run_coaching_page :===== Suite Controller: Fleet Coaching Page =====
+2025-09-09 22:13:14,964 :INFO : test_coaching_page_btn :===== Validating Coaching Page Button presence =====
+2025-09-09 22:13:21,047 :INFO : test_coaching_page_btn : :  ✅ Coaching page button is present.
+2025-09-09 22:13:21,051 :INFO : test_coaching_page_coachable_drivers_table :===== Validating Coachable Drivers Table presence =====
+2025-09-09 22:13:21,134 :INFO : test_coaching_page_coachable_drivers_table : :  ✅ Coachable Drivers Table is present.
+2025-09-09 22:13:21,136 :INFO : test_coaching_page_completed_coaching_sessions_table :===== Validating Completed Coaching Sessions Table presence =====
+2025-09-09 22:13:21,264 :INFO : test_coaching_page_completed_coaching_sessions_table : :  ✅ Completed Coaching Sessions Table is present.
+2025-09-09 22:13:21,275 :INFO : test_run_video_requests_page :===== Suite Controller: Fleet Video Requests Page =====
+2025-09-09 22:13:21,280 :INFO : test_video_requests_page :===== Validating Video Requests Page presence =====
+2025-09-09 22:13:29,085 :INFO : test_video_requests_page : :  ✅ Video Requests Page is present.
+2025-09-09 22:13:29,089 :INFO : test_video_requests_page_table :===== Validating Video Requests Table presence =====
+2025-09-09 22:13:29,146 :INFO : test_video_requests_page_table : :  ✅ Video Requests Table is present.
+2025-09-09 22:13:29,148 :INFO : test_video_requests_page_video_request :===== Validating Request Video PopUp presence =====
+2025-09-09 22:13:30,684 :INFO : test_video_requests_page_video_request : :  ✅ Request Video PopUp is present.
+2025-09-09 22:13:30,686 :INFO : test_video_requests_page_filter :===== Validating Video Requests Filter presence =====
+2025-09-09 22:13:30,797 :INFO : test_video_requests_page_filter : :  ✅ Video Requests Filter is present.
+2025-09-09 22:13:30,800 :INFO : test_video_requests_page_panic_btn_filter :===== Validating Panic Button Filter presence =====
+2025-09-09 22:13:30,860 :INFO : test_video_requests_page_panic_btn_filter : :  ✅ Panic Button Filter is present.
+2025-09-09 22:13:30,862 :INFO : test_video_requests_page_event_on_demand_filter :===== Validating Event On Demand Filter presence =====
+2025-09-09 22:13:30,924 :INFO : test_video_requests_page_event_on_demand_filter : :  ✅ Event On Demand Filter is present.
+2025-09-09 22:13:30,929 :INFO : test_run_drivers_page :===== Suite Controller: Fleet Drivers Page =====
+2025-09-09 22:13:30,930 :INFO : test_drivers_page :===== Validating Drivers Page presence =====
+2025-09-09 22:13:35,749 :INFO : test_drivers_page : :  ✅ Drivers Page is present.
+2025-09-09 22:13:35,750 :INFO : test_drivers_page_driver_list_table :===== Validating Driver List Table presence =====
+2025-09-09 22:13:35,852 :INFO : test_drivers_page_driver_list_table : :  ✅ Driver List Table is present.
+2025-09-09 22:13:35,854 :INFO : test_drivers_page_search_driver_opt :===== Validating Search Driver Option presence =====
+2025-09-09 22:13:35,955 :INFO : test_drivers_page_search_driver_opt : :  ✅ Search Driver is present.
+2025-09-09 22:13:35,956 :INFO : test_drivers_page_batch_update_btn :===== Validating Batch Update Button presence =====
+2025-09-09 22:13:36,006 :INFO : test_drivers_page_batch_update_btn : :  ✅ Batch Update Button is present.
+2025-09-09 22:13:36,007 :INFO : test_drivers_page_export_button :===== Validating Export Button presence =====
+2025-09-09 22:13:38,336 :INFO : test_drivers_page_export_button : :  ✅ Export Button is present.
+2025-09-09 22:13:38,340 :INFO : test_drivers_page_installers_tab :===== Validating Installers Tab presence =====
+2025-09-09 22:13:45,781 :INFO : test_drivers_page_installers_tab : :  ✅ Installers Tab is present.
+2025-09-09 22:13:45,791 :INFO : test_run_challenges_page :===== Suite Controller: Fleet Challenges Page =====
+2025-09-09 22:13:45,793 :INFO : test_challenges_page :===== Validating Challenges Page presence =====
+2025-09-09 22:13:55,222 :INFO : test_challenges_page : :  ✅ Challenges Page is present.
+2025-09-09 22:13:55,225 :INFO : test_challenges_page_challenged_events_table :===== Validating Challenged Events Table presence =====
+2025-09-09 22:13:55,276 :INFO : test_challenges_page_challenged_events_table : :  ✅ Challenged Events Table is present.
+2025-09-09 22:13:55,282 :INFO : test_run_reports_page :===== Suite Controller: Fleet Reports Page =====
+2025-09-09 22:13:55,283 :INFO : test_reports_page :===== Validating Reports Page presence =====
+2025-09-09 22:13:58,522 :INFO : test_reports_page : :  ✅ Reports Page is present.
+2025-09-09 22:13:58,524 :INFO : test_reports_page_Coaching_session_report :===== Validating Coaching Session Report presence =====
+2025-09-09 22:14:07,548 :INFO : test_reports_page_Coaching_session_report : :  ✅ Coaching Session Report is present.
+2025-09-09 22:14:07,553 :INFO : test_reports_page_coaching_effectiveness_report :===== Validating Coaching Effectiveness Report presence =====
+2025-09-09 22:14:12,104 :INFO : test_reports_page_coaching_effectiveness_report : :  ✅ Coaching Effectiveness Report is present.
+2025-09-09 22:14:12,106 :INFO : test_reports_page_fleet_safety_view_report :===== Validating Fleet Safety View Report presence =====
+2025-09-09 22:14:16,776 :INFO : test_reports_page_fleet_safety_view_report : :  ✅ Fleet Safety View Report is present.
+2025-09-09 22:14:16,781 :INFO : test_reports_page_export_history_tab :===== Validating Export History Tab presence =====
+2025-09-09 22:14:19,165 :INFO : test_reports_page_export_history_tab : :  ✅ Export History Tab is present.
+2025-09-09 22:14:19,166 :INFO : test_reports_page_scheduled_tab :===== Validating Scheduled Tab presence =====
+2025-09-09 22:14:23,834 :INFO : test_reports_page_scheduled_tab : :  ✅ Scheduled Tab is present.
+2025-09-09 22:14:23,845 :INFO : test_run_assets_page :===== Suite Controller: Fleet Assets Page =====
+2025-09-09 22:14:23,848 :INFO : test_assets_page :===== Validating Assets Page presence =====
+2025-09-09 22:14:27,071 :INFO : test_assets_page : :  ✅ Assets Page is present.
+2025-09-09 22:14:27,073 :INFO : test_assets_page_overview_tab :===== Validating Assets Page Overview Tab presence =====
+2025-09-09 22:14:29,548 :INFO : test_assets_page_overview_tab : :  ✅ Overview Tab is present.
+2025-09-09 22:14:29,549 :INFO : test_assets_page_manage_assets_tab :===== Validating Manage Assets Tab presence =====
+2025-09-09 22:14:37,792 :INFO : test_assets_page_manage_assets_tab : :  ✅ Manage Assets Tab is present.
+2025-09-09 22:14:37,793 :INFO : test_assets_page_devices_tab :===== Validating Devices Tab presence =====
+2025-09-09 22:14:41,064 :INFO : test_assets_page_devices_tab : :  ✅ Devices Tab is present.
+2025-09-09 22:14:41,067 :INFO : test_assets_page_diagnostics_tab :===== Validating Diagnostics Tab presence =====
+2025-09-09 22:14:53,052 :INFO : test_assets_page_diagnostics_tab : :  ✅ Diagnostics Tab is present.
+2025-09-09 22:14:53,062 :INFO : test_run_users_page :===== Suite Controller: Fleet Users Page =====
+2025-09-09 22:14:53,064 :INFO : test_users_page :===== Validating Users Page presence =====
+2025-09-09 22:14:57,189 :INFO : test_users_page : :  ✅ Users Page is present.
+2025-09-09 22:14:57,193 :INFO : test_users_tab :===== Validating Users Tab presence =====
+2025-09-09 22:14:57,363 :INFO : test_users_tab : :  ✅ Users Tab is present.
+2025-09-09 22:14:57,365 :INFO : test_users_page_roles_tab :===== Validating Roles Tab presence =====
+2025-09-09 22:15:00,867 :INFO : test_users_page_roles_tab : :  ✅ Roles Tab is present.
+2025-09-09 22:15:00,870 :INFO : test_users_page_user_activity_log_tab :===== Validating User Activity Log Tab presence =====
+2025-09-09 22:15:03,195 :INFO : test_users_page_user_activity_log_tab : :  ✅ User Activity Log Tab is present.
+2025-09-09 22:15:03,200 :INFO : test_run_configurations_page :===== Suite Controller: Fleet Configurations Page =====
+2025-09-09 22:15:03,202 :INFO : test_configurations_page :===== Validating Fleet Configurations Page Test =====
+2025-09-09 22:15:09,548 :INFO : test_configurations_page : :  ✅ Configurations Page is present.
+2025-09-09 22:15:09,551 :INFO : test_configurations_page_basic_configurations_table :===== Validating Basic Configurations Table Test =====
+2025-09-09 22:15:11,135 :INFO : test_configurations_page_basic_configurations_table : :  ✅ Basic Configurations Table is present.
+2025-09-09 22:15:11,137 :INFO : test_configurations_page_advanced_tab :===== Validating Advanced Tab Test =====
+2025-09-09 22:15:15,371 :INFO : test_configurations_page_advanced_tab : :  ✅ Advanced Tab is present.
+2025-09-09 22:15:15,373 :INFO : test_configurations_page_coaching_tab :===== Validating Coaching Tab Test =====
+2025-09-09 22:15:18,797 :INFO : test_configurations_page_coaching_tab : :  ✅ Coaching Tab is present.
+2025-09-09 22:15:18,800 :INFO : test_configurations_page_tagging_tab :===== Validating Tagging Tab Test =====
+2025-09-09 22:15:22,089 :INFO : test_configurations_page_tagging_tab : :  ✅ Tagging Tab is present.
+2025-09-09 22:15:22,089 :INFO : test_run_configurations_page :🔆✅ ✅ =====@ Full suite passed for customer @===== ✅ ✅🔆

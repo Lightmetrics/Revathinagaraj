@@ -67,7 +67,7 @@ class FleetPortalPage:
         try:
             version_element = self.driver.find_element(*FleetPortalPage.portal_version)
             text_version_str = version_element.text.strip()
-            manual_version_str = "v9.0.0"  # Expected version
+            manual_version_str = "v10.8.0"  # Expected version
 
             log.info("************ Fleet Portal Version ************ :: %s " % text_version_str)
             print("Fleet Portal Version :: %s " % text_version_str)

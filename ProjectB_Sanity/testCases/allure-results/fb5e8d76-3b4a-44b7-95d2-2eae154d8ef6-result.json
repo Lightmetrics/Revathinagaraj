@@ -1,0 +1,1 @@
+{"name": "test_run_full_suite_for_customer[lmqatesting1]", "status": "passed", "parameters": [{"name": "config", "value": "'lmqatesting1'"}], "start": 1753981568949, "stop": 1753981569061, "uuid": "a5d850d7-7337-4bb5-a8c2-9bc00fb41011", "testCaseId": "01e68d7add97325e369bdb9e9e1dfae7", "fullName": "test_Suite_Controller.TestSuiteController#test_run_full_suite_for_customer"}

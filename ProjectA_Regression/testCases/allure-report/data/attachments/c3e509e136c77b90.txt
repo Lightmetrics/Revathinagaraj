@@ -1,0 +1,12 @@
+[32mINFO    [0m test_run_admin_portal:test_Suite_Controller.py:28 🔆=====@ @ @ Running Full Suite for Customer @ @ @=====🔆
+[32mINFO    [0m test_run_admin_portal:test_Suite_Controller.py:29 ===== Suite Controller: Admin Portal =====
+[32mINFO    [0m test_admin_login:test_AdminPage.py:12 ===== Test Case: Admin Portal Login =====
+[32mINFO    [0m test_admin_login:AdminPage.py:28  : ******* 🌐/🔐 Attempting login to Admin Page
+[32mINFO    [0m test_admin_login:AdminPage.py:37  : ******* 🌐 ✅ Logged in successfully. Page Title: Admin Portal
+[32mINFO    [0m test_admin_login:test_AdminPage.py:22  : *******  ✅ Actual Title: Admin Portal
+[32mINFO    [0m test_customer_selection_and_master_portal:test_AdminPage.py:35 ===== Test Case: Switch to Master Portal =====
+[32mINFO    [0m test_customer_selection_and_master_portal:AdminPage.py:60 ✅ Found TSP: Lmpresales
+[32mINFO    [0m test_customer_selection_and_master_portal:AdminPage.py:67  : ******* 🌐/🚀 Navigating to Master Portal
+[32mINFO    [0m test_customer_selection_and_master_portal:AdminPage.py:83  : ******* 🌐 ✅ Switched to Master Portal. Title: Master Portal
+[32mINFO    [0m test_customer_selection_and_master_portal:AdminPage.py:84  : ******* 🔗 Current URL: https://master.lightmetrics.co/admin-login?code=2801bcf4-9022-4c00-b58f-697e0bc577d9&state=lmpresales%20us-east-1
+[32mINFO    [0m test_customer_selection_and_master_portal:test_AdminPage.py:45  : *******  ✅ Actual Title after switch: Master Portal

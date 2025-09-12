@@ -1,0 +1,22 @@
+[31m[1mERROR   [0m test_run_full_suite_for_customer:test_Suite_Controller.py:254 ❌ Full suite failed for lmqatesting1: Message: 
+Stacktrace:
+#0 0x630a79f276da <unknown>
+#1 0x630a79a3bf80 <unknown>
+#2 0x630a79a88b46 <unknown>
+#3 0x630a79a88de1 <unknown>
+#4 0x630a79ace174 <unknown>
+#5 0x630a79aacbdd <unknown>
+#6 0x630a79acb69d <unknown>
+#7 0x630a79aac953 <unknown>
+#8 0x630a79a7b72e <unknown>
+#9 0x630a79a7c79e <unknown>
+#10 0x630a79ef2f1b <unknown>
+#11 0x630a79ef6eb8 <unknown>
+#12 0x630a79ee042c <unknown>
+#13 0x630a79ef7a37 <unknown>
+#14 0x630a79ec4fef <unknown>
+#15 0x630a79f15ad8 <unknown>
+#16 0x630a79f15ca0 <unknown>
+#17 0x630a79f26556 <unknown>
+#18 0x790f2a09caa4 <unknown>
+#19 0x790f2a129c3c <unknown>

@@ -1,0 +1,13 @@
+[32mINFO    [0m test_run_reports_page:test_Suite_Controller.py:179 ===== Suite Controller: Fleet Reports Page =====
+[32mINFO    [0m test_reports_page:test_F_9_ReportsPage.py:13 ===== Validating Reports Page presence =====
+[32mINFO    [0m test_reports_page:test_F_9_ReportsPage.py:17  :  ✅ Reports Page is present.
+[32mINFO    [0m test_reports_page_Coaching_session_report:test_F_9_ReportsPage.py:26 ===== Validating Coaching Session Report presence =====
+[32mINFO    [0m test_reports_page_Coaching_session_report:test_F_9_ReportsPage.py:30  :  ✅ Coaching Session Report is present.
+[32mINFO    [0m test_reports_page_coaching_effectiveness_report:test_F_9_ReportsPage.py:39 ===== Validating Coaching Effectiveness Report presence =====
+[32mINFO    [0m test_reports_page_coaching_effectiveness_report:test_F_9_ReportsPage.py:43  :  ✅ Coaching Effectiveness Report is present.
+[32mINFO    [0m test_reports_page_fleet_safety_view_report:test_F_9_ReportsPage.py:65 ===== Validating Fleet Safety View Report presence =====
+[32mINFO    [0m test_reports_page_fleet_safety_view_report:test_F_9_ReportsPage.py:69  :  ✅ Fleet Safety View Report is present.
+[32mINFO    [0m test_reports_page_export_history_tab:test_F_9_ReportsPage.py:173 ===== Validating Export History Tab presence =====
+[32mINFO    [0m test_reports_page_export_history_tab:test_F_9_ReportsPage.py:177  :  ✅ Export History Tab is present.
+[32mINFO    [0m test_reports_page_scheduled_tab:test_F_9_ReportsPage.py:187 ===== Validating Scheduled Tab presence =====
+[32mINFO    [0m test_reports_page_scheduled_tab:test_F_9_ReportsPage.py:191  :  ✅ Scheduled Tab is present.

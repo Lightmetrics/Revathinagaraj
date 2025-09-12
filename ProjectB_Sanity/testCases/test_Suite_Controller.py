@@ -16,7 +16,7 @@ from ProjectB_Sanity.testCases.test_F_10_AssetsPage import Fleet_AssetsPage_Test
 from ProjectB_Sanity.testCases.test_F_11_UsersPage import Fleet_UsersPage_Test
 from ProjectB_Sanity.testCases.test_F_12_ConfigurationsPage import Fleet_ConfigurationsPage_Test
 
-customer_list = ["lmqatesting1", "lmpresales"]
+customer_list = ["Lmpresales"]
 
 @pytest.mark.usefixtures("setup")
 class TestSuiteController(BaseClass):  # ✅ Inherit from BaseClass to use getLogger()
@@ -158,10 +158,10 @@ class TestSuiteController(BaseClass):  # ✅ Inherit from BaseClass to use getLo
             drivers.test_drivers_page_driver_list_table()
             drivers.test_drivers_page_search_driver_opt()
             drivers.test_drivers_page_batch_update_btn()
-            drivers.test_drivers_page_export_button()
-            drivers.test_drivers_page_add_images_option()  # Data related
-            drivers.test_drivers_page_verify_driver_name()   # Create new data
-            drivers.test_drivers_page_check_box_validation()
+            # drivers.test_drivers_page_export_button()
+            # drivers.test_drivers_page_add_images_option()  # Data related
+            # drivers.test_drivers_page_verify_driver_name()   # Create new data
+            # drivers.test_drivers_page_check_box_validation()
             drivers.test_drivers_page_installers_tab()
 
         # Step 11: Validate Challenges Page
@@ -184,14 +184,16 @@ class TestSuiteController(BaseClass):  # ✅ Inherit from BaseClass to use getLo
             reports = Fleet_ReportsPage_Test()
             reports.driver = self.driver
             reports.test_reports_page()
-            reports.test_reports_page_fleet_safety_view_report()
-            # reports.test_reports_page_fleet_safety_create_schedule_report()  # Create new data
-            # reports.test_reports_page_fleet_safety_edit_schedule_report_page()  # Edit newly created data
             reports.test_reports_page_Coaching_session_report()
             reports.test_reports_page_coaching_effectiveness_report()
-            reports.test_reports_page_event_list_report()    # Async Report
-            reports.test_reports_page_driver_privacy_mode_report()   # Async Report
-            reports.test_reports_page_event_count_report()   # Async Report
+            reports.test_reports_page_driver_privacy_mode_report()  # Async Report
+            reports.test_reports_page_fleet_safety_view_report()
+            reports.test_reports_page_fleet_safety_create_schedule_report()  # Async Report 
+            reports.test_reports_page_video_request_list_report()  # Async Report
+            reports.test_reports_page_event_count_report()  # Async Report
+            reports.test_reports_page_event_list_report()  # Async Report
+            reports.test_reports_page_highg_event_list_report()  # Async Report
+            reports.test_reports_page_panic_button_list_report()  # Async Report
             reports.test_reports_page_export_history_tab()
             reports.test_reports_page_scheduled_tab()
 

@@ -52,7 +52,7 @@ class AdminPage:
             customer_input = self.wait.until(EC.element_to_be_clickable(self.customerName))
             time.sleep(1)
             customer_input.clear()
-            customer_input.send_keys("lmqatesting1")
+            customer_input.send_keys("Lmpresales")
             time.sleep(1)
 
             tsp_name_elem = self.wait.until(EC.visibility_of_element_located(self.customer_tsp_name))

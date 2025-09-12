@@ -1,0 +1,17 @@
+[32mINFO    [0m test_run_fleet_trips_page:test_Suite_Controller.py:93 ===== Suite Controller: Fleet Trips Page =====
+[32mINFO    [0m test_trips_page_btn:test_F_3_TripsPage.py:14 ===== Validating Trips Button presence =====
+[32mINFO    [0m test_trips_page_btn:test_F_3_TripsPage.py:18  :  ✅ Trips page button is present.
+[32mINFO    [0m test_trips_page_trips_tab:test_F_3_TripsPage.py:28 ===== Validating Trips Tab presence =====
+[32mINFO    [0m test_trips_page_trips_tab:test_F_3_TripsPage.py:32  :  ✅ Trips Tab is present.
+[32mINFO    [0m test_trips_page_trip_filter_card:test_F_3_TripsPage.py:42 ===== Validating Trips Filter Card presence =====
+[32mINFO    [0m test_trips_page_trip_filter_card:test_F_3_TripsPage.py:46  :  ✅ Trips Filter Card is present.
+[32mINFO    [0m test_trips_page_trips_list_table:test_F_3_TripsPage.py:56 ===== Validating Trips List Table presence =====
+[32mINFO    [0m test_trips_page_trips_list_table:test_F_3_TripsPage.py:60  :  ✅ Trips List Table is present.
+[32mINFO    [0m test_trips_page_bulk_edit:test_F_3_TripsPage.py:70 ===== Validating Bulk Edit presence =====
+[32mINFO    [0m test_trips_page_bulk_edit:test_F_3_TripsPage.py:74  :  ✅ Bulk Edit option is present.
+[32mINFO    [0m test_trips_page_export_trips:test_F_3_TripsPage.py:84 ===== Validating Export Trips presence =====
+[32mINFO    [0m test_trips_page_export_trips:test_F_3_TripsPage.py:88  :  ✅ Export Trips option is present.
+[32mINFO    [0m test_trips_page_active_drivers_tab:test_F_3_TripsPage.py:111 ===== Validating Active Drivers Tab presence =====
+[32mINFO    [0m test_trips_page_active_drivers_tab:test_F_3_TripsPage.py:115  :  ✅ Active Drivers Tab is present.
+[32mINFO    [0m test_trips_page_manage_tab:test_F_3_TripsPage.py:125 ===== Validating Manage Tab presence =====
+[32mINFO    [0m test_trips_page_manage_tab:test_F_3_TripsPage.py:129  :  ✅ Manage Tab is present.

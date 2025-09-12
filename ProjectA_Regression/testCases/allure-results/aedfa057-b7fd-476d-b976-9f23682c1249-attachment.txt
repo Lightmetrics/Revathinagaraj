@@ -1,0 +1,14 @@
+🔗 https://dashboard.lightmetrics.co/video-requests
+subscriptions
+Video Requests ====>  ( Page matched ) 📑
+Past 30 days ====>  ( Selected Date Range )
+Select Tags ====>  ( Filter type matched )
+Video Requests info_outline ====>  ( Table matched )
+REQUEST VIDEO ====>  ( Button matched )
+ 🎥/🚀 ✅ Successfully launched 'REQUEST VIDEO' Pop-Up, from 'Video Requests' Page
+Select Date * ====>  ( Filter type from 'Pop-Up' matched )
+Filter Type * ====>  ( Filter type from 'Pop-Up' matched )
+Driver ID/Name ====>  ( Filter type from 'Pop-Up' matched )
+Video Requests ====>  ( Button matched )
+Panic Button ====>  ( Button matched )
+Event On-Demand ====>  ( Button matched )

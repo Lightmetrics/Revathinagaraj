@@ -1,0 +1,13 @@
+🔗 https://dashboard.lightmetrics.co/safety-events
+warning
+Safety Events ====>  ( Page matched ) 📑
+Events View (3427 events) ====>  ( Events Title matched )
+filter_list ====>  ( Filters hide option matched )
+list ====>  ( View type matched )
+Past 30 days ====>  ( Selected Date Range )
+Filter Type * ====>  ( Filter type matched )
+Driver ID/Name ====>  ( Filter type matched )
+Event Type ====>  ( Filter type matched )
+Select Tags ====>  ( Filter type matched )
+View Status ====>  ( Filter type matched )
+ ✅ Successfully applied filters on 'Safety Events' page.

@@ -1,0 +1,13 @@
+[32mINFO    [0m test_run_drivers_page:test_Suite_Controller.py:147 ===== Suite Controller: Fleet Drivers Page =====
+[32mINFO    [0m test_drivers_page:test_F_7_DriversPage.py:14 ===== Validating Drivers Page presence =====
+[32mINFO    [0m test_drivers_page:test_F_7_DriversPage.py:18  :  ✅ Drivers Page is present.
+[32mINFO    [0m test_drivers_page_driver_list_table:test_F_7_DriversPage.py:27 ===== Validating Driver List Table presence =====
+[32mINFO    [0m test_drivers_page_driver_list_table:test_F_7_DriversPage.py:31  :  ✅ Driver List Table is present.
+[32mINFO    [0m test_drivers_page_search_driver_opt:test_F_7_DriversPage.py:40 ===== Validating Search Driver Option presence =====
+[32mINFO    [0m test_drivers_page_search_driver_opt:test_F_7_DriversPage.py:44  :  ✅ Search Driver is present.
+[32mINFO    [0m test_drivers_page_batch_update_btn:test_F_7_DriversPage.py:53 ===== Validating Batch Update Button presence =====
+[32mINFO    [0m test_drivers_page_batch_update_btn:test_F_7_DriversPage.py:57  :  ✅ Batch Update Button is present.
+[32mINFO    [0m test_drivers_page_export_button:test_F_7_DriversPage.py:66 ===== Validating Export Button presence =====
+[32mINFO    [0m test_drivers_page_export_button:test_F_7_DriversPage.py:70  :  ✅ Export Button is present.
+[32mINFO    [0m test_drivers_page_installers_tab:test_F_7_DriversPage.py:161 ===== Validating Installers Tab presence =====
+[32mINFO    [0m test_drivers_page_installers_tab:test_F_7_DriversPage.py:165  :  ✅ Installers Tab is present.

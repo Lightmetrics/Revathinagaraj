@@ -14,11 +14,12 @@ class MasterPortalPage:
         self.wait = WebDriverWait(driver, 15)  # Global explicit wait
 
     master_portal_version = (By.XPATH, "//mat-chip-list[@class='mat-chip-list ng-star-inserted']/div/mat-chip")
+    lisa_close_btn = (By.XPATH, "//app-chatbot-widget/section[contains(@class,'widget')]/div/div[2]/button[2]")
     master_portal_name = (By.XPATH, "//mat-chip-list[@class='mat-chip-list ng-star-inserted']/preceding-sibling::button/parent::div/following-sibling::div/span")
     toolbar_menu = (By.XPATH, "//app-home[@class='ng-star-inserted']//app-header/mat-toolbar/div[2]/span")
     account_btn = (By.XPATH, "//mat-nav-list[@role='navigation']/a[2]")
     account_search = (By.XPATH, "//input[@data-placeholder='Search for an account']")
-    fleetdashboard = (By.XPATH, "//button[@mattooltip='Launch fleet dashboard']")
+    fleetdashboard = (By.XPATH, "(//mat-icon[contains(text(),'open_in_new')])[1]/ancestor::button[1]")
 
 
     def validate_master_name(self, log):
@@ -58,7 +59,7 @@ class MasterPortalPage:
         try:
             version_element = self.driver.find_element(*MasterPortalPage.master_portal_version)
             text_version_str = version_element.text.strip()
-            manual_version_str = "v5.0.0"  # Expected version
+            manual_version_str = "v5.27.0"  # Expected version
 
             log.info("************ Master Portal Version ************ :: %s " % text_version_str)
             print("Master Portal Version :: %s " % text_version_str)
@@ -85,6 +86,13 @@ class MasterPortalPage:
 
     def account_option(self):
         try:
+            time.sleep(2)
+
+            lisa_close = WebDriverWait(self.driver, 20).until(
+                EC.element_to_be_clickable(MasterPortalPage.lisa_close_btn))
+            lisa_close.click()
+            time.sleep(2)
+
             # Click the account button
             account_button = WebDriverWait(self.driver, 20).until(
                 EC.element_to_be_clickable(MasterPortalPage.account_btn)
@@ -98,7 +106,7 @@ class MasterPortalPage:
             search_field.click()
 
             # Enter search term
-            search_field.send_keys('Sreenivas-Fleet')
+            search_field.send_keys('Acme Transport')
             time.sleep(5)
 
             # Click the fleet dashboard button

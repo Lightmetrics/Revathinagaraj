@@ -1,0 +1,12 @@
+home
+Home ====>  ( Page matched ) 📑
+🔗 https://dashboard.lightmetrics.co/home
+Past 30 days ====>  ( Selected Date Range )
+TRIPS ====>  ( Card matched )
+DISTANCE (mi) ====>  ( Card matched )
+EVENTS PER 100 MILES ====>  ( Card matched )
+DURATION (hours) ====> ( Card matched )
+Top Drivers ====>  ( Card matched )
+Coachable Drivers info_outline ====>  ( Card matched )
+Event Summary ====>  ( Card matched )
+Event Trend ====>  ( Card matched )

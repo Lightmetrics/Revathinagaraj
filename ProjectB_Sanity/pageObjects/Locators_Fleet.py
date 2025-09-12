@@ -71,8 +71,8 @@ class FleetPortal_Locators:
     back_arrow = (By.XPATH, " //h3[text()='Bulk Trip Edit']/preceding-sibling::button")
     export_trips = (By.XPATH, "//span[contains(text(),'EXPORT OPTIONS')]/parent::button")
     export_now_btn = (By.XPATH, "//button[contains(text(),'Export Now')]")
-    download_file_alert = (By.XPATH, "//app-alert[@fxlayout='row']/div/div/div[2]")
-    view_downloads_btn = (By.XPATH, "//app-alert[@fxlayout='row']/div/div/following-sibling::button")
+    # download_file_alert = (By.XPATH, "//app-alert[@fxlayout='row']/div/div/div[2]")
+    # view_downloads_btn = (By.XPATH, "//app-alert[@fxlayout='row']/div/div/following-sibling::button")
     schedule_btn = (By.XPATH, "//button[contains(text(),'Schedule')]")
     video_request_btn = (By.XPATH, "//table[@role='table']//tbody/tr[1]/td[11]/span/div/button")
     trip_details_btn = (By.XPATH, "//table[@role='table']//tbody/tr[1]/td[11]/span/div/following-sibling::button[1]")
@@ -180,7 +180,6 @@ class FleetPortal_Locators:
     challenged_events_table = (By.XPATH, "//mat-card[@fxlayout='column']/div/h3")
     challenges_status_filter = (By.XPATH, "//mat-label[contains(text(),'Challenge Status')]/parent::label")
 
-
 # ============================
 # Reports Page Selectors
 # ============================
@@ -188,14 +187,34 @@ class FleetPortal_Locators:
     reports_page = (By.XPATH, "//span[text()='Reports']/ancestor::span/parent::a")
     overview_tab = (By.XPATH, "//label[text()='Overview']/parent::div")
 
+# Coaching Reports:-
+# Coaching Session Report:-
+    coaching_session_report = (By.XPATH, "//strong[contains(text(),'Coaching Session Report')]")
+    view_report_btn2 = (By.XPATH, "//strong[text()='Coaching Session Report']/parent::div/../following-sibling::div/div/a[contains(text(),'View')]")
+    select_driver_filt = (By.XPATH, "//span[contains(text(),'Select Driver')]/parent::label")
+    coaching_session_filt = (By.XPATH, "//span[contains(text(),'Coaching Session')]/ancestor::label")
+    schedule_btn2 = (By.XPATH, "//strong[text()='Coaching Session Report']/parent::div/../following-sibling::div/div/a[contains(text(),'Schedule')]")
+
+# Coaching Effectiveness Report:-
+    coaching_effectiveness_report = (By.XPATH, "//strong[contains(text(),'Coaching Effectiveness (Driver)')]")
+    view_report_btn3 = (By.XPATH, "//strong[text()='Coaching Effectiveness (Driver)']/parent::div/../following-sibling::div/div/a[contains(text(),'View')]")
+
+# Driver Reports:-
+# Privacy Mode Report:-
+    driver_privacy_mode_report = (By.XPATH, "//strong[contains(text(),'Privacy Mode Report')]")
+    download_report_repo2 = (By.XPATH, "//strong[text()='Privacy Mode Report']/parent::div/../following-sibling::div/div/a[contains(text(),'Download')]")
+    schedule_btn5  = (By.XPATH, "//strong[text()='Privacy Mode Report']/parent::div/../following-sibling::div/div/a[contains(text(),'Schedule')]")
+    close_popup  = (By.XPATH, "//mat-icon[contains(text(),'close')]")
+
+# Fleet Reports:-
 # Fleet Safety Report:-
-    fleet_safety_report = (By.XPATH, "//h3[contains(text(),'Fleet Safety')]")
-    view_report_btn1 = (By.XPATH, "//h3[text()='Fleet Safety']/parent::div/following-sibling::div/a")
+    fleet_safety_report = (By.XPATH, "//strong[contains(text(),'Fleet Safety Report')]")
+    view_report_btn1 = (By.XPATH, "//strong[text()='Fleet Safety Report']/parent::div/../following-sibling::div/div/a[contains(text(),'View')]")
     download_report_btn = (By.XPATH, "//span[contains(text(),' Download report') or contains(text(),' DOWNLOAD REPORT ')]/parent::button")
     back_arrow_btn = (By.XPATH, "//mat-icon[text()='keyboard_backspace']/ancestor::button")
 
 # Schedule Report:-
-    schedule_btn1 = (By.XPATH, "//h3[contains(text(),'Fleet Safety')]/parent::div/following-sibling::div//button")
+    schedule_btn1 = (By.XPATH, "//strong[text()='Fleet Safety Report']/parent::div/../following-sibling::div/div/a[contains(text(),'Schedule')]")
     schedule_name = (By.XPATH, "//mat-label[contains(text(),'Schedule Name')]/ancestor::span/preceding-sibling::input")
     report_duration = (By.XPATH, "//mat-label[contains(text(),'Report Duration')]/ancestor::span/preceding-sibling::mat-select")
     past_30_days_select = (By.XPATH, "//span[contains(text(),' Past 30 days ')]/parent::mat-option")
@@ -216,43 +235,44 @@ class FleetPortal_Locators:
     delete_schedule_rep = (By.XPATH, "//button[contains(text(),'Delete Schedule')]")
     delete_btn_alt = (By.XPATH, "//span[contains(text(),' DELETE ')]/parent::button")
 
-# Coaching Session Report:-
-    coaching_session_report = (By.XPATH, "//h3[contains(text(),'Coaching Session Report')]")
-    view_report_btn2 = (By.XPATH, "//h3[text()='Coaching Session Report']/parent::div/following-sibling::div/a")
-    select_driver_filt = (By.XPATH, "//span[contains(text(),'Select Driver')]/parent::label")
-    coaching_session_filt = (By.XPATH, "//span[contains(text(),'Coaching Session')]/ancestor::label")
-    schedule_btn2 = (By.XPATH, "//h3[contains(text(),'Coaching Session Report')]/parent::div/following-sibling::div//button")
+# Video Request List Report:-
+    video_request_report = (By.XPATH, "//strong[contains(text(),'Video Request List Report')]")
+    download_video_request_report_repo = (By.XPATH, "//strong[text()='Video Request List Report']/parent::div/../following-sibling::div/div/a[contains(text(),'Download')]")
+    schedule_video_request_btn  = (By.XPATH, "//strong[text()='Video Request List Report']/parent::div/../following-sibling::div/div/a[contains(text(),'Schedule')]")
 
-# Coaching Effectiveness Report:-
-    coaching_effectiveness_report = (By.XPATH, "//h3[contains(text(),'Coaching Effectiveness Report')]")
-    view_report_btn3 = (By.XPATH, "//h3[text()='Coaching Effectiveness Report (Driver)']/parent::div/parent::div/following-sibling::div/a")
+
+# Safety Event Reports:-
+# Event Count Report:-
+    event_count_report = (By.XPATH, "//strong[contains(text(),'Event Count Report')]")
+    download_report_repo3 = (By.XPATH, "//strong[text()='Event Count Report']/parent::div/../following-sibling::div/div/a[contains(text(),'Download')]")
+    schedule_btn6  = (By.XPATH, "//strong[text()='Event Count Report']/parent::div/../following-sibling::div/div/a[contains(text(),'Schedule')]")
 
 # Event List Report:-
-    event_list_report = (By.XPATH, "//h3[contains(text(),'Event List Report')]")
-    download_report_repo1 = (By.XPATH, "//h3[text()='Event List Report']/parent::div/following-sibling::div/a")
-    schedule_btn4  = (By.XPATH, "//h3[contains(text(),'Event List Report')]/parent::div/following-sibling::div//button")
-    filter_type_optional  = (By.XPATH, "//mat-label[contains(text(),'Filter Type (Optional)')]/parent::label")
+    event_list_report = (By.XPATH, "//strong[contains(text(),'Event List Report')]")
+    download_report_repo1 = (By.XPATH, "//strong[text()='Event List Report']/parent::div/../following-sibling::div/div/a[contains(text(),'Download')]")
+    schedule_btn4  = (By.XPATH, "//strong[text()='Event List Report']/parent::div/../following-sibling::div/div/a[contains(text(),'Schedule')]")
+    # filter_type_optional  = (By.XPATH, "//mat-label[contains(text(),'Filter Type (Optional)')]/parent::label")
     download_report_popup_btn  = (By.XPATH, "//h3[contains(@class,'title text')]/parent::div/../following-sibling::mat-dialog-actions/button[2]")
-    download_list_btn  = (By.XPATH, "//app-alert[contains(@class,'ng-star-inserted')]/div/div/following-sibling::button")
-    close_popup_win  = (By.XPATH, "//h3[contains(text(),'Download Report')]/following-sibling::mat-icon")
+    # download_list_btn  = (By.XPATH, "//app-alert[contains(@class,'ng-star-inserted')]/div/div/following-sibling::button")
 
-# Driver Privacy Mode Report:-
-    driver_privacy_mode_report = (By.XPATH, "//h3[contains(text(),'Driver Privacy Mode Report')]")
-    download_report_repo2 = (By.XPATH, "//h3[text()='Driver Privacy Mode Report']/parent::div/following-sibling::div/a")
-    schedule_btn5  = (By.XPATH, "//h3[contains(text(),'Driver Privacy Mode Report')]/parent::div/following-sibling::div//button")
+# High-G Event List:-
+    hightg_event_report = (By.XPATH, "//strong[contains(text(),'High-G Event List')]")
+    download_highg_report_repo = (By.XPATH, "//strong[text()='High-G Event List']/parent::div/../following-sibling::div/div/a[contains(text(),'Download')]")
+    schedule_highg_btn  = (By.XPATH, "//strong[text()='High-G Event List']/parent::div/../following-sibling::div/div/a[contains(text(),'Schedule')]")
 
-# Event Count Report:-
-    event_count_report = (By.XPATH, "//h3[contains(text(),'Event Count Report')]")
-    download_report_repo3 = (By.XPATH, "//h3[text()='Event Count Report']/parent::div/following-sibling::div/a")
-    schedule_btn6  = (By.XPATH, "//h3[contains(text(),'Event Count Report')]/parent::div/following-sibling::div//button")
 
-# Export History:-
+# Panic Button List Report:-
+    panic_button_list_report = (By.XPATH, "//strong[contains(text(),'Panic Button List Report')]")
+    download_panic_report_repo = (By.XPATH, "//strong[text()='Panic Button List Report']/parent::div/../following-sibling::div/div/a[contains(text(),'Download')]")
+    schedule_panic_btn  = (By.XPATH, "//strong[text()='Panic Button List Report']/parent::div/../following-sibling::div/div/a[contains(text(),'Schedule')]")
+
+# Export History Tab:-
     export_history = (By.XPATH, "//label[contains(text(),'Export History')]/parent::div")
     export_history_table = (By.XPATH, "//h3[contains(text(),'Export History')]")
     select_request_type = (By.XPATH, "//mat-label[contains(text(),'Select Request Type')]/parent::label")
     select_duration_opt = (By.XPATH, "//mat-label[contains(text(),'Select Duration')]/parent::label")
 
-# Scheduled reports:-
+# Scheduled Tab:-
     scheduled_tab = (By.XPATH, "//label[contains(text(),'Scheduled')]/parent::div")
     scheduled_reports_tbl = (By.XPATH, "//h3[contains(text(),' Scheduled Reports ')]")
     create_schedule_btn = (By.XPATH, "//span[contains(text(),' Create Schedule ')]/parent::button")

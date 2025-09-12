@@ -1,0 +1,11 @@
+[32mINFO    [0m test_run_assets_page:test_Suite_Controller.py:204 ===== Suite Controller: Fleet Assets Page =====
+[32mINFO    [0m test_assets_page:test_F_10_AssetsPage.py:13 ===== Validating Assets Page presence =====
+[32mINFO    [0m test_assets_page:test_F_10_AssetsPage.py:17  :  ✅ Assets Page is present.
+[32mINFO    [0m test_assets_page_overview_tab:test_F_10_AssetsPage.py:26 ===== Validating Assets Page Overview Tab presence =====
+[32mINFO    [0m test_assets_page_overview_tab:test_F_10_AssetsPage.py:30  :  ✅ Overview Tab is present.
+[32mINFO    [0m test_assets_page_manage_assets_tab:test_F_10_AssetsPage.py:67 ===== Validating Manage Assets Tab presence =====
+[32mINFO    [0m test_assets_page_manage_assets_tab:test_F_10_AssetsPage.py:71  :  ✅ Manage Assets Tab is present.
+[32mINFO    [0m test_assets_page_devices_tab:test_F_10_AssetsPage.py:81 ===== Validating Devices Tab presence =====
+[32mINFO    [0m test_assets_page_devices_tab:test_F_10_AssetsPage.py:85  :  ✅ Devices Tab is present.
+[32mINFO    [0m test_assets_page_diagnostics_tab:test_F_10_AssetsPage.py:95 ===== Validating Diagnostics Tab presence =====
+[32mINFO    [0m test_assets_page_diagnostics_tab:test_F_10_AssetsPage.py:99  :  ✅ Diagnostics Tab is present.
